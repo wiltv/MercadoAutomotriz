@@ -15,28 +15,31 @@ public class MercadoAutomotriz2 {
     /**
      * @param args the command line arguments
      */
+    public static volatile Integer ContChasis = 0;
+    public static volatile Integer ContCarroceria = 0;
+    public static volatile Integer ContMotor = 0;
+    public static volatile Integer ContRuedas = 0;
+    public static volatile Integer Carros = 0;
+    public static Integer AlmacenChasis = 25;
+    public static Integer AlmacenCarroceria = 20;
+    public static Integer AlmacenMotor = 55;
+    public static Integer AlmacenRuedas = 35;
+        
     public static void main(String[] args) {
         
         
         Semaphore mainMutex = new Semaphore(1);
-        Integer ContChasis = 0;
-        Integer ContCarroceria = 0;
-        Integer ContMotor = 0;
-        Integer ContRuedas = 0;
-        Integer AlmacenChasis = 25;
-        Integer AlmacenCarroceria = 20;
-        Integer AlmacenMotor = 55;
-        Integer AlmacenRuedas = 35;
-        SemaforoLamborguini chasis = new SemaforoLamborguini(ContChasis,mainMutex, "chasis",AlmacenChasis);
-        SemaforoLamborguini carroceria = new SemaforoLamborguini(ContCarroceria,mainMutex, "carroceria",AlmacenCarroceria);
-        SemaforoLamborguini motor = new SemaforoLamborguini(ContMotor,mainMutex, "motor",AlmacenMotor);
-        SemaforoLamborguini ruedas = new SemaforoLamborguini(ContRuedas,mainMutex, "ruedas",AlmacenRuedas);
         
+        CreadorChasis chasis = new CreadorChasis(mainMutex, "chasis",AlmacenChasis);
+        CreadorCarroceria carroceria = new CreadorCarroceria(mainMutex, "carroceria",AlmacenCarroceria);
+        CreadorMotor motor = new CreadorMotor(mainMutex, "motor",AlmacenMotor);
+        CreadorRueda ruedas = new CreadorRueda(mainMutex, "ruedas",AlmacenRuedas);
+        Ensamblador ensamblador = new Ensamblador(mainMutex);
         chasis.start();
         carroceria.start();
         motor.start();
         ruedas.start();
-        
+        ensamblador.start();
         
     }
     

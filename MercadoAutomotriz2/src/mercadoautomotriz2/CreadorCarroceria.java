@@ -13,15 +13,13 @@ import java.util.logging.Logger;
  *
  * @author wiltsson
  */
-public class SemaforoLamborguini extends Thread {
+public class CreadorCarroceria extends Thread {
     
-    private Integer unidad;
     private Semaphore mutex;
     private String parte;
     private Integer almacen;
     
-    public SemaforoLamborguini(Integer valor, Semaphore mutex, String parte, Integer almacen){
-        this.unidad = valor;
+    public CreadorCarroceria(Semaphore mutex, String parte, Integer almacen){
         this.mutex = mutex;
         this.parte = parte;
         this.almacen = almacen;
@@ -31,11 +29,11 @@ public class SemaforoLamborguini extends Thread {
         while(true){
             try{
                 mutex.acquire(); //wait
-                if (unidad < almacen){
-                unidad = unidad +1;
-                System.out.println("Hay " + unidad + " unidades de " + parte);}
+                if (MercadoAutomotriz2.ContCarroceria < almacen){
+                MercadoAutomotriz2.ContCarroceria = MercadoAutomotriz2.ContCarroceria +1;
+                System.out.println("Hay " + MercadoAutomotriz2.ContCarroceria + " unidades de " + parte);}
                 else{
-                    System.out.println("El almacen de capacidad " + almacen + " esta lleno" );
+                    System.out.println("El almacen de " + parte + " de capacidad " + almacen + " esta lleno" );
                 }
                
                 
@@ -45,7 +43,7 @@ public class SemaforoLamborguini extends Thread {
                 sleep(1000);
                         
             }catch(InterruptedException ex){
-                Logger.getLogger(SemaforoLamborguini.class.getName()).log(Level.SEVERE, null, ex);
+                Logger.getLogger(CreadorCarroceria.class.getName()).log(Level.SEVERE, null, ex);
             }
         }
 }
