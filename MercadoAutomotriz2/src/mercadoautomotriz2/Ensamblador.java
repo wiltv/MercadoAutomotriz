@@ -40,13 +40,18 @@ public class Ensamblador extends Thread{
                         Almacen.ContCarroceria = Almacen.ContCarroceria - 1;
                         Almacen.ContRuedas = Almacen.ContRuedas - 5;
                         MercadoAutomotriz2.Carros = MercadoAutomotriz2.Carros + 1;
-
+                           
                         if(MercadoAutomotriz2.Carros %4 == 0){
                             Almacen.ContAccesorio = Almacen.ContAccesorio - 1;
                             System.out.println("Hay " + MercadoAutomotriz2.Carros + " carros, este viene con accesorio");
+                            InterfazMain.CantidadAccesorios.setText(String.valueOf(Almacen.ContAccesorio));
                         }else{
                            System.out.println("Hay " + MercadoAutomotriz2.Carros + " carros"); 
                         }
+                        InterfazMain.CantidadChasis.setText(String.valueOf(Almacen.ContChasis));
+                        InterfazMain.CantidadCarroceria.setText(String.valueOf(Almacen.ContCarroceria));
+                        InterfazMain.CantidadMotor.setText(String.valueOf(Almacen.ContMotor));
+                        InterfazMain.CantidadRuedas.setText(String.valueOf(Almacen.ContRuedas));
                         InterfazMain.CantidadCarros.setText(String.valueOf(MercadoAutomotriz2.Carros));
                         diasEnsamblador = 0f;
                     }else{
