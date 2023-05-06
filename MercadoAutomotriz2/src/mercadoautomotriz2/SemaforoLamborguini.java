@@ -18,19 +18,27 @@ public class SemaforoLamborguini extends Thread {
     private Integer unidad;
     private Semaphore mutex;
     private String parte;
+    private Integer almacen;
     
-    public SemaforoLamborguini(Integer valor, Semaphore mutex, String parte){
+    public SemaforoLamborguini(Integer valor, Semaphore mutex, String parte, Integer almacen){
         this.unidad = valor;
         this.mutex = mutex;
         this.parte = parte;
+        this.almacen = almacen;
     }
     @Override
     public void run(){
         while(true){
             try{
                 mutex.acquire(); //wait
-                System.out.println("Hay " + unidad + " unidades de " + parte);
+                if (unidad < almacen){
                 unidad = unidad +1;
+                System.out.println("Hay " + unidad + " unidades de " + parte);}
+                else{
+                    System.out.println("El almacen de capacidad " + almacen + " esta lleno" );
+                }
+               
+                
                 sleep(500);
                 
                 mutex.release(); //signal

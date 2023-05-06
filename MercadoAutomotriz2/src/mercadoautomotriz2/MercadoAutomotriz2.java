@@ -23,10 +23,15 @@ public class MercadoAutomotriz2 {
         Integer ContCarroceria = 0;
         Integer ContMotor = 0;
         Integer ContRuedas = 0;
-        SemaforoLamborguini chasis = new SemaforoLamborguini(ContChasis,mainMutex, "chasis");
-        SemaforoLamborguini carroceria = new SemaforoLamborguini(ContCarroceria,mainMutex, "carroceria");
-        SemaforoLamborguini motor = new SemaforoLamborguini(ContMotor,mainMutex, "motor");
-         SemaforoLamborguini ruedas = new SemaforoLamborguini(ContRuedas,mainMutex, "ruedas");
+        Integer AlmacenChasis = 25;
+        Integer AlmacenCarroceria = 20;
+        Integer AlmacenMotor = 55;
+        Integer AlmacenRuedas = 35;
+        SemaforoLamborguini chasis = new SemaforoLamborguini(ContChasis,mainMutex, "chasis",AlmacenChasis);
+        SemaforoLamborguini carroceria = new SemaforoLamborguini(ContCarroceria,mainMutex, "carroceria",AlmacenCarroceria);
+        SemaforoLamborguini motor = new SemaforoLamborguini(ContMotor,mainMutex, "motor",AlmacenMotor);
+        SemaforoLamborguini ruedas = new SemaforoLamborguini(ContRuedas,mainMutex, "ruedas",AlmacenRuedas);
+        
         chasis.start();
         carroceria.start();
         motor.start();
