@@ -19,11 +19,13 @@ public class MercadoAutomotriz2 {
     public static volatile Integer ContCarroceria = 0;
     public static volatile Integer ContMotor = 0;
     public static volatile Integer ContRuedas = 0;
+    public static volatile Integer ContAccesorio = 0;
     public static volatile Integer Carros = 0;
     public static Integer AlmacenChasis = 25;
     public static Integer AlmacenCarroceria = 20;
     public static Integer AlmacenMotor = 55;
     public static Integer AlmacenRuedas = 35;
+    public static Integer AlmacenAccesorio = 10;
         
     public static void main(String[] args) {
         
@@ -34,11 +36,13 @@ public class MercadoAutomotriz2 {
         CreadorCarroceria carroceria = new CreadorCarroceria(mainMutex, "carroceria",AlmacenCarroceria);
         CreadorMotor motor = new CreadorMotor(mainMutex, "motor",AlmacenMotor);
         CreadorRueda ruedas = new CreadorRueda(mainMutex, "ruedas",AlmacenRuedas);
+        CreadorAccesorio accesorio = new CreadorAccesorio(mainMutex, "accesorio",AlmacenAccesorio);
         Ensamblador ensamblador = new Ensamblador(mainMutex);
         chasis.start();
         carroceria.start();
         motor.start();
         ruedas.start();
+        accesorio.start();
         ensamblador.start();
         
     }

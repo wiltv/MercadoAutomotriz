@@ -28,12 +28,22 @@ public class Ensamblador extends Thread{
                 
                 if (MercadoAutomotriz2.ContChasis >=2 && MercadoAutomotriz2.ContMotor >= 6
                         && MercadoAutomotriz2.ContCarroceria >= 1 && MercadoAutomotriz2.ContRuedas >= 5){
+                    
+                     
                     MercadoAutomotriz2.ContChasis = MercadoAutomotriz2.ContChasis -2;
                     MercadoAutomotriz2.ContMotor = MercadoAutomotriz2.ContMotor - 6;
                     MercadoAutomotriz2.ContCarroceria = MercadoAutomotriz2.ContCarroceria - 1;
                     MercadoAutomotriz2.ContRuedas = MercadoAutomotriz2.ContRuedas - 5;
                     MercadoAutomotriz2.Carros = MercadoAutomotriz2.Carros + 1;
-                    System.out.println("Hay " + MercadoAutomotriz2.Carros + " carros");
+                    
+                    if(MercadoAutomotriz2.Carros %4 == 0){
+                        MercadoAutomotriz2.ContAccesorio = MercadoAutomotriz2.ContAccesorio - 1;
+                        System.out.println("Hay " + MercadoAutomotriz2.Carros + " carros, este viene con accesorio");
+                    }else{
+                       System.out.println("Hay " + MercadoAutomotriz2.Carros + " carros"); 
+                    }
+                    
+                    
                     
                             
                 }else{
