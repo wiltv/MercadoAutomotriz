@@ -22,6 +22,7 @@ public class MercadoAutomotriz2 {
     public static volatile Integer ContAccesorio = 0;
     public static volatile Integer Carros = 0;
     public static volatile Integer Nomina = 0;
+    public static volatile Integer Ganancia = 0;
     
     public static Integer AlmacenChasis = 25;
     public static Integer AlmacenCarroceria = 20;
@@ -42,6 +43,7 @@ public class MercadoAutomotriz2 {
         CreadorAccesorio accesorio = new CreadorAccesorio(mainMutex, "accesorio",AlmacenAccesorio,0.5f);
         Ensamblador ensamblador = new Ensamblador(mainMutex,0.5f);
         Gerente gerente = new Gerente(mainMutex);
+        Director director = new Director(mainMutex);
         
         chasis.start();
         carroceria.start();
@@ -50,6 +52,7 @@ public class MercadoAutomotriz2 {
         accesorio.start();
         ensamblador.start();
         gerente.start();
+        director.start();
         
         
     }

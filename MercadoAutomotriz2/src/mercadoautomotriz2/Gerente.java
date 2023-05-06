@@ -16,7 +16,7 @@ import java.util.logging.Logger;
 public class Gerente extends Thread{
     private Semaphore mutex;
     
-    public static volatile float contadorEntrega = 30; //El jefe entrega y desde esa clase tengo que volver esto 30
+    public static volatile Integer contadorEntrega = 30; //El jefe entrega y desde esa clase tengo que volver esto 30
     
     public Gerente(Semaphore mutex){
         this.mutex = mutex;

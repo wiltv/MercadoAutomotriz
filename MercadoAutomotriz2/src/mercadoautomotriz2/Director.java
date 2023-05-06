@@ -29,6 +29,17 @@ public class Director extends Thread{
                 mutex.acquire(); //wait
                 
                 MercadoAutomotriz2.Nomina = MercadoAutomotriz2.Nomina + 720;
+                
+                if (Gerente.contadorEntrega == 0){
+                    MercadoAutomotriz2.Ganancia = MercadoAutomotriz2.Ganancia + MercadoAutomotriz2.Carros*400;
+                    System.out.println("El jefe entrega todos los carros y recibe ganancia de: " + MercadoAutomotriz2.Carros*400);
+                    System.out.println("Su total de ingresos es " + MercadoAutomotriz2.Ganancia);      
+                    Gerente.contadorEntrega = 30;
+                    MercadoAutomotriz2.Carros = 0;
+                }else{
+                    System.out.println("El director esta atento de entregar los carros");
+                }
+                
                 sleep(500);
                 
                 mutex.release(); //signal
