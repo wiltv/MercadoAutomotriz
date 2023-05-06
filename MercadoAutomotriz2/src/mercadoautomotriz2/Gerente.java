@@ -16,6 +16,8 @@ import java.util.logging.Logger;
 public class Gerente extends Thread{
     private Semaphore mutex;
     
+    public static volatile float contadorEntrega = 30; //El jefe entrega y desde esa clase tengo que volver esto 30
+    
     public Gerente(Semaphore mutex){
         this.mutex = mutex;
         
@@ -25,9 +27,15 @@ public class Gerente extends Thread{
         while(true){
             try{
                 mutex.acquire(); //wait
+                if (contadorEntrega > 0){
+                    contadorEntrega = contadorEntrega - 1;
+                    System.out.println("El gerente notifica que quedan " + contadorEntrega + " dias para la entrega");
+                }else{
+                    System.out.println("El gerente notifica que ya se pueden entregar los carros al jefe");
+                }
+                
                 
                 MercadoAutomotriz2.Nomina = MercadoAutomotriz2.Nomina + 480;
-                         
                 System.out.println("El gerente ha registrado " + MercadoAutomotriz2.Nomina + " pagos en nomina");
                 
                 sleep(500);
