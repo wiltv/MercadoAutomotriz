@@ -4,6 +4,7 @@
  */
 package mercadoautomotriz2;
 
+import Interfaces.InterfazMain;
 import static java.lang.Thread.sleep;
 import java.util.concurrent.Semaphore;
 import java.util.logging.Level;
@@ -30,6 +31,7 @@ public class Gerente extends Thread{
                 if (contadorEntrega > 0){
                     contadorEntrega = contadorEntrega - 1;
                     System.out.println("El gerente notifica que quedan " + contadorEntrega + " dias para la entrega");
+                    InterfazMain.Entrega.setText(String.valueOf(contadorEntrega));
                 }else{
                     System.out.println("El gerente notifica que ya se pueden entregar los carros al director");
                 }
@@ -37,6 +39,7 @@ public class Gerente extends Thread{
                 
                 MercadoAutomotriz2.Nomina = MercadoAutomotriz2.Nomina + 480;
                 System.out.println("El gerente ha registrado " + MercadoAutomotriz2.Nomina + " pagos en nomina");
+                InterfazMain.Salarios.setText(String.valueOf(MercadoAutomotriz2.Nomina));
                 
                 sleep(500);
                 

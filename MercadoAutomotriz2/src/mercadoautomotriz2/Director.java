@@ -4,6 +4,7 @@
  */
 package mercadoautomotriz2;
 
+import Interfaces.InterfazMain;
 import static java.lang.Thread.sleep;
 import java.util.concurrent.Semaphore;
 import java.util.logging.Level;
@@ -44,9 +45,13 @@ public class Director extends Thread{
                     }
                     
                     System.out.println("El jefe entrega todos los carros y recibe ganancia de: " + MercadoAutomotriz2.Carros*400);
-                    System.out.println("Su total de ingresos es " + MercadoAutomotriz2.Ganancia);      
+                    System.out.println("Su total de ingresos es " + MercadoAutomotriz2.Ganancia);   
+                    
                     Gerente.contadorEntrega = 30;
                     MercadoAutomotriz2.Carros = 0;
+                    InterfazMain.CantidadCarros.setText(String.valueOf(MercadoAutomotriz2.Carros));
+                    InterfazMain.Entrega.setText(String.valueOf(Gerente.contadorEntrega));
+                    InterfazMain.Ganancias.setText(String.valueOf(MercadoAutomotriz2.Ganancia));
                 }else{
                     System.out.println("El director esta atento de entregar los carros");
                 }

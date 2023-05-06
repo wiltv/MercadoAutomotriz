@@ -4,6 +4,7 @@
  */
 package mercadoautomotriz2;
 
+import Interfaces.InterfazMain;
 import java.util.concurrent.Semaphore;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -46,6 +47,7 @@ public class Ensamblador extends Thread{
                         }else{
                            System.out.println("Hay " + MercadoAutomotriz2.Carros + " carros"); 
                         }
+                        InterfazMain.CantidadCarros.setText(String.valueOf(MercadoAutomotriz2.Carros));
                         diasEnsamblador = 0f;
                     }else{
                         System.out.println("No hay suficientes piezas, el ensamblador espera");       

@@ -4,6 +4,7 @@
  */
 package mercadoautomotriz2;
     
+import Interfaces.InterfazMain;
 import java.util.concurrent.Semaphore;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -44,6 +45,7 @@ public class Creador extends Thread {
                             Almacen.ContChasis = Almacen.ContChasis 
                                     + Math.round(MercadoAutomotriz2.diasChasis);
                             System.out.println("Hay " + Almacen.ContChasis + " unidades de " + parte);
+                            InterfazMain.CantidadChasis.setText(String.valueOf(Almacen.ContChasis));
                             MercadoAutomotriz2.diasChasis = 0f;}
                         else{
                             System.out.println("El almacen de " + parte + " de capacidad " + almacen + " esta lleno" );
@@ -62,6 +64,7 @@ public class Creador extends Thread {
                             Almacen.ContCarroceria = Almacen.ContCarroceria 
                                     + Math.round(MercadoAutomotriz2.diasCarroceria);
                             System.out.println("Hay " + Almacen.ContCarroceria + " unidades de " + parte);
+                            InterfazMain.CantidadCarroceria.setText(String.valueOf(Almacen.ContCarroceria));
                             MercadoAutomotriz2.diasCarroceria = 0f;}
                         else{
                             System.out.println("El almacen de " + parte + " de capacidad " + almacen + " esta lleno" );
@@ -80,6 +83,7 @@ public class Creador extends Thread {
                             Almacen.ContMotor = Almacen.ContMotor 
                                     + Math.round(MercadoAutomotriz2.diasMotor);
                             System.out.println("Hay " + Almacen.ContMotor + " unidades de " + parte);
+                            InterfazMain.CantidadMotor.setText(String.valueOf(Almacen.ContMotor));
                             MercadoAutomotriz2.diasMotor = 0f;}
                         else{
                             System.out.println("El almacen de " + parte + " de capacidad " + almacen + " esta lleno" );
@@ -97,6 +101,7 @@ public class Creador extends Thread {
                             Almacen.ContRuedas = Almacen.ContRuedas 
                                     + Math.round(MercadoAutomotriz2.diasRueda);
                             System.out.println("Hay " + Almacen.ContRuedas + " unidades de " + parte);
+                            InterfazMain.CantidadRuedas.setText(String.valueOf(Almacen.ContRuedas));
                             MercadoAutomotriz2.diasRueda = 0f;}
                         else{
                             System.out.println("El almacen de " + parte + " de capacidad " + almacen + " esta lleno" );
@@ -114,6 +119,7 @@ public class Creador extends Thread {
                             Almacen.ContAccesorio = Almacen.ContAccesorio 
                                     + Math.round(MercadoAutomotriz2.diasAccesorio);
                             System.out.println("Hay " + Almacen.ContAccesorio + " unidades de " + parte);
+                            InterfazMain.CantidadAccesorios.setText(String.valueOf(Almacen.ContAccesorio));
                             MercadoAutomotriz2.diasRueda = 0f;}
                         else{
                             System.out.println("El almacen de " + parte + " de capacidad " + almacen + " esta lleno" );
