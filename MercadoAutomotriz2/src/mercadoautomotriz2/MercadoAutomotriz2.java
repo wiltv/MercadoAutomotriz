@@ -37,7 +37,7 @@ public class MercadoAutomotriz2 {
         CreadorMotor motor = new CreadorMotor(mainMutex, "motor",AlmacenMotor,1f);
         CreadorRueda ruedas = new CreadorRueda(mainMutex, "ruedas",AlmacenRuedas,5f);
         CreadorAccesorio accesorio = new CreadorAccesorio(mainMutex, "accesorio",AlmacenAccesorio,0.5f);
-        Ensamblador ensamblador = new Ensamblador(mainMutex);
+        Ensamblador ensamblador = new Ensamblador(mainMutex,0.5f);
         
         chasis.start();
         carroceria.start();
