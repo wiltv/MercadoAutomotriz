@@ -15,32 +15,28 @@ public class MercadoAutomotriz2 {
     /**
      * @param args the command line arguments
      */
-    public static volatile Integer ContChasis = 0;
-    public static volatile Integer ContCarroceria = 0;
-    public static volatile Integer ContMotor = 0;
-    public static volatile Integer ContRuedas = 0;
-    public static volatile Integer ContAccesorio = 0;
     public static volatile Integer Carros = 0;
     public static volatile Integer Nomina = 0;
     public static volatile Integer Ganancia = 0;
     
-    public static Integer AlmacenChasis = 25;
-    public static Integer AlmacenCarroceria = 20;
-    public static Integer AlmacenMotor = 55;
-    public static Integer AlmacenRuedas = 35;
-    public static Integer AlmacenAccesorio = 10;
     
+    
+    public static volatile float diasChasis = 0f;
+    public static volatile float diasCarroceria = 0f;
+    public static volatile float diasMotor = 0f;
+    public static volatile float diasRueda = 0f;
+    public static volatile float diasAccesorio = 0f;
         
     public static void main(String[] args) {
         
         
         Semaphore mainMutex = new Semaphore(1);
         
-        CreadorChasis chasis = new CreadorChasis(mainMutex, "chasis",AlmacenChasis,0.25f);
-        CreadorCarroceria carroceria = new CreadorCarroceria(mainMutex, "carroceria",AlmacenCarroceria,0.25f);
-        CreadorMotor motor = new CreadorMotor(mainMutex, "motor",AlmacenMotor,1f);
-        CreadorRueda ruedas = new CreadorRueda(mainMutex, "ruedas",AlmacenRuedas,5f);
-        CreadorAccesorio accesorio = new CreadorAccesorio(mainMutex, "accesorio",AlmacenAccesorio,0.5f);
+        Creador chasis = new Creador(mainMutex, "chasis",Almacen.AlmacenChasis,0.25f,10);
+        Creador carroceria = new Creador(mainMutex, "carroceria",Almacen.AlmacenCarroceria,0.25f,13);
+        Creador motor = new Creador(mainMutex, "motor",Almacen.AlmacenMotor,1f,20);
+        Creador ruedas = new Creador(mainMutex, "ruedas",Almacen.AlmacenRuedas,5f,8);
+        Creador accesorio = new Creador(mainMutex, "accesorio",Almacen.AlmacenAccesorio,0.5f,17);
         Ensamblador ensamblador = new Ensamblador(mainMutex,0.5f);
         Gerente gerente = new Gerente(mainMutex);
         Director director = new Director(mainMutex);

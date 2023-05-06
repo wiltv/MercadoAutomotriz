@@ -44,7 +44,7 @@ public class Gerente extends Thread{
                 sleep(1000);
                         
             }catch(InterruptedException ex){
-                Logger.getLogger(CreadorCarroceria.class.getName()).log(Level.SEVERE, null, ex);
+                Logger.getLogger(Creador.class.getName()).log(Level.SEVERE, null, ex);
             }
         }
 }

@@ -30,18 +30,18 @@ public class Ensamblador extends Thread{
                 mutex.acquire(); //wait
                 diasEnsamblador = diasEnsamblador + dias;
                 if(diasEnsamblador>=1){
-                    if (MercadoAutomotriz2.ContChasis >=2 && MercadoAutomotriz2.ContMotor >= 6
-                            && MercadoAutomotriz2.ContCarroceria >= 1 && MercadoAutomotriz2.ContRuedas >= 5){
+                    if (Almacen.ContChasis >=2 && Almacen.ContMotor >= 6
+                            && Almacen.ContCarroceria >= 1 && Almacen.ContRuedas >= 5){
 
 
-                        MercadoAutomotriz2.ContChasis = MercadoAutomotriz2.ContChasis -2;
-                        MercadoAutomotriz2.ContMotor = MercadoAutomotriz2.ContMotor - 6;
-                        MercadoAutomotriz2.ContCarroceria = MercadoAutomotriz2.ContCarroceria - 1;
-                        MercadoAutomotriz2.ContRuedas = MercadoAutomotriz2.ContRuedas - 5;
+                        Almacen.ContChasis = Almacen.ContChasis -2;
+                        Almacen.ContMotor = Almacen.ContMotor - 6;
+                        Almacen.ContCarroceria = Almacen.ContCarroceria - 1;
+                        Almacen.ContRuedas = Almacen.ContRuedas - 5;
                         MercadoAutomotriz2.Carros = MercadoAutomotriz2.Carros + 1;
 
                         if(MercadoAutomotriz2.Carros %4 == 0){
-                            MercadoAutomotriz2.ContAccesorio = MercadoAutomotriz2.ContAccesorio - 1;
+                            Almacen.ContAccesorio = Almacen.ContAccesorio - 1;
                             System.out.println("Hay " + MercadoAutomotriz2.Carros + " carros, este viene con accesorio");
                         }else{
                            System.out.println("Hay " + MercadoAutomotriz2.Carros + " carros"); 
@@ -62,7 +62,7 @@ public class Ensamblador extends Thread{
                 sleep(1000);
                         
             }catch(InterruptedException ex){
-                Logger.getLogger(CreadorChasis.class.getName()).log(Level.SEVERE, null, ex);
+                Logger.getLogger(Creador.class.getName()).log(Level.SEVERE, null, ex);
             }
         }
 }
