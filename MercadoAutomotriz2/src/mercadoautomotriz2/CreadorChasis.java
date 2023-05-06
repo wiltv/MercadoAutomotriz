@@ -33,7 +33,7 @@ public class CreadorChasis extends Thread {
         while(true){
             try{
                 mutex.acquire(); //wait
-                
+                MercadoAutomotriz2.Nomina = MercadoAutomotriz2.Nomina + 240; //240 porque son 10$ 24 horas, eso se multiplcica pot el numero de empleados
                 diasChasis = diasChasis + dias;
                 if (diasChasis >= 1){
                     if (MercadoAutomotriz2.ContChasis < almacen){

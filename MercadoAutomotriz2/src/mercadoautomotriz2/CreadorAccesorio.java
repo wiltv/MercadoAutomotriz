@@ -34,6 +34,7 @@ public class CreadorAccesorio extends Thread {
             try{
                 mutex.acquire(); //wait
                 diasAccesorio = diasAccesorio + dias;
+                MercadoAutomotriz2.Nomina = MercadoAutomotriz2.Nomina + 408;
                 if (diasAccesorio >= 1){
                     if (MercadoAutomotriz2.ContAccesorio < almacen){
                     MercadoAutomotriz2.ContAccesorio = MercadoAutomotriz2.ContAccesorio +Math.round(diasAccesorio);

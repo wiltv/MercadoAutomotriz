@@ -21,11 +21,14 @@ public class MercadoAutomotriz2 {
     public static volatile Integer ContRuedas = 0;
     public static volatile Integer ContAccesorio = 0;
     public static volatile Integer Carros = 0;
+    public static volatile Integer Nomina = 0;
+    
     public static Integer AlmacenChasis = 25;
     public static Integer AlmacenCarroceria = 20;
     public static Integer AlmacenMotor = 55;
     public static Integer AlmacenRuedas = 35;
     public static Integer AlmacenAccesorio = 10;
+    
         
     public static void main(String[] args) {
         
@@ -38,6 +41,7 @@ public class MercadoAutomotriz2 {
         CreadorRueda ruedas = new CreadorRueda(mainMutex, "ruedas",AlmacenRuedas,5f);
         CreadorAccesorio accesorio = new CreadorAccesorio(mainMutex, "accesorio",AlmacenAccesorio,0.5f);
         Ensamblador ensamblador = new Ensamblador(mainMutex,0.5f);
+        Gerente gerente = new Gerente(mainMutex);
         
         chasis.start();
         carroceria.start();
@@ -45,8 +49,13 @@ public class MercadoAutomotriz2 {
         ruedas.start();
         accesorio.start();
         ensamblador.start();
+        gerente.start();
         
         
     }
     
 }
+
+
+//ERRORES: 
+//  1.Cuando ensamblador toma piezas, el limite de la capacidad aumenta (ver porque no disminuye)

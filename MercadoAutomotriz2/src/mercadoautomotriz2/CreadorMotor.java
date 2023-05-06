@@ -33,6 +33,7 @@ public class CreadorMotor extends Thread {
         while(true){
             try{
                 mutex.acquire(); //wait
+                MercadoAutomotriz2.Nomina = MercadoAutomotriz2.Nomina + 480;
                 diasMotor = diasMotor + dias;
                 if (diasMotor >= 1){
                     if (MercadoAutomotriz2.ContMotor < almacen){
