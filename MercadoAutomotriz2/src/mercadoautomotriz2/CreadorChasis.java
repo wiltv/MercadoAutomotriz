@@ -18,23 +18,39 @@ public class CreadorChasis extends Thread {
     private Semaphore mutex;
     private String parte;
     private Integer almacen;
+    private float dias;
     
-    public CreadorChasis(Semaphore mutex, String parte, Integer almacen){
+    public static volatile float diasChasis = 0f;
+    
+    public CreadorChasis(Semaphore mutex, String parte, Integer almacen, float dias){
         this.mutex = mutex;
         this.parte = parte;
         this.almacen = almacen;
+        this.dias = dias;
     }
     @Override
     public void run(){
         while(true){
             try{
                 mutex.acquire(); //wait
-                if (MercadoAutomotriz2.ContChasis < almacen){
-                MercadoAutomotriz2.ContChasis = MercadoAutomotriz2.ContChasis +1;
-                System.out.println("Hay " + MercadoAutomotriz2.ContChasis + " unidades de " + parte);}
-                else{
-                    System.out.println("El almacen de " + parte + " de capacidad " + almacen + " esta lleno" );
+                
+                diasChasis = diasChasis + dias;
+                if (diasChasis >= 1){
+                    if (MercadoAutomotriz2.ContChasis < almacen){
+                        MercadoAutomotriz2.ContChasis = MercadoAutomotriz2.ContChasis 
+                                + Math.round(diasChasis);
+                        System.out.println("Hay " + MercadoAutomotriz2.ContChasis + " unidades de " + parte);
+                        diasChasis = 0f;}
+                    else{
+                        System.out.println("El almacen de " + parte + " de capacidad " + almacen + " esta lleno" );
+                    }
+                }else{
+                    System.out.println("El creador de chasis sigue trabajando " + diasChasis);
+                    
                 }
+                
+                
+                
                
                 
                 sleep(500);

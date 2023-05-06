@@ -32,18 +32,20 @@ public class MercadoAutomotriz2 {
         
         Semaphore mainMutex = new Semaphore(1);
         
-        CreadorChasis chasis = new CreadorChasis(mainMutex, "chasis",AlmacenChasis);
-        CreadorCarroceria carroceria = new CreadorCarroceria(mainMutex, "carroceria",AlmacenCarroceria);
-        CreadorMotor motor = new CreadorMotor(mainMutex, "motor",AlmacenMotor);
-        CreadorRueda ruedas = new CreadorRueda(mainMutex, "ruedas",AlmacenRuedas);
-        CreadorAccesorio accesorio = new CreadorAccesorio(mainMutex, "accesorio",AlmacenAccesorio);
+        CreadorChasis chasis = new CreadorChasis(mainMutex, "chasis",AlmacenChasis,0.25f);
+        CreadorCarroceria carroceria = new CreadorCarroceria(mainMutex, "carroceria",AlmacenCarroceria,0.25f);
+        CreadorMotor motor = new CreadorMotor(mainMutex, "motor",AlmacenMotor,1f);
+        CreadorRueda ruedas = new CreadorRueda(mainMutex, "ruedas",AlmacenRuedas,5f);
+        CreadorAccesorio accesorio = new CreadorAccesorio(mainMutex, "accesorio",AlmacenAccesorio,0.5f);
         Ensamblador ensamblador = new Ensamblador(mainMutex);
+        
         chasis.start();
         carroceria.start();
         motor.start();
         ruedas.start();
         accesorio.start();
         ensamblador.start();
+        
         
     }
     

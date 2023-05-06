@@ -18,23 +18,34 @@ public class CreadorCarroceria extends Thread {
     private Semaphore mutex;
     private String parte;
     private Integer almacen;
+    private float dias;
     
-    public CreadorCarroceria(Semaphore mutex, String parte, Integer almacen){
+    public static volatile float diasCarroceria = 0f;
+    
+    public CreadorCarroceria(Semaphore mutex, String parte, Integer almacen, float dias){
         this.mutex = mutex;
         this.parte = parte;
         this.almacen = almacen;
+        this.dias = dias;
     }
     @Override
     public void run(){
         while(true){
             try{
                 mutex.acquire(); //wait
-                if (MercadoAutomotriz2.ContCarroceria < almacen){
-                MercadoAutomotriz2.ContCarroceria = MercadoAutomotriz2.ContCarroceria +1;
-                System.out.println("Hay " + MercadoAutomotriz2.ContCarroceria + " unidades de " + parte);}
-                else{
-                    System.out.println("El almacen de " + parte + " de capacidad " + almacen + " esta lleno" );
+                diasCarroceria = diasCarroceria + dias;
+                 if (diasCarroceria >= 1){
+                    if (MercadoAutomotriz2.ContCarroceria < almacen){
+                    MercadoAutomotriz2.ContCarroceria = MercadoAutomotriz2.ContCarroceria +Math.round(diasCarroceria);
+                    System.out.println("Hay " + MercadoAutomotriz2.ContCarroceria + " unidades de " + parte);
+                    diasCarroceria = 0f;}
+                    else{
+                        System.out.println("El almacen de " + parte + " de capacidad " + almacen + " esta lleno" );
+                    }
+                }else{
+                    System.out.println("El creador de carroceria sigue trabajando " + diasCarroceria);
                 }
+                         
                
                 
                 sleep(500);
