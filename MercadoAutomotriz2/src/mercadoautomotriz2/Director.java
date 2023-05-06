@@ -13,12 +13,12 @@ import java.util.logging.Logger;
  *
  * @author wiltsson
  */
-public class Gerente extends Thread{
+public class Director extends Thread{
     private Semaphore mutex;
     
-    public static volatile float contadorEntrega = 30; //El jefe entrega y desde esa clase tengo que volver esto 30
+    public static volatile boolean Entregado = false; 
     
-    public Gerente(Semaphore mutex){
+    public Director(Semaphore mutex){
         this.mutex = mutex;
         
     }
@@ -27,17 +27,8 @@ public class Gerente extends Thread{
         while(true){
             try{
                 mutex.acquire(); //wait
-                if (contadorEntrega > 0){
-                    contadorEntrega = contadorEntrega - 1;
-                    System.out.println("El gerente notifica que quedan " + contadorEntrega + " dias para la entrega");
-                }else{
-                    System.out.println("El gerente notifica que ya se pueden entregar los carros al director");
-                }
                 
-                
-                MercadoAutomotriz2.Nomina = MercadoAutomotriz2.Nomina + 480;
-                System.out.println("El gerente ha registrado " + MercadoAutomotriz2.Nomina + " pagos en nomina");
-                
+                MercadoAutomotriz2.Nomina = MercadoAutomotriz2.Nomina + 720;
                 sleep(500);
                 
                 mutex.release(); //signal
