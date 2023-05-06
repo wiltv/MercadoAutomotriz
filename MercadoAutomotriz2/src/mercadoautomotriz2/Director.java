@@ -32,6 +32,17 @@ public class Director extends Thread{
                 
                 if (Gerente.contadorEntrega == 0){
                     MercadoAutomotriz2.Ganancia = MercadoAutomotriz2.Ganancia + MercadoAutomotriz2.Carros*400;
+                    
+                    if(MercadoAutomotriz2.Carros%4 >= 2){
+                        double SumaAccesorio = (MercadoAutomotriz2.Carros/4) - 0.5;
+                        SumaAccesorio = Math.round(MercadoAutomotriz2.Carros);
+                        MercadoAutomotriz2.Ganancia = MercadoAutomotriz2.Ganancia + (int)(SumaAccesorio*350);
+                        
+                    }else{
+                        double SumaAccesorio = Math.round(MercadoAutomotriz2.Carros);
+                        MercadoAutomotriz2.Ganancia = MercadoAutomotriz2.Ganancia + (int)(SumaAccesorio*350);
+                    }
+                    
                     System.out.println("El jefe entrega todos los carros y recibe ganancia de: " + MercadoAutomotriz2.Carros*400);
                     System.out.println("Su total de ingresos es " + MercadoAutomotriz2.Ganancia);      
                     Gerente.contadorEntrega = 30;
