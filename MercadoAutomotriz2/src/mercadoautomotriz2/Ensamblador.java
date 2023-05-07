@@ -29,7 +29,8 @@ public class Ensamblador extends Thread{
         while(true){
             try{
                 mutex.acquire(); //wait
-                diasEnsamblador = diasEnsamblador + dias;
+                MercadoAutomotriz2.Nomina = MercadoAutomotriz2.Nomina + 600*Empleados.eEnsamblador;
+                diasEnsamblador = diasEnsamblador + dias*Empleados.eEnsamblador;
                 if(diasEnsamblador>=1){
                     if (Almacen.ContChasis >=2 && Almacen.ContMotor >= 6
                             && Almacen.ContCarroceria >= 1 && Almacen.ContRuedas >= 5){

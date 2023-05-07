@@ -36,10 +36,12 @@ public class Creador extends Thread {
         while(true){
             try{
                 mutex.acquire(); //wait
-                
+                //ERROR GRAVE, SI POR EJEMPLO HAY 7/3, SE TOMAN COMO DOS Y ESE 1/3 ES COMO SI NO EXISTE
+                //PAJA PEOR AUN, ANDO ES REDONDEANDO
+                //OTRO ERROR, CUANDO FALTA POCO PARA QUE SE LLENE LA COSA, SI NO ES EXACTO NO SE LLENA
                 if (parte == "chasis"){
-                    MercadoAutomotriz2.Nomina = MercadoAutomotriz2.Nomina + salario*24; //240 porque son 10$ 24 horas, eso se multiplcica pot el numero de empleados
-                    MercadoAutomotriz2.diasChasis = MercadoAutomotriz2.diasChasis + dias;
+                    MercadoAutomotriz2.Nomina = MercadoAutomotriz2.Nomina + salario*24*Empleados.eChasis; 
+                    MercadoAutomotriz2.diasChasis = MercadoAutomotriz2.diasChasis + dias*Empleados.eChasis;
                     if (MercadoAutomotriz2.diasChasis >= 1){
                         if (Almacen.ContChasis < almacen){
                             Almacen.ContChasis = Almacen.ContChasis 
@@ -57,8 +59,8 @@ public class Creador extends Thread {
                     
                     
                 } else if (parte == "carroceria"){
-                    MercadoAutomotriz2.Nomina = MercadoAutomotriz2.Nomina + salario*24; //240 porque son 10$ 24 horas, eso se multiplcica pot el numero de empleados
-                    MercadoAutomotriz2.diasCarroceria = MercadoAutomotriz2.diasCarroceria + dias;
+                    MercadoAutomotriz2.Nomina = MercadoAutomotriz2.Nomina + salario*24*Empleados.eCarroceria; 
+                    MercadoAutomotriz2.diasCarroceria = MercadoAutomotriz2.diasCarroceria + dias*Empleados.eCarroceria;
                     if (MercadoAutomotriz2.diasCarroceria >= 1){
                         if (Almacen.ContCarroceria < almacen){
                             Almacen.ContCarroceria = Almacen.ContCarroceria 
@@ -76,8 +78,8 @@ public class Creador extends Thread {
                 
                 
                 } else if (parte == "motor"){
-                    MercadoAutomotriz2.Nomina = MercadoAutomotriz2.Nomina + salario*24; //240 porque son 10$ 24 horas, eso se multiplcica pot el numero de empleados
-                    MercadoAutomotriz2.diasMotor = MercadoAutomotriz2.diasMotor + dias;
+                    MercadoAutomotriz2.Nomina = MercadoAutomotriz2.Nomina + salario*24*Empleados.eMotor; 
+                    MercadoAutomotriz2.diasMotor = MercadoAutomotriz2.diasMotor + dias*Empleados.eMotor;
                     if (MercadoAutomotriz2.diasMotor >= 1){
                         if (Almacen.ContMotor < almacen){
                             Almacen.ContMotor = Almacen.ContMotor 
@@ -94,8 +96,8 @@ public class Creador extends Thread {
                     }
                 
                 } else if (parte == "ruedas"){
-                    MercadoAutomotriz2.Nomina = MercadoAutomotriz2.Nomina + salario*24; //240 porque son 10$ 24 horas, eso se multiplcica pot el numero de empleados
-                    MercadoAutomotriz2.diasRueda = MercadoAutomotriz2.diasMotor + dias;
+                    MercadoAutomotriz2.Nomina = MercadoAutomotriz2.Nomina + salario*24*Empleados.eRuedas; 
+                    MercadoAutomotriz2.diasRueda = MercadoAutomotriz2.diasMotor + dias*Empleados.eRuedas;
                     if (MercadoAutomotriz2.diasRueda >= 1){
                         if (Almacen.ContRuedas < almacen){
                             Almacen.ContRuedas = Almacen.ContRuedas 
@@ -112,8 +114,8 @@ public class Creador extends Thread {
                     }
                 
                 } else if (parte == "accesorio"){
-                    MercadoAutomotriz2.Nomina = MercadoAutomotriz2.Nomina + salario*24; //240 porque son 10$ 24 horas, eso se multiplcica pot el numero de empleados
-                    MercadoAutomotriz2.diasAccesorio = MercadoAutomotriz2.diasAccesorio + dias;
+                    MercadoAutomotriz2.Nomina = MercadoAutomotriz2.Nomina + salario*24*Empleados.eAccesorios; 
+                    MercadoAutomotriz2.diasAccesorio = MercadoAutomotriz2.diasAccesorio + dias*Empleados.eAccesorios;
                     if (MercadoAutomotriz2.diasAccesorio >= 1){
                         if (Almacen.ContAccesorio < almacen){
                             Almacen.ContAccesorio = Almacen.ContAccesorio 
