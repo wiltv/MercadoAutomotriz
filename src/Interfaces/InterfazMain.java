@@ -846,7 +846,7 @@ public class InterfazMain extends javax.swing.JFrame {
             Empleados.eMotor= Empleados.eMotor + 1;
             InterfazMain.eMotor.setText(String.valueOf(Empleados.eMotor));
         }else{
-            JOptionPane.showMessageDialog(null, "Ya estan ocupados los 19 empleados");
+            JOptionPane.showMessageDialog(null, "Ya estan ocupados los 16 empleados");
         }
     }//GEN-LAST:event_AumentarMotor1ActionPerformed
 
@@ -856,7 +856,7 @@ public class InterfazMain extends javax.swing.JFrame {
             Empleados.eEnsamblador= Empleados.eEnsamblador + 1;
             InterfazMain.eEnsamblador.setText(String.valueOf(Empleados.eEnsamblador));
         }else{
-            JOptionPane.showMessageDialog(null, "Ya estan ocupados los 19 empleados");
+            JOptionPane.showMessageDialog(null, "Ya estan ocupados los 16 empleados");
         }
     }//GEN-LAST:event_AumentarEnsamblador1ActionPerformed
 
@@ -866,7 +866,7 @@ public class InterfazMain extends javax.swing.JFrame {
             Empleados.eAccesorios= Empleados.eAccesorios + 1;
             InterfazMain.eAccesorios.setText(String.valueOf(Empleados.eAccesorios));
         }else{
-            JOptionPane.showMessageDialog(null, "Ya estan ocupados los 19 empleados");
+            JOptionPane.showMessageDialog(null, "Ya estan ocupados los 16 empleados");
         }
     }//GEN-LAST:event_AumentarAccesorios1ActionPerformed
 
@@ -876,7 +876,7 @@ public class InterfazMain extends javax.swing.JFrame {
             Empleados.eRuedas= Empleados.eRuedas + 1;
             InterfazMain.eRuedas.setText(String.valueOf(Empleados.eRuedas));
         }else{
-            JOptionPane.showMessageDialog(null, "Ya estan ocupados los 19 empleados");
+            JOptionPane.showMessageDialog(null, "Ya estan ocupados los 16 empleados");
         }
     }//GEN-LAST:event_AumentarRuedas1ActionPerformed
 
@@ -936,7 +936,7 @@ public class InterfazMain extends javax.swing.JFrame {
             Empleados.eCarroceria= Empleados.eCarroceria + 1;
             InterfazMain.eCarroceria.setText(String.valueOf(Empleados.eCarroceria));
         }else{
-            JOptionPane.showMessageDialog(null, "Ya estan ocupados los 19 empleados");
+            JOptionPane.showMessageDialog(null, "Ya estan ocupados los 16 empleados");
         }
     }//GEN-LAST:event_AumentarCarroceria1ActionPerformed
 
@@ -956,7 +956,7 @@ public class InterfazMain extends javax.swing.JFrame {
             Empleados.eChasis= Empleados.eChasis + 1;
             InterfazMain.eChasis.setText(String.valueOf(Empleados.eChasis));
         }else{
-            JOptionPane.showMessageDialog(null, "Ya estan ocupados los 19 empleados");
+            JOptionPane.showMessageDialog(null, "Ya estan ocupados los 16 empleados");
         }
     }//GEN-LAST:event_AumentarChasis1ActionPerformed
 
@@ -966,7 +966,7 @@ public class InterfazMain extends javax.swing.JFrame {
             Empleados.eMotor= Empleados.eMotor + 1;
             InterfazMain.eMotor.setText(String.valueOf(Empleados.eMotor));
         }else{
-            JOptionPane.showMessageDialog(null, "Ya estan ocupados los 19 empleados");
+            JOptionPane.showMessageDialog(null, "Ya estan ocupados los 16 empleados");
         }
     }//GEN-LAST:event_AumentarMotorActionPerformed
 
@@ -976,7 +976,7 @@ public class InterfazMain extends javax.swing.JFrame {
             Empleados.eEnsamblador= Empleados.eEnsamblador + 1;
             InterfazMain.eEnsamblador.setText(String.valueOf(Empleados.eEnsamblador));
         }else{
-            JOptionPane.showMessageDialog(null, "Ya estan ocupados los 19 empleados");
+            JOptionPane.showMessageDialog(null, "Ya estan ocupados los 16 empleados");
         }
     }//GEN-LAST:event_AumentarEnsambladorActionPerformed
 
@@ -986,7 +986,7 @@ public class InterfazMain extends javax.swing.JFrame {
             Empleados.eAccesorios= Empleados.eAccesorios + 1;
             InterfazMain.eAccesorios.setText(String.valueOf(Empleados.eAccesorios));
         }else{
-            JOptionPane.showMessageDialog(null, "Ya estan ocupados los 19 empleados");
+            JOptionPane.showMessageDialog(null, "Ya estan ocupados los 16 empleados");
         }
     }//GEN-LAST:event_AumentarAccesoriosActionPerformed
 
@@ -996,7 +996,7 @@ public class InterfazMain extends javax.swing.JFrame {
             Empleados.eRuedas= Empleados.eRuedas + 1;
             InterfazMain.eRuedas.setText(String.valueOf(Empleados.eRuedas));
         }else{
-            JOptionPane.showMessageDialog(null, "Ya estan ocupados los 19 empleados");
+            JOptionPane.showMessageDialog(null, "Ya estan ocupados los 16 empleados");
         }
     }//GEN-LAST:event_AumentarRuedasActionPerformed
 
@@ -1056,7 +1056,7 @@ public class InterfazMain extends javax.swing.JFrame {
             Empleados.eCarroceria= Empleados.eCarroceria + 1;
             InterfazMain.eCarroceria.setText(String.valueOf(Empleados.eCarroceria));
         }else{
-            JOptionPane.showMessageDialog(null, "Ya estan ocupados los 19 empleados");
+            JOptionPane.showMessageDialog(null, "Ya estan ocupados los 16 empleados");
         }
     }//GEN-LAST:event_AumentarCarroceriaActionPerformed
 
@@ -1076,7 +1076,7 @@ public class InterfazMain extends javax.swing.JFrame {
             Empleados.eChasis= Empleados.eChasis + 1;
             InterfazMain.eChasis.setText(String.valueOf(Empleados.eChasis));
         }else{
-            JOptionPane.showMessageDialog(null, "Ya estan ocupados los 19 empleados");
+            JOptionPane.showMessageDialog(null, "Ya estan ocupados los 16 empleados");
         }
     }//GEN-LAST:event_AumentarChasisActionPerformed
 

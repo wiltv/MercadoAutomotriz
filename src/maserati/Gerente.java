@@ -18,6 +18,8 @@ public class Gerente extends Thread{
     private Semaphore mutex;
     
     public static volatile Integer contadorEntrega = 30; //El jefe entrega y desde esa clase tengo que volver esto 30
+    public static volatile Integer atrapado = 0;
+    public static volatile Integer descuento = 0;
     
     public Gerente(Semaphore mutex){
         this.mutex = mutex;
@@ -40,6 +42,15 @@ public class Gerente extends Thread{
                 MercadoAutomotriz.Nomina = MercadoAutomotriz.Nomina + 480;
                 System.out.println("El gerente ha registrado " + MercadoAutomotriz.Nomina + " pagos en nomina");
                 InterfazMain.Salarios.setText(String.valueOf(MercadoAutomotriz.Nomina));
+                
+                if (Director.momento < 36 && Director.momento%2==1){
+                    System.out.println("Pillado");
+                    MercadoAutomotriz.Nomina = MercadoAutomotriz.Nomina - 50;
+                    InterfazMain.Salarios.setText(String.valueOf(MercadoAutomotriz.Nomina));
+                    
+                }else{
+                    System.out.println("Laborando");}
+                
                 
                 sleep(500);
                 

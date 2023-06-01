@@ -9,7 +9,7 @@ import static java.lang.Thread.sleep;
 import java.util.concurrent.Semaphore;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-
+import java.util.Random;
 /**
  *
  * @author wiltsson
@@ -18,6 +18,8 @@ public class Director extends Thread{
     private Semaphore mutex;
     
     public static volatile boolean Entregado = false; 
+    Random valor = new Random();
+    public static volatile Integer momento = 0;
     
     public Director(Semaphore mutex){
         this.mutex = mutex;
@@ -28,6 +30,9 @@ public class Director extends Thread{
         while(true){
             try{
                 mutex.acquire(); //wait
+                
+                momento = valor.nextInt(48);
+                System.out.println(momento);
                 
                 MercadoAutomotriz.Nomina = MercadoAutomotriz.Nomina + 720;
                 
