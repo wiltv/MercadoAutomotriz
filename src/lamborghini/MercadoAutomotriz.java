@@ -40,15 +40,27 @@ public class MercadoAutomotriz {
     
     public static volatile Integer EmpleadosMase = 13;
     
+    public static volatile Integer DuracionDiatxt = 0;
     public static volatile Integer DiasEntregatxt = 0;
+    public static volatile Integer Chasistxt = 0;
+    public static volatile Integer Carroceriatxt = 0;
+    public static volatile Integer Motortxt = 0;
+    public static volatile Integer Ruedastxt = 0;
+    public static volatile Integer Accesoriostxt = 0;
+    public static volatile Integer Ensabladortxt = 0;
+    
         
     public static void main(String[] args) {
         
-        Leetxt.leertxt();
+        
+        
+        
         
         InterfazMain interfaz = new InterfazMain();
         interfaz.setLocationRelativeTo(null);
         interfaz.setVisible(true);
+        
+        Leetxt.leertxt();
         
         Semaphore mainMutexLambo = new Semaphore(1);
         Semaphore mainMutexMase = new Semaphore(1);

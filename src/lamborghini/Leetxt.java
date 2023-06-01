@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 package lamborghini;
+import Interfaces.InterfazMain;
 import java.io.*;
 
 /**
@@ -29,18 +30,56 @@ public class Leetxt {
          String linea;
          while((linea=br.readLine())!=null){
             cont = cont +1;
-            if (cont == 2){
-                System.out.println(linea);
-                System.out.println(Gerente.contadorEntrega);
+            if (cont == 1){
+                MercadoAutomotriz.DuracionDiatxt = Integer.parseInt(linea);
+            }
+            else if (cont == 2){
                 Gerente.contadorEntrega = Integer.parseInt(linea);
                 GerenteMase.contadorEntregaMase = Integer.parseInt(linea);
                 MercadoAutomotriz.DiasEntregatxt = Integer.parseInt(linea);
-                System.out.println(Gerente.contadorEntrega);
-             }else if(cont == 3){
-                System.out.println("ok");
-      }
+                InterfazMain.EntregaLamborghini.setText(String.valueOf(GerenteMase.contadorEntregaMase));
+                InterfazMain.EntregaMaserati.setText(String.valueOf(GerenteMase.contadorEntregaMase));
+            }else if(cont == 3){
+                EmpleadosLamborghini.eChasis = Integer.parseInt(linea);
+                EmpleadosMaserati.eChasisMase = Integer.parseInt(linea);
+                MercadoAutomotriz.Chasistxt = Integer.parseInt(linea);
+                InterfazMain.eChasisLamborghini.setText(String.valueOf(EmpleadosLamborghini.eChasis));
+                InterfazMain.eChasisMaserati.setText(String.valueOf(EmpleadosMaserati.eChasisMase));
+            }else if(cont == 4){
+                EmpleadosLamborghini.eCarroceria = Integer.parseInt(linea);
+                EmpleadosMaserati.eCarroceriaMase = Integer.parseInt(linea);
+                MercadoAutomotriz.Carroceriatxt = Integer.parseInt(linea);
+                System.out.println(MercadoAutomotriz.Carroceriatxt);
+                InterfazMain.eCarroceriaLamborghini.setText(String.valueOf(MercadoAutomotriz.Carroceriatxt));
+                InterfazMain.eCarroceriaMaserati.setText(String.valueOf(MercadoAutomotriz.Carroceriatxt));
+            }else if(cont == 5){
+                EmpleadosLamborghini.eMotor = Integer.parseInt(linea);
+                System.out.println(linea);
+                EmpleadosMaserati.eMotorMase = Integer.parseInt(linea);
+                MercadoAutomotriz.Motortxt = Integer.parseInt(linea);
+                InterfazMain.eMotorLamborghini.setText(String.valueOf(MercadoAutomotriz.Motortxt));
+                InterfazMain.eMotorMaserati.setText(String.valueOf(MercadoAutomotriz.Motortxt));
+            }else if(cont == 6){
+                EmpleadosLamborghini.eRuedas = Integer.parseInt(linea);
+                EmpleadosMaserati.eRuedasMase = Integer.parseInt(linea);
+                MercadoAutomotriz.Ruedastxt = Integer.parseInt(linea);
+                InterfazMain.CantidadRuedasLamborghini.setText(String.valueOf(MercadoAutomotriz.Ruedastxt));
+                InterfazMain.CantidadRuedasMaserati.setText(String.valueOf(MercadoAutomotriz.Ruedastxt));
+            }else if(cont == 7){
+                EmpleadosLamborghini.eAccesorios = Integer.parseInt(linea);
+                EmpleadosMaserati.eAccesoriosMase = Integer.parseInt(linea);
+                MercadoAutomotriz.Accesoriostxt = Integer.parseInt(linea);
+                InterfazMain.eCarroceriaLamborghini.setText(String.valueOf(MercadoAutomotriz.Accesoriostxt));
+                InterfazMain.eAccesoriosMaserati.setText(String.valueOf(MercadoAutomotriz.Accesoriostxt));
+            }else if(cont == 8){
+                EmpleadosLamborghini.eEnsamblador = Integer.parseInt(linea);
+                EmpleadosMaserati.eEnsambladorMase = Integer.parseInt(linea);
+                MercadoAutomotriz.Ensabladortxt = Integer.parseInt(linea);
+                InterfazMain.eEnsambladorLamborghini.setText(String.valueOf(MercadoAutomotriz.Ensabladortxt));
+                InterfazMain.eEnsambladorMaserati.setText(String.valueOf(MercadoAutomotriz.Ensabladortxt));
+            }
       
-            System.out.println(linea);
+           
       }}
       catch(Exception e){
          e.printStackTrace();
