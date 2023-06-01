@@ -26,7 +26,7 @@ public class MercadoAutomotriz {
     public static volatile float diasRueda = 0f;
     public static volatile float diasAccesorio = 0f;
     
-    public static volatile Integer Empleados = 19;
+    public static volatile Integer Empleados = 16;
     
         
     public static void main(String[] args) {

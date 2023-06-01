@@ -147,10 +147,7 @@ public class Creador extends Thread {
                     }
                 
                 }
-                
-                
-               
-                
+
                 sleep(500);
                 
                 mutex.release(); //signal

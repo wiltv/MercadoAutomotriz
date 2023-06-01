@@ -26,7 +26,7 @@ public class MercadoAutomotriz {
     public static volatile float diasRueda = 0f;
     public static volatile float diasAccesorio = 0f;
     
-    public static volatile Integer Empleados = 19;
+    public static volatile Integer Empleados = 13;
     
         
     public static void main(String[] args) {
@@ -37,11 +37,11 @@ public class MercadoAutomotriz {
         
         Semaphore mainMutex = new Semaphore(1);
         
-        Creador chasis = new Creador(mainMutex, "chasis",Almacen.AlmacenChasis,0.25f,10);
-        Creador carroceria = new Creador(mainMutex, "carroceria",Almacen.AlmacenCarroceria,0.25f,13);
-        Creador motor = new Creador(mainMutex, "motor",Almacen.AlmacenMotor,1f,20);
-        Creador ruedas = new Creador(mainMutex, "ruedas",Almacen.AlmacenRuedas,5f,8);
-        Creador accesorio = new Creador(mainMutex, "accesorio",Almacen.AlmacenAccesorio,0.5f,17);
+        Creador chasis = new Creador(mainMutex, "chasis",Almacen.AlmacenChasis,0.33f,10);
+        Creador carroceria = new Creador(mainMutex, "carroceria",Almacen.AlmacenCarroceria,0.33f,13);
+        Creador motor = new Creador(mainMutex, "motor",Almacen.AlmacenMotor,2f,20);
+        Creador ruedas = new Creador(mainMutex, "ruedas",Almacen.AlmacenRuedas,3f,8);
+        Creador accesorio = new Creador(mainMutex, "accesorio",Almacen.AlmacenAccesorio,0.33f,17);
         Ensamblador ensamblador = new Ensamblador(mainMutex,0.5f);
         Gerente gerente = new Gerente(mainMutex);
         Director director = new Director(mainMutex);
