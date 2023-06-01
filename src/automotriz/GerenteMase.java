@@ -2,9 +2,8 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package lamborghini;
+package automotriz;
 
-import maserati.*;
 import Interfaces.InterfazMain;
 import static java.lang.Thread.sleep;
 import java.util.concurrent.Semaphore;

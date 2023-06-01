@@ -2,24 +2,22 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package maserati;
+package automotriz;
 
 import Interfaces.InterfazMain;
 import static java.lang.Thread.sleep;
-import java.util.Random;
 import java.util.concurrent.Semaphore;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-
+import java.util.Random;
 /**
  *
- * @author valeria
+ * @author wiltsson
  */
 public class Director extends Thread{
     private Semaphore mutex;
     
     public static volatile boolean Entregado = false; 
-    
     Random valor = new Random();
     public static volatile Integer momento = 0;
     
@@ -39,10 +37,10 @@ public class Director extends Thread{
                 MercadoAutomotriz.Nomina = MercadoAutomotriz.Nomina + 720;
                 
                 if (Gerente.contadorEntrega == 0){
-                    MercadoAutomotriz.Ganancia = MercadoAutomotriz.Ganancia + MercadoAutomotriz.Carros*350;
+                    MercadoAutomotriz.Ganancia = MercadoAutomotriz.Ganancia + MercadoAutomotriz.Carros*400;
                     
-                    if(MercadoAutomotriz.Carros%3 == 2){
-                        double SumaAccesorio = (MercadoAutomotriz.Carros/3) - 0.5;
+                    if(MercadoAutomotriz.Carros%4 >= 2){
+                        double SumaAccesorio = (MercadoAutomotriz.Carros/4) - 0.5;
                         SumaAccesorio = Math.round(MercadoAutomotriz.Carros);
                         MercadoAutomotriz.Ganancia = MercadoAutomotriz.Ganancia + (int)(SumaAccesorio*350);
                         
@@ -51,10 +49,15 @@ public class Director extends Thread{
                         MercadoAutomotriz.Ganancia = MercadoAutomotriz.Ganancia + (int)(SumaAccesorio*350);
                     }
                     
-                    System.out.println("El jefe entrega todos los carros y recibe ganancia de: " + MercadoAutomotriz.Carros*350);
+                    System.out.println("El jefe entrega todos los carros y recibe ganancia de: " + MercadoAutomotriz.Carros*400);
                     System.out.println("Su total de ingresos es " + MercadoAutomotriz.Ganancia);   
                     
-                    Gerente.contadorEntrega = 30;
+                    if (MercadoAutomotriz.DiasEntregatxt>0){
+                        Gerente.contadorEntrega = MercadoAutomotriz.DiasEntregatxt;
+                    }else{
+                        Gerente.contadorEntrega = 30;
+                    }
+                    
                     MercadoAutomotriz.Carros = 0;
                     InterfazMain.CantidadCarrosLamborghini.setText(String.valueOf(MercadoAutomotriz.Carros));
                     InterfazMain.EstandarLamborghini.setText(String.valueOf(Gerente.contadorEntrega));
@@ -66,7 +69,12 @@ public class Director extends Thread{
                 sleep(500);
                 
                 mutex.release(); //signal
-                sleep(1000);
+                if (MercadoAutomotriz.DuracionDiatxt>0){
+                    sleep(MercadoAutomotriz.DuracionDiatxt);
+                }else{
+                   sleep(5000);
+                }
+                
                         
             }catch(InterruptedException ex){
                 Logger.getLogger(Creador.class.getName()).log(Level.SEVERE, null, ex);

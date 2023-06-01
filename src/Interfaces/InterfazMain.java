@@ -7,8 +7,8 @@ package Interfaces;
 
 
 import javax.swing.JOptionPane;
-import lamborghini.EmpleadosLamborghini;
-import maserati.EmpleadosMaserati;
+import automotriz.EmpleadosLamborghini;
+import automotriz.EmpleadosMaserati;
 
 /**
  *
@@ -805,49 +805,49 @@ public class InterfazMain extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void AumentarMotorMaseratiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AumentarMotorMaseratiActionPerformed
-        if(EmpleadosMaserati.eChasis+EmpleadosMaserati.eCarroceria+EmpleadosMaserati.eMotor+
-            EmpleadosMaserati.eRuedas+EmpleadosMaserati.eAccesorios+EmpleadosMaserati.eEnsamblador < EmpleadosMaserati.Empleados){
-            EmpleadosMaserati.eMotor= EmpleadosMaserati.eMotor + 1;
-            InterfazMain.eMotorMaserati.setText(String.valueOf(EmpleadosMaserati.eMotor));
+        if(EmpleadosMaserati.eChasisMase+EmpleadosMaserati.eCarroceriaMase+EmpleadosMaserati.eMotorMase+
+            EmpleadosMaserati.eRuedasMase+EmpleadosMaserati.eAccesoriosMase+EmpleadosMaserati.eEnsambladorMase < EmpleadosMaserati.EmpleadosMase){
+            EmpleadosMaserati.eMotorMase = EmpleadosMaserati.eMotorMase + 1;
+            InterfazMain.eMotorMaserati.setText(String.valueOf(EmpleadosMaserati.eMotorMase));
         }else{
             JOptionPane.showMessageDialog(null, "Ya estan ocupados los 13 empleados");
         }
     }//GEN-LAST:event_AumentarMotorMaseratiActionPerformed
 
     private void AumentarEnsambladorMaseratiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AumentarEnsambladorMaseratiActionPerformed
-        if(EmpleadosMaserati.eChasis+EmpleadosMaserati.eCarroceria+EmpleadosMaserati.eMotor+
-            EmpleadosMaserati.eRuedas+EmpleadosMaserati.eAccesorios+EmpleadosMaserati.eEnsamblador < EmpleadosMaserati.Empleados){
-            EmpleadosMaserati.eEnsamblador= EmpleadosMaserati.eEnsamblador + 1;
-            InterfazMain.eEnsambladorMaserati.setText(String.valueOf(EmpleadosMaserati.eEnsamblador));
+        if(EmpleadosMaserati.eChasisMase+EmpleadosMaserati.eCarroceriaMase+EmpleadosMaserati.eMotorMase+
+            EmpleadosMaserati.eRuedasMase+EmpleadosMaserati.eAccesoriosMase+EmpleadosMaserati.eEnsambladorMase < EmpleadosMaserati.EmpleadosMase){
+            EmpleadosMaserati.eEnsambladorMase= EmpleadosMaserati.eEnsambladorMase + 1;
+            InterfazMain.eEnsambladorMaserati.setText(String.valueOf(EmpleadosMaserati.eEnsambladorMase));
         }else{
             JOptionPane.showMessageDialog(null, "Ya estan ocupados los 13 empleados");
         }
     }//GEN-LAST:event_AumentarEnsambladorMaseratiActionPerformed
 
     private void AumentarAccesoriosMaseratiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AumentarAccesoriosMaseratiActionPerformed
-        if(EmpleadosMaserati.eChasis+EmpleadosMaserati.eCarroceria+EmpleadosMaserati.eMotor+
-            EmpleadosMaserati.eRuedas+EmpleadosMaserati.eAccesorios+EmpleadosMaserati.eEnsamblador < EmpleadosMaserati.Empleados){
-            EmpleadosMaserati.eAccesorios= EmpleadosMaserati.eAccesorios + 1;
-            InterfazMain.eAccesoriosMaserati.setText(String.valueOf(EmpleadosMaserati.eAccesorios));
+        if(EmpleadosMaserati.eChasisMase+EmpleadosMaserati.eCarroceriaMase+EmpleadosMaserati.eMotorMase+
+            EmpleadosMaserati.eRuedasMase+EmpleadosMaserati.eAccesoriosMase+EmpleadosMaserati.eEnsambladorMase < EmpleadosMaserati.EmpleadosMase){
+            EmpleadosMaserati.eAccesoriosMase= EmpleadosMaserati.eAccesoriosMase + 1;
+            InterfazMain.eAccesoriosMaserati.setText(String.valueOf(EmpleadosMaserati.eAccesoriosMase));
         }else{
             JOptionPane.showMessageDialog(null, "Ya estan ocupados los 13 empleados");
         }
     }//GEN-LAST:event_AumentarAccesoriosMaseratiActionPerformed
 
     private void AumentarRuedasMaseratiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AumentarRuedasMaseratiActionPerformed
-        if(EmpleadosMaserati.eChasis+EmpleadosMaserati.eCarroceria+EmpleadosMaserati.eMotor+
-            EmpleadosMaserati.eRuedas+EmpleadosMaserati.eAccesorios+EmpleadosMaserati.eEnsamblador < EmpleadosMaserati.Empleados){
-            EmpleadosMaserati.eRuedas= EmpleadosMaserati.eRuedas + 1;
-            InterfazMain.eRuedasMaserati.setText(String.valueOf(EmpleadosMaserati.eRuedas));
+        if(EmpleadosMaserati.eChasisMase+EmpleadosMaserati.eCarroceriaMase+EmpleadosMaserati.eMotorMase+
+            EmpleadosMaserati.eRuedasMase+EmpleadosMaserati.eAccesoriosMase+EmpleadosMaserati.eEnsambladorMase < EmpleadosMaserati.EmpleadosMase){
+            EmpleadosMaserati.eRuedasMase= EmpleadosMaserati.eRuedasMase + 1;
+            InterfazMain.eRuedasMaserati.setText(String.valueOf(EmpleadosMaserati.eRuedasMase));
         }else{
             JOptionPane.showMessageDialog(null, "Ya estan ocupados los 13 empleados");
         }
     }//GEN-LAST:event_AumentarRuedasMaseratiActionPerformed
 
     private void DisminuirEnsambladorMaseratiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DisminuirEnsambladorMaseratiActionPerformed
-        if(EmpleadosMaserati.eEnsamblador>1){
-            EmpleadosMaserati.eEnsamblador= EmpleadosMaserati.eEnsamblador -1;
-            InterfazMain.eEnsambladorMaserati.setText(String.valueOf(EmpleadosMaserati.eEnsamblador));
+        if(EmpleadosMaserati.eEnsambladorMase>1){
+            EmpleadosMaserati.eEnsambladorMase= EmpleadosMaserati.eEnsambladorMase -1;
+            InterfazMain.eEnsambladorMaserati.setText(String.valueOf(EmpleadosMaserati.eEnsambladorMase));
 
         }else{
             JOptionPane.showMessageDialog(null, "No se puede quedar un sector sin empleados");
@@ -855,9 +855,9 @@ public class InterfazMain extends javax.swing.JFrame {
     }//GEN-LAST:event_DisminuirEnsambladorMaseratiActionPerformed
 
     private void DisminuirRuedasMaseratiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DisminuirRuedasMaseratiActionPerformed
-        if(EmpleadosMaserati.eRuedas>1){
-            EmpleadosMaserati.eRuedas= EmpleadosMaserati.eRuedas -1;
-            InterfazMain.eRuedasMaserati.setText(String.valueOf(EmpleadosMaserati.eRuedas));
+        if(EmpleadosMaserati.eRuedasMase>1){
+            EmpleadosMaserati.eRuedasMase= EmpleadosMaserati.eRuedasMase -1;
+            InterfazMain.eRuedasMaserati.setText(String.valueOf(EmpleadosMaserati.eRuedasMase));
 
         }else{
             JOptionPane.showMessageDialog(null, "No se puede quedar un sector sin empleados");
@@ -865,9 +865,9 @@ public class InterfazMain extends javax.swing.JFrame {
     }//GEN-LAST:event_DisminuirRuedasMaseratiActionPerformed
 
     private void DisminuirMotorMaseratiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DisminuirMotorMaseratiActionPerformed
-        if(EmpleadosMaserati.eMotor>1){
-            EmpleadosMaserati.eMotor= EmpleadosMaserati.eMotor -1;
-            InterfazMain.eMotorMaserati.setText(String.valueOf(EmpleadosMaserati.eMotor));
+        if(EmpleadosMaserati.eMotorMase>1){
+            EmpleadosMaserati.eMotorMase= EmpleadosMaserati.eMotorMase -1;
+            InterfazMain.eMotorMaserati.setText(String.valueOf(EmpleadosMaserati.eMotorMase));
 
         }else{
             JOptionPane.showMessageDialog(null, "No se puede quedar un sector sin empleados");
@@ -875,9 +875,9 @@ public class InterfazMain extends javax.swing.JFrame {
     }//GEN-LAST:event_DisminuirMotorMaseratiActionPerformed
 
     private void DisminuirAccesoriosMaseratiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DisminuirAccesoriosMaseratiActionPerformed
-        if(EmpleadosMaserati.eAccesorios>1){
-            EmpleadosMaserati.eAccesorios= EmpleadosMaserati.eAccesorios -1;
-            InterfazMain.eAccesoriosMaserati.setText(String.valueOf(EmpleadosMaserati.eAccesorios));
+        if(EmpleadosMaserati.eAccesoriosMase>1){
+            EmpleadosMaserati.eAccesoriosMase= EmpleadosMaserati.eAccesoriosMase -1;
+            InterfazMain.eAccesoriosMaserati.setText(String.valueOf(EmpleadosMaserati.eAccesoriosMase));
 
         }else{
             JOptionPane.showMessageDialog(null, "No se puede quedar un sector sin empleados");
@@ -885,9 +885,9 @@ public class InterfazMain extends javax.swing.JFrame {
     }//GEN-LAST:event_DisminuirAccesoriosMaseratiActionPerformed
 
     private void DisminuirCarroceriaMaseratiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DisminuirCarroceriaMaseratiActionPerformed
-        if(EmpleadosMaserati.eCarroceria>1){
-            EmpleadosMaserati.eCarroceria= EmpleadosMaserati.eCarroceria -1;
-            InterfazMain.eCarroceriaMaserati.setText(String.valueOf(EmpleadosMaserati.eCarroceria));
+        if(EmpleadosMaserati.eCarroceriaMase>1){
+            EmpleadosMaserati.eCarroceriaMase= EmpleadosMaserati.eCarroceriaMase -1;
+            InterfazMain.eCarroceriaMaserati.setText(String.valueOf(EmpleadosMaserati.eCarroceriaMase));
 
         }else{
             JOptionPane.showMessageDialog(null, "No se puede quedar un sector sin empleados");
@@ -895,19 +895,19 @@ public class InterfazMain extends javax.swing.JFrame {
     }//GEN-LAST:event_DisminuirCarroceriaMaseratiActionPerformed
 
     private void AumentarCarroceriaMaseratiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AumentarCarroceriaMaseratiActionPerformed
-        if(EmpleadosMaserati.eChasis+EmpleadosMaserati.eCarroceria+EmpleadosMaserati.eMotor+
-            EmpleadosMaserati.eRuedas+EmpleadosMaserati.eAccesorios+EmpleadosMaserati.eEnsamblador < EmpleadosMaserati.Empleados){
-            EmpleadosMaserati.eCarroceria= EmpleadosMaserati.eCarroceria + 1;
-            InterfazMain.eCarroceriaMaserati.setText(String.valueOf(EmpleadosMaserati.eCarroceria));
+        if(EmpleadosMaserati.eChasisMase+EmpleadosMaserati.eCarroceriaMase+EmpleadosMaserati.eMotorMase+
+            EmpleadosMaserati.eRuedasMase+EmpleadosMaserati.eAccesoriosMase+EmpleadosMaserati.eEnsambladorMase < EmpleadosMaserati.EmpleadosMase){
+            EmpleadosMaserati.eCarroceriaMase= EmpleadosMaserati.eCarroceriaMase + 1;
+            InterfazMain.eCarroceriaMaserati.setText(String.valueOf(EmpleadosMaserati.eCarroceriaMase));
         }else{
             JOptionPane.showMessageDialog(null, "Ya estan ocupados los 13 empleados");
         }
     }//GEN-LAST:event_AumentarCarroceriaMaseratiActionPerformed
 
     private void DisminuirChasisMaseratiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DisminuirChasisMaseratiActionPerformed
-        if(EmpleadosMaserati.eChasis>1){
-           EmpleadosMaserati.eChasis= EmpleadosMaserati.eChasis -1;
-            InterfazMain.eChasisMaserati.setText(String.valueOf(EmpleadosMaserati.eChasis));
+        if(EmpleadosMaserati.eChasisMase>1){
+           EmpleadosMaserati.eChasisMase= EmpleadosMaserati.eChasisMase -1;
+            InterfazMain.eChasisMaserati.setText(String.valueOf(EmpleadosMaserati.eChasisMase));
 
         }else{
             JOptionPane.showMessageDialog(null, "No se puede quedar un sector sin empleados");
@@ -915,10 +915,10 @@ public class InterfazMain extends javax.swing.JFrame {
     }//GEN-LAST:event_DisminuirChasisMaseratiActionPerformed
 
     private void AumentarChasisMaseratiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AumentarChasisMaseratiActionPerformed
-        if(EmpleadosMaserati.eChasis+EmpleadosMaserati.eCarroceria+EmpleadosMaserati.eMotor+
-            EmpleadosMaserati.eRuedas+EmpleadosMaserati.eAccesorios+EmpleadosMaserati.eEnsamblador < EmpleadosMaserati.Empleados){
-            EmpleadosMaserati.eChasis= EmpleadosMaserati.eChasis + 1;
-            InterfazMain.eChasisMaserati.setText(String.valueOf(EmpleadosMaserati.eChasis));
+        if(EmpleadosMaserati.eChasisMase+EmpleadosMaserati.eCarroceriaMase+EmpleadosMaserati.eMotorMase+
+            EmpleadosMaserati.eRuedasMase+EmpleadosMaserati.eAccesoriosMase+EmpleadosMaserati.eEnsambladorMase < EmpleadosMaserati.EmpleadosMase){
+            EmpleadosMaserati.eChasisMase= EmpleadosMaserati.eChasisMase + 1;
+            InterfazMain.eChasisMaserati.setText(String.valueOf(EmpleadosMaserati.eChasisMase));
         }else{
             JOptionPane.showMessageDialog(null, "Ya estan ocupados los 13 empleados");
         }

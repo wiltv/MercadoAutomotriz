@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package lamborghini;
+package automotriz;
 import Interfaces.InterfazMain;
 import java.io.*;
 
