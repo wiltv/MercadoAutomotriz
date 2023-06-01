@@ -36,6 +36,7 @@ public class Creador extends Thread {
         while(true){
             try{
                 mutex.acquire(); //error
+                System.out.println("LLEGAAAAAAAA");
                 if ("chasis".equals(parte)){
                     MercadoAutomotriz.Nomina = MercadoAutomotriz.Nomina + salario*24*EmpleadosMaserati.eChasis; 
                     MercadoAutomotriz.diasChasis = MercadoAutomotriz.diasChasis + dias*EmpleadosMaserati.eChasis;
