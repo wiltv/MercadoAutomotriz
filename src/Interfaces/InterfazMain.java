@@ -76,6 +76,8 @@ public class InterfazMain extends javax.swing.JFrame {
         AumentarMotorLamborghini = new java.awt.Button();
         estadoLaborguini = new javax.swing.JLabel();
         estadoLaborguini1 = new javax.swing.JLabel();
+        jTabbedPane5 = new javax.swing.JTabbedPane();
+        jLabel26 = new javax.swing.JLabel();
         jPanel2 = new javax.swing.JPanel();
         jLabel12 = new javax.swing.JLabel();
         jLabel14 = new javax.swing.JLabel();
@@ -118,7 +120,6 @@ public class InterfazMain extends javax.swing.JFrame {
         AumentarMotorMaserati = new java.awt.Button();
         jLabel25 = new javax.swing.JLabel();
         estadoMaserati = new javax.swing.JLabel();
-        jTabbedPane5 = new javax.swing.JTabbedPane();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -487,6 +488,13 @@ public class InterfazMain extends javax.swing.JFrame {
 
         jTabbedPane2.addTab("Lamborghini", jPanel1);
 
+        jTabbedPane5.setBackground(new java.awt.Color(204, 204, 204));
+
+        jLabel26.setText("Leer archivo txt");
+        jTabbedPane5.addTab("tab1", jLabel26);
+
+        jTabbedPane2.addTab("Lector de Archivos", jTabbedPane5);
+
         jLabel12.setText("Chasis");
 
         jLabel14.setText("Carroceria");
@@ -849,7 +857,6 @@ public class InterfazMain extends javax.swing.JFrame {
         );
 
         jTabbedPane2.addTab("Maserati", jPanel2);
-        jTabbedPane2.addTab("Lector de Archivos", jTabbedPane5);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -1217,6 +1224,7 @@ public class InterfazMain extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel23;
     private javax.swing.JLabel jLabel24;
     private javax.swing.JLabel jLabel25;
+    private javax.swing.JLabel jLabel26;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
