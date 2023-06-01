@@ -34,48 +34,6 @@ public class InterfazMain extends javax.swing.JFrame {
 
         jTabbedPane1 = new javax.swing.JTabbedPane();
         jTabbedPane2 = new javax.swing.JTabbedPane();
-        jPanel1 = new javax.swing.JPanel();
-        jLabel1 = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
-        jLabel4 = new javax.swing.JLabel();
-        jLabel5 = new javax.swing.JLabel();
-        CantidadCarrosLamborghini = new javax.swing.JLabel();
-        CantidadCarroceriaLamborghini = new javax.swing.JLabel();
-        CantidadRuedasLamborghini = new javax.swing.JLabel();
-        CantidadMotorLamborghini = new javax.swing.JLabel();
-        CantidadAccesoriosLamborghini = new javax.swing.JLabel();
-        CantidadChasisLamborghini = new javax.swing.JLabel();
-        jLabel6 = new javax.swing.JLabel();
-        jLabel7 = new javax.swing.JLabel();
-        jLabel8 = new javax.swing.JLabel();
-        SalariosLamborghini = new javax.swing.JLabel();
-        GananciasLamborghini = new javax.swing.JLabel();
-        jLabel9 = new javax.swing.JLabel();
-        EntregaLamborghini = new javax.swing.JLabel();
-        jLabel10 = new javax.swing.JLabel();
-        jLabel11 = new javax.swing.JLabel();
-        eCarroceriaLamborghini = new javax.swing.JLabel();
-        eMotorLamborghini = new javax.swing.JLabel();
-        eRuedasLamborghini = new javax.swing.JLabel();
-        eEnsambladorLamborghini = new javax.swing.JLabel();
-        eChasisLamborghini = new javax.swing.JLabel();
-        eAccesoriosLamborghini = new javax.swing.JLabel();
-        jLabel13 = new javax.swing.JLabel();
-        AumentarChasisLamborghini = new java.awt.Button();
-        DisminuirChasisLamborghini = new java.awt.Button();
-        AumentarCarroceriaLamborghini = new java.awt.Button();
-        DisminuirCarroceriaLamborghini = new java.awt.Button();
-        DisminuirAccesoriosLamborghini = new java.awt.Button();
-        DisminuirMotorLamborghini = new java.awt.Button();
-        DisminuirRuedasLamborghini = new java.awt.Button();
-        DisminuirEnsambladorLamborghini = new java.awt.Button();
-        AumentarRuedasLamborghini = new java.awt.Button();
-        AumentarAccesoriosLamborghini = new java.awt.Button();
-        AumentarEnsambladorLamborghini = new java.awt.Button();
-        AumentarMotorLamborghini = new java.awt.Button();
-        estadoLaborguini = new javax.swing.JLabel();
-        estadoLaborguini1 = new javax.swing.JLabel();
         jTabbedPane5 = new javax.swing.JTabbedPane();
         jLabel26 = new javax.swing.JLabel();
         jPanel2 = new javax.swing.JPanel();
@@ -120,373 +78,65 @@ public class InterfazMain extends javax.swing.JFrame {
         AumentarMotorMaserati = new java.awt.Button();
         jLabel25 = new javax.swing.JLabel();
         estadoMaserati = new javax.swing.JLabel();
+        jPanel1 = new javax.swing.JPanel();
+        jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
+        CantidadCarrosLamborghini = new javax.swing.JLabel();
+        CantidadCarroceriaLamborghini = new javax.swing.JLabel();
+        CantidadRuedasLamborghini = new javax.swing.JLabel();
+        CantidadMotorLamborghini = new javax.swing.JLabel();
+        CantidadAccesoriosLamborghini = new javax.swing.JLabel();
+        CantidadChasisLamborghini = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
+        jLabel7 = new javax.swing.JLabel();
+        jLabel8 = new javax.swing.JLabel();
+        jLabel9 = new javax.swing.JLabel();
+        EntregaLamborghini = new javax.swing.JLabel();
+        jLabel10 = new javax.swing.JLabel();
+        jLabel11 = new javax.swing.JLabel();
+        eCarroceriaLamborghini = new javax.swing.JLabel();
+        eMotorLamborghini = new javax.swing.JLabel();
+        eRuedasLamborghini = new javax.swing.JLabel();
+        eEnsambladorLamborghini = new javax.swing.JLabel();
+        eChasisLamborghini = new javax.swing.JLabel();
+        eAccesoriosLamborghini = new javax.swing.JLabel();
+        jLabel13 = new javax.swing.JLabel();
+        AumentarChasisLamborghini = new java.awt.Button();
+        DisminuirChasisLamborghini = new java.awt.Button();
+        AumentarCarroceriaLamborghini = new java.awt.Button();
+        DisminuirCarroceriaLamborghini = new java.awt.Button();
+        DisminuirAccesoriosLamborghini = new java.awt.Button();
+        DisminuirMotorLamborghini = new java.awt.Button();
+        DisminuirRuedasLamborghini = new java.awt.Button();
+        DisminuirEnsambladorLamborghini = new java.awt.Button();
+        AumentarRuedasLamborghini = new java.awt.Button();
+        AumentarAccesoriosLamborghini = new java.awt.Button();
+        AumentarEnsambladorLamborghini = new java.awt.Button();
+        AumentarMotorLamborghini = new java.awt.Button();
+        estadoLaborguini = new javax.swing.JLabel();
+        estadoLaborguini1 = new javax.swing.JLabel();
+        jLabel27 = new javax.swing.JLabel();
+        jLabel28 = new javax.swing.JLabel();
+        jLabel29 = new javax.swing.JLabel();
+        CantidadChasisLamborghini1 = new javax.swing.JLabel();
+        CantidadCarroceriaLamborghini1 = new javax.swing.JLabel();
+        CantidadMotorLamborghini1 = new javax.swing.JLabel();
+        CantidadRuedasLamborghini1 = new javax.swing.JLabel();
+        CantidadAccesoriosLamborghini1 = new javax.swing.JLabel();
+        jLabel30 = new javax.swing.JLabel();
+        jLabel31 = new javax.swing.JLabel();
+        jLabel32 = new javax.swing.JLabel();
+        EntregaLamborghini1 = new javax.swing.JLabel();
+        jLabel33 = new javax.swing.JLabel();
+        EntregaLamborghini2 = new javax.swing.JLabel();
+        jLabel34 = new javax.swing.JLabel();
+        estadoLaborguini3 = new javax.swing.JLabel();
+        estadoLaborguini4 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-
-        jLabel1.setText("Chasis");
-
-        jLabel2.setText("Carroceria");
-
-        jLabel3.setText("Motor");
-
-        jLabel4.setText("Ruedas");
-
-        jLabel5.setText("Accesorios");
-
-        CantidadCarrosLamborghini.setText("0");
-
-        CantidadCarroceriaLamborghini.setText("0");
-
-        CantidadRuedasLamborghini.setText("0");
-
-        CantidadMotorLamborghini.setText("0");
-
-        CantidadAccesoriosLamborghini.setText("0");
-
-        CantidadChasisLamborghini.setText("0");
-
-        jLabel6.setText("Salarios");
-
-        jLabel7.setText("Carros");
-
-        jLabel8.setText("Ganancias");
-
-        SalariosLamborghini.setText("0");
-
-        GananciasLamborghini.setText("0");
-
-        jLabel9.setText("Entrega");
-
-        EntregaLamborghini.setText("0");
-
-        jLabel10.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
-        jLabel10.setText("Lamborguini");
-        jLabel10.setMaximumSize(new java.awt.Dimension(80, 16));
-
-        jLabel11.setText("Trab Asig");
-
-        eCarroceriaLamborghini.setText("1");
-
-        eMotorLamborghini.setText("1");
-
-        eRuedasLamborghini.setText("1");
-
-        eEnsambladorLamborghini.setText("1");
-
-        eChasisLamborghini.setText("1");
-
-        eAccesoriosLamborghini.setText("1");
-
-        jLabel13.setText("Ensamblador");
-
-        AumentarChasisLamborghini.setActionCommand("Contratar");
-        AumentarChasisLamborghini.setBackground(new java.awt.Color(0, 204, 0));
-        AumentarChasisLamborghini.setLabel("A");
-        AumentarChasisLamborghini.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                AumentarChasisLamborghiniActionPerformed(evt);
-            }
-        });
-
-        DisminuirChasisLamborghini.setActionCommand("Contratar");
-        DisminuirChasisLamborghini.setBackground(new java.awt.Color(255, 0, 0));
-        DisminuirChasisLamborghini.setLabel("D");
-        DisminuirChasisLamborghini.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                DisminuirChasisLamborghiniActionPerformed(evt);
-            }
-        });
-
-        AumentarCarroceriaLamborghini.setActionCommand("Contratar");
-        AumentarCarroceriaLamborghini.setBackground(new java.awt.Color(0, 204, 0));
-        AumentarCarroceriaLamborghini.setLabel("A");
-        AumentarCarroceriaLamborghini.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                AumentarCarroceriaLamborghiniActionPerformed(evt);
-            }
-        });
-
-        DisminuirCarroceriaLamborghini.setActionCommand("Contratar");
-        DisminuirCarroceriaLamborghini.setBackground(new java.awt.Color(255, 0, 0));
-        DisminuirCarroceriaLamborghini.setLabel("D");
-        DisminuirCarroceriaLamborghini.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                DisminuirCarroceriaLamborghiniActionPerformed(evt);
-            }
-        });
-
-        DisminuirAccesoriosLamborghini.setActionCommand("Contratar");
-        DisminuirAccesoriosLamborghini.setBackground(new java.awt.Color(255, 0, 0));
-        DisminuirAccesoriosLamborghini.setLabel("D");
-        DisminuirAccesoriosLamborghini.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                DisminuirAccesoriosLamborghiniActionPerformed(evt);
-            }
-        });
-
-        DisminuirMotorLamborghini.setActionCommand("Contratar");
-        DisminuirMotorLamborghini.setBackground(new java.awt.Color(255, 0, 0));
-        DisminuirMotorLamborghini.setLabel("D");
-        DisminuirMotorLamborghini.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                DisminuirMotorLamborghiniActionPerformed(evt);
-            }
-        });
-
-        DisminuirRuedasLamborghini.setActionCommand("Contratar");
-        DisminuirRuedasLamborghini.setBackground(new java.awt.Color(255, 0, 0));
-        DisminuirRuedasLamborghini.setLabel("D");
-        DisminuirRuedasLamborghini.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                DisminuirRuedasLamborghiniActionPerformed(evt);
-            }
-        });
-
-        DisminuirEnsambladorLamborghini.setActionCommand("Contratar");
-        DisminuirEnsambladorLamborghini.setBackground(new java.awt.Color(255, 0, 0));
-        DisminuirEnsambladorLamborghini.setLabel("D");
-        DisminuirEnsambladorLamborghini.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                DisminuirEnsambladorLamborghiniActionPerformed(evt);
-            }
-        });
-
-        AumentarRuedasLamborghini.setActionCommand("Contratar");
-        AumentarRuedasLamborghini.setBackground(new java.awt.Color(0, 204, 0));
-        AumentarRuedasLamborghini.setLabel("A");
-        AumentarRuedasLamborghini.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                AumentarRuedasLamborghiniActionPerformed(evt);
-            }
-        });
-
-        AumentarAccesoriosLamborghini.setActionCommand("Contratar");
-        AumentarAccesoriosLamborghini.setBackground(new java.awt.Color(0, 204, 0));
-        AumentarAccesoriosLamborghini.setLabel("A");
-        AumentarAccesoriosLamborghini.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                AumentarAccesoriosLamborghiniActionPerformed(evt);
-            }
-        });
-
-        AumentarEnsambladorLamborghini.setActionCommand("Contratar");
-        AumentarEnsambladorLamborghini.setBackground(new java.awt.Color(0, 204, 0));
-        AumentarEnsambladorLamborghini.setLabel("A");
-        AumentarEnsambladorLamborghini.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                AumentarEnsambladorLamborghiniActionPerformed(evt);
-            }
-        });
-
-        AumentarMotorLamborghini.setActionCommand("Contratar");
-        AumentarMotorLamborghini.setBackground(new java.awt.Color(0, 204, 0));
-        AumentarMotorLamborghini.setLabel("A");
-        AumentarMotorLamborghini.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                AumentarMotorLamborghiniActionPerformed(evt);
-            }
-        });
-
-        estadoLaborguini.setText("activo");
-
-        estadoLaborguini1.setText("Gerente");
-
-        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
-        jPanel1.setLayout(jPanel1Layout);
-        jPanel1Layout.setHorizontalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addGap(69, 69, 69)
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(CantidadChasisLamborghini, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jLabel1)))
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addComponent(jLabel11)
-                                .addGap(18, 18, 18)
-                                .addComponent(eChasisLamborghini, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                                .addContainerGap()
-                                .addComponent(jLabel13)))
-                        .addGap(22, 22, 22)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addComponent(jLabel2)
-                                .addComponent(CantidadCarroceriaLamborghini, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(eCarroceriaLamborghini, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addComponent(eEnsambladorLamborghini, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 39, Short.MAX_VALUE)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(DisminuirRuedasLamborghini, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(eRuedasLamborghini, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(AumentarRuedasLamborghini, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addGap(5, 5, 5))
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addGroup(jPanel1Layout.createSequentialGroup()
-                                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(DisminuirMotorLamborghini, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                                    .addComponent(AumentarMotorLamborghini, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                    .addComponent(AumentarEnsambladorLamborghini, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(DisminuirEnsambladorLamborghini, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                                        .addGap(32, 32, 32))
-                                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel1Layout.createSequentialGroup()
-                                        .addGap(8, 8, 8)
-                                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(eMotorLamborghini, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(jLabel3)
-                                            .addComponent(CantidadMotorLamborghini, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)))
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jLabel4)
-                                    .addComponent(CantidadRuedasLamborghini, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 63, Short.MAX_VALUE))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(54, 54, 54)
-                        .addComponent(jLabel10, javax.swing.GroupLayout.PREFERRED_SIZE, 143, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(estadoLaborguini1)
-                        .addGap(31, 31, 31)))
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                            .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                .addComponent(jLabel8)
-                                .addGroup(jPanel1Layout.createSequentialGroup()
-                                    .addComponent(estadoLaborguini)
-                                    .addGap(61, 61, 61)
-                                    .addComponent(jLabel6)))
-                            .addGap(68, 68, 68))
-                        .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                            .addComponent(jLabel5)
-                            .addGap(134, 134, 134)))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(8, 8, 8)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(CantidadAccesoriosLamborghini, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(eAccesoriosLamborghini, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                .addComponent(DisminuirAccesoriosLamborghini, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(AumentarAccesoriosLamborghini, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addGap(148, 148, 148)))
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel7)
-                    .addComponent(CantidadCarrosLamborghini, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel9)
-                    .addComponent(GananciasLamborghini, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(SalariosLamborghini, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(EntregaLamborghini, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(75, 75, 75))
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(56, 56, 56)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(DisminuirChasisLamborghini, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(AumentarChasisLamborghini, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(32, 32, 32)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(DisminuirCarroceriaLamborghini, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(AumentarCarroceriaLamborghini, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-        jPanel1Layout.setVerticalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(12, 12, 12)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLabel6)
-                            .addComponent(SalariosLamborghini, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(18, 18, 18)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLabel8)
-                            .addComponent(GananciasLamborghini, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(55, 55, 55)
-                        .addComponent(jLabel7)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(CantidadCarrosLamborghini, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(123, 123, 123)
-                        .addComponent(jLabel9))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(estadoLaborguini)
-                            .addComponent(estadoLaborguini1))
-                        .addGap(18, 18, 18)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addComponent(jLabel10, javax.swing.GroupLayout.PREFERRED_SIZE, 67, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(10, 10, 10)
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(jPanel1Layout.createSequentialGroup()
-                                        .addGap(1, 1, 1)
-                                        .addComponent(jLabel11))
-                                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                        .addComponent(eCarroceriaLamborghini, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(eMotorLamborghini, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(eRuedasLamborghini, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(eChasisLamborghini, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(eAccesoriosLamborghini, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                                .addGap(25, 25, 25)
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                        .addComponent(jLabel5)
-                                        .addComponent(jLabel4)
-                                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                            .addComponent(jLabel3)
-                                            .addComponent(jLabel2)))
-                                    .addComponent(jLabel1, javax.swing.GroupLayout.Alignment.TRAILING))
-                                .addGap(26, 26, 26)
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                    .addComponent(CantidadChasisLamborghini, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(CantidadCarroceriaLamborghini, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(CantidadMotorLamborghini, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(CantidadRuedasLamborghini, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(CantidadAccesoriosLamborghini, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(AumentarChasisLamborghini, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(AumentarMotorLamborghini, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(AumentarRuedasLamborghini, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(AumentarAccesoriosLamborghini, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                            .addComponent(AumentarCarroceriaLamborghini, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(DisminuirRuedasLamborghini, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(DisminuirChasisLamborghini, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(DisminuirCarroceriaLamborghini, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(DisminuirAccesoriosLamborghini, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(DisminuirMotorLamborghini, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))))
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 25, Short.MAX_VALUE)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                .addComponent(jLabel13)
-                                .addComponent(eEnsambladorLamborghini, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addComponent(DisminuirEnsambladorLamborghini, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(AumentarEnsambladorLamborghini, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(20, 20, 20))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(EntregaLamborghini, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
-        );
-
-        jTabbedPane2.addTab("Lamborghini", jPanel1);
 
         jTabbedPane5.setBackground(new java.awt.Color(204, 204, 204));
 
@@ -690,7 +340,7 @@ public class InterfazMain extends javax.swing.JFrame {
                                 .addComponent(CantidadCarroceriaMaserati, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addComponent(eCarroceriaMaserati, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addComponent(eEnsambladorMaserati, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 44, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 106, Short.MAX_VALUE)
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
                             .addGroup(jPanel2Layout.createSequentialGroup()
                                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
@@ -857,6 +507,264 @@ public class InterfazMain extends javax.swing.JFrame {
         );
 
         jTabbedPane2.addTab("Maserati", jPanel2);
+
+        jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel1.setText("Chasis");
+        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 180, -1, -1));
+
+        jLabel2.setText("Carroceria");
+        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(134, 180, -1, -1));
+
+        jLabel3.setText("Motor");
+        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 180, -1, -1));
+
+        jLabel4.setText("Ruedas");
+        jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 180, -1, -1));
+
+        jLabel5.setText("Accesorios");
+        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 180, -1, -1));
+
+        CantidadCarrosLamborghini.setText("0");
+        jPanel1.add(CantidadCarrosLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 310, 40, 35));
+
+        CantidadCarroceriaLamborghini.setText("20");
+        jPanel1.add(CantidadCarroceriaLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 270, 43, 35));
+
+        CantidadRuedasLamborghini.setText("35");
+        jPanel1.add(CantidadRuedasLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 270, 43, 35));
+
+        CantidadMotorLamborghini.setText("55");
+        jPanel1.add(CantidadMotorLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 270, 43, 35));
+
+        CantidadAccesoriosLamborghini.setText("10");
+        jPanel1.add(CantidadAccesoriosLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 270, 43, 35));
+
+        CantidadChasisLamborghini.setText("25");
+        jPanel1.add(CantidadChasisLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 270, 43, 35));
+
+        jLabel6.setText("Salarios");
+        jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 30, -1, -1));
+
+        jLabel7.setText("Carros con accesorios ");
+        jPanel1.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 400, -1, -1));
+
+        jLabel8.setText("Ganancias");
+        jPanel1.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 20, -1, 20));
+
+        jLabel9.setText("para la entrega");
+        jPanel1.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 124, -1, 10));
+
+        EntregaLamborghini.setText("0");
+        jPanel1.add(EntregaLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 350, 43, 35));
+
+        jLabel10.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
+        jLabel10.setText("Lamborguini");
+        jLabel10.setMaximumSize(new java.awt.Dimension(80, 16));
+        jPanel1.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(55, 23, 143, 67));
+
+        jLabel11.setText("asignados");
+        jPanel1.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 180, 80, 20));
+
+        eCarroceriaLamborghini.setText("1");
+        jPanel1.add(eCarroceriaLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 130, 43, 35));
+
+        eMotorLamborghini.setText("1");
+        jPanel1.add(eMotorLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 130, 43, 35));
+
+        eRuedasLamborghini.setText("1");
+        jPanel1.add(eRuedasLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 130, 43, 35));
+
+        eEnsambladorLamborghini.setText("1");
+        jPanel1.add(eEnsambladorLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 130, 43, 35));
+
+        eChasisLamborghini.setText("1");
+        jPanel1.add(eChasisLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 130, 43, 35));
+
+        eAccesoriosLamborghini.setText("1");
+        jPanel1.add(eAccesoriosLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 130, 43, 35));
+
+        jLabel13.setText("Ensamblador");
+        jPanel1.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 180, -1, -1));
+
+        AumentarChasisLamborghini.setActionCommand("Contratar");
+        AumentarChasisLamborghini.setBackground(new java.awt.Color(0, 204, 0));
+        AumentarChasisLamborghini.setLabel("A");
+        AumentarChasisLamborghini.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                AumentarChasisLamborghiniActionPerformed(evt);
+            }
+        });
+        jPanel1.add(AumentarChasisLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 320, 33, -1));
+
+        DisminuirChasisLamborghini.setActionCommand("Contratar");
+        DisminuirChasisLamborghini.setBackground(new java.awt.Color(255, 0, 0));
+        DisminuirChasisLamborghini.setLabel("D");
+        DisminuirChasisLamborghini.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                DisminuirChasisLamborghiniActionPerformed(evt);
+            }
+        });
+        jPanel1.add(DisminuirChasisLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 360, 33, -1));
+
+        AumentarCarroceriaLamborghini.setActionCommand("Contratar");
+        AumentarCarroceriaLamborghini.setBackground(new java.awt.Color(0, 204, 0));
+        AumentarCarroceriaLamborghini.setLabel("A");
+        AumentarCarroceriaLamborghini.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                AumentarCarroceriaLamborghiniActionPerformed(evt);
+            }
+        });
+        jPanel1.add(AumentarCarroceriaLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 320, 34, -1));
+
+        DisminuirCarroceriaLamborghini.setActionCommand("Contratar");
+        DisminuirCarroceriaLamborghini.setBackground(new java.awt.Color(255, 0, 0));
+        DisminuirCarroceriaLamborghini.setLabel("D");
+        DisminuirCarroceriaLamborghini.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                DisminuirCarroceriaLamborghiniActionPerformed(evt);
+            }
+        });
+        jPanel1.add(DisminuirCarroceriaLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 360, 33, -1));
+
+        DisminuirAccesoriosLamborghini.setActionCommand("Contratar");
+        DisminuirAccesoriosLamborghini.setBackground(new java.awt.Color(255, 0, 0));
+        DisminuirAccesoriosLamborghini.setLabel("D");
+        DisminuirAccesoriosLamborghini.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                DisminuirAccesoriosLamborghiniActionPerformed(evt);
+            }
+        });
+        jPanel1.add(DisminuirAccesoriosLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 360, 33, -1));
+
+        DisminuirMotorLamborghini.setActionCommand("Contratar");
+        DisminuirMotorLamborghini.setBackground(new java.awt.Color(255, 0, 0));
+        DisminuirMotorLamborghini.setLabel("D");
+        DisminuirMotorLamborghini.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                DisminuirMotorLamborghiniActionPerformed(evt);
+            }
+        });
+        jPanel1.add(DisminuirMotorLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 360, 33, -1));
+
+        DisminuirRuedasLamborghini.setActionCommand("Contratar");
+        DisminuirRuedasLamborghini.setBackground(new java.awt.Color(255, 0, 0));
+        DisminuirRuedasLamborghini.setLabel("D");
+        DisminuirRuedasLamborghini.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                DisminuirRuedasLamborghiniActionPerformed(evt);
+            }
+        });
+        jPanel1.add(DisminuirRuedasLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 360, 33, -1));
+
+        DisminuirEnsambladorLamborghini.setActionCommand("Contratar");
+        DisminuirEnsambladorLamborghini.setBackground(new java.awt.Color(255, 0, 0));
+        DisminuirEnsambladorLamborghini.setLabel("D");
+        DisminuirEnsambladorLamborghini.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                DisminuirEnsambladorLamborghiniActionPerformed(evt);
+            }
+        });
+        jPanel1.add(DisminuirEnsambladorLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 270, 33, -1));
+
+        AumentarRuedasLamborghini.setActionCommand("Contratar");
+        AumentarRuedasLamborghini.setBackground(new java.awt.Color(0, 204, 0));
+        AumentarRuedasLamborghini.setLabel("A");
+        AumentarRuedasLamborghini.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                AumentarRuedasLamborghiniActionPerformed(evt);
+            }
+        });
+        jPanel1.add(AumentarRuedasLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 320, 34, -1));
+
+        AumentarAccesoriosLamborghini.setActionCommand("Contratar");
+        AumentarAccesoriosLamborghini.setBackground(new java.awt.Color(0, 204, 0));
+        AumentarAccesoriosLamborghini.setLabel("A");
+        AumentarAccesoriosLamborghini.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                AumentarAccesoriosLamborghiniActionPerformed(evt);
+            }
+        });
+        jPanel1.add(AumentarAccesoriosLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 320, 34, -1));
+
+        AumentarEnsambladorLamborghini.setActionCommand("Contratar");
+        AumentarEnsambladorLamborghini.setBackground(new java.awt.Color(0, 204, 0));
+        AumentarEnsambladorLamborghini.setLabel("A");
+        AumentarEnsambladorLamborghini.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                AumentarEnsambladorLamborghiniActionPerformed(evt);
+            }
+        });
+        jPanel1.add(AumentarEnsambladorLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 220, 34, -1));
+
+        AumentarMotorLamborghini.setActionCommand("Contratar");
+        AumentarMotorLamborghini.setBackground(new java.awt.Color(0, 204, 0));
+        AumentarMotorLamborghini.setLabel("A");
+        AumentarMotorLamborghini.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                AumentarMotorLamborghiniActionPerformed(evt);
+            }
+        });
+        jPanel1.add(AumentarMotorLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 320, 34, -1));
+
+        estadoLaborguini.setText("Activo");
+        jPanel1.add(estadoLaborguini, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 20, -1, -1));
+
+        estadoLaborguini1.setText("Labor del Director");
+        jPanel1.add(estadoLaborguini1, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 20, -1, -1));
+
+        jLabel27.setText("Trabajos");
+        jPanel1.add(jLabel27, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 170, -1, -1));
+
+        jLabel28.setText("N° de piezas");
+        jPanel1.add(jLabel28, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
+
+        jLabel29.setText("Espacio Max ");
+        jPanel1.add(jLabel29, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 270, 80, 20));
+
+        CantidadChasisLamborghini1.setText("0");
+        jPanel1.add(CantidadChasisLamborghini1, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 220, 43, 35));
+
+        CantidadCarroceriaLamborghini1.setText("0");
+        jPanel1.add(CantidadCarroceriaLamborghini1, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 220, 43, 35));
+
+        CantidadMotorLamborghini1.setText("0");
+        jPanel1.add(CantidadMotorLamborghini1, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 220, 43, 35));
+
+        CantidadRuedasLamborghini1.setText("0");
+        jPanel1.add(CantidadRuedasLamborghini1, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 220, 43, 35));
+
+        CantidadAccesoriosLamborghini1.setText("0");
+        jPanel1.add(CantidadAccesoriosLamborghini1, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 220, 43, 35));
+
+        jLabel30.setText("de Almacen");
+        jPanel1.add(jLabel30, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 286, 80, -1));
+
+        jLabel31.setText("disponibles");
+        jPanel1.add(jLabel31, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 240, 80, 20));
+
+        jLabel32.setText("Carros ensamblados");
+        jPanel1.add(jLabel32, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 320, -1, -1));
+
+        EntregaLamborghini1.setText("0");
+        jPanel1.add(EntregaLamborghini1, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 390, 43, 35));
+
+        jLabel33.setText("Carros estándar");
+        jPanel1.add(jLabel33, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 360, -1, -1));
+
+        EntregaLamborghini2.setText("0");
+        jPanel1.add(EntregaLamborghini2, new org.netbeans.lib.awtextra.AbsoluteConstraints(770, 110, 43, 35));
+
+        jLabel34.setText("Dias faltantes");
+        jPanel1.add(jLabel34, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 110, -1, -1));
+
+        estadoLaborguini3.setText("Labor del Gerente");
+        jPanel1.add(estadoLaborguini3, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 50, -1, -1));
+
+        estadoLaborguini4.setText("Activo");
+        jPanel1.add(estadoLaborguini4, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 50, -1, -1));
+
+        jTabbedPane2.addTab("Lamborghini", jPanel1);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -1162,16 +1070,21 @@ public class InterfazMain extends javax.swing.JFrame {
     private java.awt.Button AumentarRuedasLamborghini;
     private java.awt.Button AumentarRuedasMaserati;
     public static volatile javax.swing.JLabel CantidadAccesoriosLamborghini;
+    public static volatile javax.swing.JLabel CantidadAccesoriosLamborghini1;
     public static volatile javax.swing.JLabel CantidadAccesoriosMaserati;
     public static volatile javax.swing.JLabel CantidadCarroceriaLamborghini;
+    public static volatile javax.swing.JLabel CantidadCarroceriaLamborghini1;
     public static volatile javax.swing.JLabel CantidadCarroceriaMaserati;
     public static volatile javax.swing.JLabel CantidadCarrosLamborghini;
     public static volatile javax.swing.JLabel CantidadCarrosMaserati;
     public static volatile javax.swing.JLabel CantidadChasisLamborghini;
+    public static volatile javax.swing.JLabel CantidadChasisLamborghini1;
     public static volatile javax.swing.JLabel CantidadChasisMaserati;
     public static volatile javax.swing.JLabel CantidadMotorLamborghini;
+    public static volatile javax.swing.JLabel CantidadMotorLamborghini1;
     public static volatile javax.swing.JLabel CantidadMotorMaserati;
     public static volatile javax.swing.JLabel CantidadRuedasLamborghini;
+    public static volatile javax.swing.JLabel CantidadRuedasLamborghini1;
     public static volatile javax.swing.JLabel CantidadRuedasMaserati;
     private java.awt.Button DisminuirAccesoriosLamborghini;
     private java.awt.Button DisminuirAccesoriosMaserati;
@@ -1186,10 +1099,10 @@ public class InterfazMain extends javax.swing.JFrame {
     private java.awt.Button DisminuirRuedasLamborghini;
     private java.awt.Button DisminuirRuedasMaserati;
     public static volatile javax.swing.JLabel EntregaLamborghini;
+    public static volatile javax.swing.JLabel EntregaLamborghini1;
+    public static volatile javax.swing.JLabel EntregaLamborghini2;
     public static volatile javax.swing.JLabel EntregaMaserati;
-    public static volatile javax.swing.JLabel GananciasLamborghini;
     public static volatile javax.swing.JLabel GananciasMaserati;
-    public static volatile javax.swing.JLabel SalariosLamborghini;
     public static volatile javax.swing.JLabel SalariosMaserati;
     public static volatile javax.swing.JLabel eAccesoriosLamborghini;
     public static volatile javax.swing.JLabel eAccesoriosMaserati;
@@ -1205,6 +1118,8 @@ public class InterfazMain extends javax.swing.JFrame {
     public static volatile javax.swing.JLabel eRuedasMaserati;
     public static volatile javax.swing.JLabel estadoLaborguini;
     private javax.swing.JLabel estadoLaborguini1;
+    private javax.swing.JLabel estadoLaborguini3;
+    public static volatile javax.swing.JLabel estadoLaborguini4;
     public static volatile javax.swing.JLabel estadoMaserati;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
@@ -1225,7 +1140,15 @@ public class InterfazMain extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel24;
     private javax.swing.JLabel jLabel25;
     private javax.swing.JLabel jLabel26;
+    private javax.swing.JLabel jLabel27;
+    private javax.swing.JLabel jLabel28;
+    private javax.swing.JLabel jLabel29;
     private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel30;
+    private javax.swing.JLabel jLabel31;
+    private javax.swing.JLabel jLabel32;
+    private javax.swing.JLabel jLabel33;
+    private javax.swing.JLabel jLabel34;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;

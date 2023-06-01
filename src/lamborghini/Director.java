@@ -51,6 +51,7 @@ public class Director extends Thread{
                     
                     System.out.println("El jefe entrega todos los carros y recibe ganancia de: " + MercadoAutomotriz.Carros*400);
                     System.out.println("Su total de ingresos es " + MercadoAutomotriz.Ganancia);   
+                    
                     if (MercadoAutomotriz.DiasEntregatxt>0){
                         Gerente.contadorEntrega = MercadoAutomotriz.DiasEntregatxt;
                     }else{
