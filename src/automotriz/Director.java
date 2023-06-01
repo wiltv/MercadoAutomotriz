@@ -1,3 +1,4 @@
+
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
@@ -37,6 +38,7 @@ public class Director extends Thread{
                 MercadoAutomotriz.Nomina = MercadoAutomotriz.Nomina + 720;
                 
                 if (Gerente.contadorEntrega == 0){
+                    
                     MercadoAutomotriz.Ganancia = MercadoAutomotriz.Ganancia + MercadoAutomotriz.Carros*400;
                     
                     if(MercadoAutomotriz.Carros%4 >= 2){
@@ -57,12 +59,13 @@ public class Director extends Thread{
                     }else{
                         Gerente.contadorEntrega = 30;
                     }
-                    
+                    InterfazMain.estadoDirLamborghini.setText("Entregando");
                     MercadoAutomotriz.Carros = 0;
                     InterfazMain.CantidadCarrosLamborghini.setText(String.valueOf(MercadoAutomotriz.Carros));
-                    InterfazMain.EstandarLamborghini.setText(String.valueOf(Gerente.contadorEntrega));
+                    InterfazMain.EntregaLamborghini.setText(String.valueOf(Gerente.contadorEntrega));
                     InterfazMain.GananciasLamborghini.setText(String.valueOf(MercadoAutomotriz.Ganancia));
                 }else{
+                    InterfazMain.estadoDirLamborghini.setText("Vigilando");
                     System.out.println("El director esta atento de entregar los carros");
                 }
                 

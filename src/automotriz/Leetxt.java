@@ -37,7 +37,7 @@ public class Leetxt {
                 Gerente.contadorEntrega = Integer.parseInt(linea);
                 GerenteMase.contadorEntregaMase = Integer.parseInt(linea);
                 MercadoAutomotriz.DiasEntregatxt = Integer.parseInt(linea);
-                InterfazMain.EstandarLamborghini.setText(String.valueOf(GerenteMase.contadorEntregaMase));
+                InterfazMain.EntregaLamborghini.setText(String.valueOf(Gerente.contadorEntrega));
                 InterfazMain.EntregaMaserati.setText(String.valueOf(GerenteMase.contadorEntregaMase));
             }else if(cont == 3){
                 EmpleadosLamborghini.eChasis = Integer.parseInt(linea);

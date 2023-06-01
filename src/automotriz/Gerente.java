@@ -33,11 +33,10 @@ public class Gerente extends Thread{
                 if (contadorEntrega > 0){
                     contadorEntrega = contadorEntrega - 1;
                     System.out.println("El gerente notifica que quedan " + contadorEntrega + " dias para la entrega");
-                    InterfazMain.EstandarLamborghini.setText(String.valueOf(contadorEntrega));
+                    InterfazMain.EntregaLamborghini.setText(String.valueOf(contadorEntrega));
                 }else{
                     System.out.println("El gerente notifica que ya se pueden entregar los carros al director");
                 }
-                
                 
                 MercadoAutomotriz.Nomina = MercadoAutomotriz.Nomina + 480;
                 System.out.println("El gerente ha registrado " + MercadoAutomotriz.Nomina + " pagos en nomina");
@@ -46,13 +45,17 @@ public class Gerente extends Thread{
                 if (Director.momento < 36 && Director.momento%2==1){
                     System.out.println("Pillado");
                     MercadoAutomotriz.Nomina = MercadoAutomotriz.Nomina - 50;
+                    MercadoAutomotriz.Pillado = MercadoAutomotriz.Pillado +1;
+                    InterfazMain.FaltasGerenteLamborghini1.setText(String.valueOf(MercadoAutomotriz.Pillado));
                     InterfazMain.GananciasLamborghini.setText(String.valueOf(MercadoAutomotriz.Nomina));
-                    estado = "procrastinando";
-                    InterfazMain.estadoDirLamborghini.setText(String.valueOf(estado));
+                    estado = "Procrastinando";
+                    InterfazMain.estadoGerLamborghini.setText(String.valueOf(estado));
+                    MercadoAutomotriz.Descontado = MercadoAutomotriz.Descontado +50;
+                    InterfazMain.SalarioPerdidoLamborghini.setText(String.valueOf(MercadoAutomotriz.Descontado));
                     
                 }else{
-                    estado = "activo";
-                    InterfazMain.estadoDirLamborghini.setText(String.valueOf(estado));
+                    estado = "Laborando";
+                    InterfazMain.estadoGerLamborghini.setText(String.valueOf(estado));
                     System.out.println("Laborando");}
                 
                 sleep(500);

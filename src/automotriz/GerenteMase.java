@@ -48,14 +48,18 @@ public class GerenteMase extends Thread{
                     System.out.println("Pillado");
                     MercadoAutomotriz.NominaMase = MercadoAutomotriz.NominaMase - 50;
                     InterfazMain.SalariosMaserati.setText(String.valueOf(MercadoAutomotriz.NominaMase));
-                    estadoMase = "procrastinando";
+                    estadoMase = "Procrastinando";
+                    MercadoAutomotriz.PilladoMase = MercadoAutomotriz.PilladoMase +1;
+                    InterfazMain.FaltasGerenteMaserati.setText(String.valueOf(MercadoAutomotriz.PilladoMase));
+                    MercadoAutomotriz.DescontadoMase = MercadoAutomotriz.DescontadoMase +50;
+                    InterfazMain.SalarioPerdidoMaserati.setText(String.valueOf(MercadoAutomotriz.DescontadoMase));
                     InterfazMain.estadoGerMaserati.setText(String.valueOf(estadoMase));
                     
                 }else{
-                    System.out.println("Laborando");}
-                    estadoMase = "activo";
+                    System.out.println("Laborando");
+                    estadoMase = "Laborando";
                     InterfazMain.estadoGerMaserati.setText(String.valueOf(estadoMase));
-                
+                }
                 
                 sleep(500);
                 

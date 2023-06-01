@@ -50,7 +50,6 @@ public class InterfazMain extends javax.swing.JFrame {
         jLabel41 = new javax.swing.JLabel();
         jLabel42 = new javax.swing.JLabel();
         jLabel43 = new javax.swing.JLabel();
-        EstandarMaserati = new javax.swing.JLabel();
         jLabel44 = new javax.swing.JLabel();
         jLabel45 = new javax.swing.JLabel();
         eCarroceriaMaserati = new javax.swing.JLabel();
@@ -86,7 +85,6 @@ public class InterfazMain extends javax.swing.JFrame {
         jLabel51 = new javax.swing.JLabel();
         jLabel52 = new javax.swing.JLabel();
         AccsMaserati = new javax.swing.JLabel();
-        jLabel53 = new javax.swing.JLabel();
         GananciasMaserati = new javax.swing.JLabel();
         jLabel54 = new javax.swing.JLabel();
         estadoLaborguini7 = new javax.swing.JLabel();
@@ -115,7 +113,6 @@ public class InterfazMain extends javax.swing.JFrame {
         jLabel7 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
         jLabel9 = new javax.swing.JLabel();
-        EstandarLamborghini = new javax.swing.JLabel();
         jLabel10 = new javax.swing.JLabel();
         jLabel11 = new javax.swing.JLabel();
         eCarroceriaLamborghini = new javax.swing.JLabel();
@@ -151,7 +148,6 @@ public class InterfazMain extends javax.swing.JFrame {
         jLabel31 = new javax.swing.JLabel();
         jLabel32 = new javax.swing.JLabel();
         AccsLamborghini = new javax.swing.JLabel();
-        jLabel33 = new javax.swing.JLabel();
         GananciasLamborghini = new javax.swing.JLabel();
         jLabel34 = new javax.swing.JLabel();
         estadoLaborguini3 = new javax.swing.JLabel();
@@ -204,16 +200,13 @@ public class InterfazMain extends javax.swing.JFrame {
         jPanel2.add(jLabel40, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 130, -1, -1));
 
         jLabel41.setText("Carros con accesorios ");
-        jPanel2.add(jLabel41, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 390, -1, -1));
+        jPanel2.add(jLabel41, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 350, -1, -1));
 
         jLabel42.setText("Ganancias");
         jPanel2.add(jLabel42, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 160, -1, 20));
 
         jLabel43.setText("para la entrega");
         jPanel2.add(jLabel43, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 350, -1, 10));
-
-        EstandarMaserati.setText("0");
-        jPanel2.add(EstandarMaserati, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 340, 43, 35));
 
         jLabel44.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
         jLabel44.setText("Maserati");
@@ -406,9 +399,6 @@ public class InterfazMain extends javax.swing.JFrame {
         AccsMaserati.setText("0");
         jPanel2.add(AccsMaserati, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 380, 43, 35));
 
-        jLabel53.setText("Carros estándar");
-        jPanel2.add(jLabel53, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 350, -1, -1));
-
         GananciasMaserati.setText("0");
         jPanel2.add(GananciasMaserati, new org.netbeans.lib.awtextra.AbsoluteConstraints(770, 150, 43, 35));
 
@@ -487,16 +477,13 @@ public class InterfazMain extends javax.swing.JFrame {
         jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 140, -1, -1));
 
         jLabel7.setText("Carros con accesorios ");
-        jPanel1.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 400, -1, -1));
+        jPanel1.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 360, -1, -1));
 
         jLabel8.setText("Ganancias");
         jPanel1.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 170, -1, 20));
 
         jLabel9.setText("para la entrega");
         jPanel1.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 360, -1, 10));
-
-        EstandarLamborghini.setText("0");
-        jPanel1.add(EstandarLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 350, 43, 35));
 
         jLabel10.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
         jLabel10.setText("Lamborguini");
@@ -687,10 +674,7 @@ public class InterfazMain extends javax.swing.JFrame {
         jPanel1.add(jLabel32, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 320, -1, -1));
 
         AccsLamborghini.setText("0");
-        jPanel1.add(AccsLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 390, 43, 35));
-
-        jLabel33.setText("Carros estándar");
-        jPanel1.add(jLabel33, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 360, -1, -1));
+        jPanel1.add(AccsLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 350, 43, 35));
 
         GananciasLamborghini.setText("0");
         jPanel1.add(GananciasLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 160, 43, 35));
@@ -728,7 +712,7 @@ public class InterfazMain extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jTabbedPane2)
+            .addComponent(jTabbedPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 849, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1055,8 +1039,6 @@ public class InterfazMain extends javax.swing.JFrame {
     private java.awt.Button DisminuirRuedasMaserati;
     public static volatile javax.swing.JLabel EntregaLamborghini;
     public static volatile javax.swing.JLabel EntregaMaserati;
-    public static volatile javax.swing.JLabel EstandarLamborghini;
-    public static volatile javax.swing.JLabel EstandarMaserati;
     public static volatile javax.swing.JLabel FaltasGerenteLamborghini1;
     public static volatile javax.swing.JLabel FaltasGerenteMaserati;
     public static volatile javax.swing.JLabel GananciasLamborghini;
@@ -1112,7 +1094,6 @@ public class InterfazMain extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel30;
     private javax.swing.JLabel jLabel31;
     private javax.swing.JLabel jLabel32;
-    private javax.swing.JLabel jLabel33;
     private javax.swing.JLabel jLabel34;
     private javax.swing.JLabel jLabel35;
     private javax.swing.JLabel jLabel36;
@@ -1134,7 +1115,6 @@ public class InterfazMain extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel50;
     private javax.swing.JLabel jLabel51;
     private javax.swing.JLabel jLabel52;
-    private javax.swing.JLabel jLabel53;
     private javax.swing.JLabel jLabel54;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;

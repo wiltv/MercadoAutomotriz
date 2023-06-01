@@ -16,6 +16,8 @@ public class MercadoAutomotriz {
      * @param args the command line arguments
      */
     public static volatile Integer Carros = 0;
+    public static volatile Integer CarrosAccs = 0;
+    
     public static volatile Integer Nomina = 0;
     public static volatile Integer Ganancia = 0;
     
@@ -28,6 +30,7 @@ public class MercadoAutomotriz {
     public static volatile Integer Empleados = 16;
     
     public static volatile Integer CarrosMase = 0;
+    public static volatile Integer CarrosAccsMase = 0;
     public static volatile Integer NominaMase = 0;
     public static volatile Integer GananciaMase = 0;
     
@@ -48,6 +51,15 @@ public class MercadoAutomotriz {
     public static volatile Integer Ruedastxt = 0;
     public static volatile Integer Accesoriostxt = 0;
     public static volatile Integer Ensabladortxt = 0;
+    
+    public static volatile Integer Pillado = 0;
+    public static volatile Integer PilladoMase = 0;
+    
+    public static volatile Integer Descontado = 0;
+    public static volatile Integer DescontadoMase = 0;
+    
+    public static volatile Integer EstandarLam = 0;
+    public static volatile Integer EstandarMase = 0;
     
         
     public static void main(String[] args) {

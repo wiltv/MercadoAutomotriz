@@ -59,12 +59,14 @@ public class DirectorMase extends Thread{
                     }else{
                         GerenteMase.contadorEntregaMase = 30;
                     }
+                    InterfazMain.estadoDirMaserati.setText("Entregando");
                     MercadoAutomotriz.CarrosMase = 0;
                     InterfazMain.CantidadCarrosMaserati.setText(String.valueOf(MercadoAutomotriz.CarrosMase));
                     InterfazMain.EntregaMaserati.setText(String.valueOf(GerenteMase.contadorEntregaMase));
                     InterfazMain.GananciasMaserati.setText(String.valueOf(MercadoAutomotriz.GananciaMase));
                 }else{
                     System.out.println("El director esta atento de entregar los carros");
+                    InterfazMain.estadoDirMaserati.setText("Vigilando");
                 }
                 
                 sleep(500);
