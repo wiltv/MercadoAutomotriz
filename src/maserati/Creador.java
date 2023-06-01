@@ -134,7 +134,7 @@ public class Creador extends Thread {
                             }
                             System.out.println("Hay " + Almacen.ContAccesorio + " unidades de " + parte);
                             InterfazMain.CantidadAccesorios.setText(String.valueOf(Almacen.ContAccesorio));
-                            MercadoAutomotriz.diasRueda = 0f;}
+                            MercadoAutomotriz.diasAccesorio = 0f;}
                         else{
                             System.out.println("El almacen de " + parte + " de capacidad " + almacen + " esta lleno" );
                         }
