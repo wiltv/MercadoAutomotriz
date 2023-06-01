@@ -40,7 +40,7 @@ public class EnsambladorMase extends Thread{
                         AlmacenMase.ContMotorMase = AlmacenMase.ContMotorMase - 2;
                         AlmacenMase.ContCarroceriaMase = AlmacenMase.ContCarroceriaMase - 1;
                         AlmacenMase.ContRuedasMase = AlmacenMase.ContRuedasMase - 4;
-                       
+                        MercadoAutomotriz.CarrosMase = MercadoAutomotriz.CarrosMase + 1;
                         
                            
                         if(MercadoAutomotriz.CarrosMase %3 == 0 && MercadoAutomotriz.CarrosMase!=0){
@@ -48,11 +48,12 @@ public class EnsambladorMase extends Thread{
                             AlmacenMase.ContAccesorioMase = AlmacenMase.ContAccesorioMase - 3;
                             System.out.println("Hay " + MercadoAutomotriz.CarrosMase + " carros, este viene con accesorio");
                             InterfazMain.CantidadAccesoriosMaserati.setText(String.valueOf(AlmacenMase.ContAccesorioMase));
-                            MercadoAutomotriz.CarrosAccsMase = MercadoAutomotriz.CarrosAccsMase +1;
+                            //MercadoAutomotriz.CarrosAccsMase = MercadoAutomotriz.CarrosAccsMase +1;
                             InterfazMain.AccsMaserati.setText(String.valueOf(MercadoAutomotriz.CarrosAccsMase));
+                            InterfazMain.AccsMaserati.setText(String.valueOf(MercadoAutomotriz.CarrosMase/3));
                         }else{
                             System.out.println("Hay " + MercadoAutomotriz.CarrosMase + " carros"); 
-                            MercadoAutomotriz.CarrosMase = MercadoAutomotriz.CarrosMase + 1;
+                            
                             InterfazMain.CantidadCarrosMaserati.setText(String.valueOf(MercadoAutomotriz.CarrosMase));
                         }
                         InterfazMain.CantidadChasisMaserati.setText(String.valueOf(AlmacenMase.ContChasisMase));
