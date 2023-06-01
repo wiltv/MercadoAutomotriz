@@ -34,50 +34,6 @@ public class InterfazMain extends javax.swing.JFrame {
 
         jTabbedPane1 = new javax.swing.JTabbedPane();
         jTabbedPane2 = new javax.swing.JTabbedPane();
-        jTabbedPane5 = new javax.swing.JTabbedPane();
-        jLabel26 = new javax.swing.JLabel();
-        jPanel2 = new javax.swing.JPanel();
-        jLabel12 = new javax.swing.JLabel();
-        jLabel14 = new javax.swing.JLabel();
-        jLabel15 = new javax.swing.JLabel();
-        jLabel16 = new javax.swing.JLabel();
-        jLabel17 = new javax.swing.JLabel();
-        CantidadCarrosMaserati = new javax.swing.JLabel();
-        CantidadCarroceriaMaserati = new javax.swing.JLabel();
-        CantidadRuedasMaserati = new javax.swing.JLabel();
-        CantidadMotorMaserati = new javax.swing.JLabel();
-        CantidadAccesoriosMaserati = new javax.swing.JLabel();
-        CantidadChasisMaserati = new javax.swing.JLabel();
-        jLabel18 = new javax.swing.JLabel();
-        jLabel19 = new javax.swing.JLabel();
-        jLabel20 = new javax.swing.JLabel();
-        SalariosMaserati = new javax.swing.JLabel();
-        GananciasMaserati = new javax.swing.JLabel();
-        jLabel21 = new javax.swing.JLabel();
-        EntregaMaserati = new javax.swing.JLabel();
-        jLabel22 = new javax.swing.JLabel();
-        jLabel23 = new javax.swing.JLabel();
-        eCarroceriaMaserati = new javax.swing.JLabel();
-        eMotorMaserati = new javax.swing.JLabel();
-        eRuedasMaserati = new javax.swing.JLabel();
-        eEnsambladorMaserati = new javax.swing.JLabel();
-        eChasisMaserati = new javax.swing.JLabel();
-        eAccesoriosMaserati = new javax.swing.JLabel();
-        jLabel24 = new javax.swing.JLabel();
-        AumentarChasisMaserati = new java.awt.Button();
-        DisminuirChasisMaserati = new java.awt.Button();
-        AumentarCarroceriaMaserati = new java.awt.Button();
-        DisminuirCarroceriaMaserati = new java.awt.Button();
-        DisminuirAccesoriosMaserati = new java.awt.Button();
-        DisminuirMotorMaserati = new java.awt.Button();
-        DisminuirRuedasMaserati = new java.awt.Button();
-        DisminuirEnsambladorMaserati = new java.awt.Button();
-        AumentarRuedasMaserati = new java.awt.Button();
-        AumentarAccesoriosMaserati = new java.awt.Button();
-        AumentarEnsambladorMaserati = new java.awt.Button();
-        AumentarMotorMaserati = new java.awt.Button();
-        jLabel25 = new javax.swing.JLabel();
-        estadoMaserati = new javax.swing.JLabel();
         jPanel1 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
@@ -121,11 +77,11 @@ public class InterfazMain extends javax.swing.JFrame {
         jLabel27 = new javax.swing.JLabel();
         jLabel28 = new javax.swing.JLabel();
         jLabel29 = new javax.swing.JLabel();
-        CantidadChasisLamborghini1 = new javax.swing.JLabel();
-        CantidadCarroceriaLamborghini1 = new javax.swing.JLabel();
-        CantidadMotorLamborghini1 = new javax.swing.JLabel();
-        CantidadRuedasLamborghini1 = new javax.swing.JLabel();
-        CantidadAccesoriosLamborghini1 = new javax.swing.JLabel();
+        MaxAlmacenChasisLamborghini = new javax.swing.JLabel();
+        MaxAlmacenCarroceriaLamborghini = new javax.swing.JLabel();
+        MaxAlmacenMotorLamborghini = new javax.swing.JLabel();
+        MaxAlmacenRuedasLamborghini = new javax.swing.JLabel();
+        MaxAlmacenAccesoriosLamborghini = new javax.swing.JLabel();
         jLabel30 = new javax.swing.JLabel();
         jLabel31 = new javax.swing.JLabel();
         jLabel32 = new javax.swing.JLabel();
@@ -138,18 +94,331 @@ public class InterfazMain extends javax.swing.JFrame {
         SalarioPerdidoLamborghini = new javax.swing.JLabel();
         estadoLaborguini5 = new javax.swing.JLabel();
         estadoLaborguini6 = new javax.swing.JLabel();
-        SalariosLamborghini1 = new javax.swing.JLabel();
+        SalariosLamborghini = new javax.swing.JLabel();
         estadoLaborguini4 = new javax.swing.JLabel();
         FaltasGerenteLamborghini1 = new javax.swing.JLabel();
+        jPanel2 = new javax.swing.JPanel();
+        jLabel12 = new javax.swing.JLabel();
+        jLabel14 = new javax.swing.JLabel();
+        jLabel15 = new javax.swing.JLabel();
+        jLabel16 = new javax.swing.JLabel();
+        jLabel17 = new javax.swing.JLabel();
+        CantidadCarrosMaserati = new javax.swing.JLabel();
+        CantidadCarroceriaMaserati = new javax.swing.JLabel();
+        CantidadRuedasMaserati = new javax.swing.JLabel();
+        CantidadMotorMaserati = new javax.swing.JLabel();
+        CantidadAccesoriosMaserati = new javax.swing.JLabel();
+        CantidadChasisMaserati = new javax.swing.JLabel();
+        jLabel18 = new javax.swing.JLabel();
+        jLabel19 = new javax.swing.JLabel();
+        jLabel20 = new javax.swing.JLabel();
+        SalariosMaserati = new javax.swing.JLabel();
+        GananciasMaserati = new javax.swing.JLabel();
+        jLabel21 = new javax.swing.JLabel();
+        EntregaMaserati = new javax.swing.JLabel();
+        jLabel22 = new javax.swing.JLabel();
+        jLabel23 = new javax.swing.JLabel();
+        eCarroceriaMaserati = new javax.swing.JLabel();
+        eMotorMaserati = new javax.swing.JLabel();
+        eRuedasMaserati = new javax.swing.JLabel();
+        eEnsambladorMaserati = new javax.swing.JLabel();
+        eChasisMaserati = new javax.swing.JLabel();
+        eAccesoriosMaserati = new javax.swing.JLabel();
+        jLabel24 = new javax.swing.JLabel();
+        AumentarChasisMaserati = new java.awt.Button();
+        DisminuirChasisMaserati = new java.awt.Button();
+        AumentarCarroceriaMaserati = new java.awt.Button();
+        DisminuirCarroceriaMaserati = new java.awt.Button();
+        DisminuirAccesoriosMaserati = new java.awt.Button();
+        DisminuirMotorMaserati = new java.awt.Button();
+        DisminuirRuedasMaserati = new java.awt.Button();
+        DisminuirEnsambladorMaserati = new java.awt.Button();
+        AumentarRuedasMaserati = new java.awt.Button();
+        AumentarAccesoriosMaserati = new java.awt.Button();
+        AumentarEnsambladorMaserati = new java.awt.Button();
+        AumentarMotorMaserati = new java.awt.Button();
+        jLabel25 = new javax.swing.JLabel();
+        estadoMaserati = new javax.swing.JLabel();
+        jTabbedPane5 = new javax.swing.JTabbedPane();
+        jLabel26 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jTabbedPane5.setBackground(new java.awt.Color(204, 204, 204));
+        jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel26.setText("Leer archivo txt");
-        jTabbedPane5.addTab("tab1", jLabel26);
+        jLabel1.setText("Chasis");
+        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 180, -1, -1));
 
-        jTabbedPane2.addTab("Lector de Archivos", jTabbedPane5);
+        jLabel2.setText("Carroceria");
+        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(134, 180, -1, -1));
+
+        jLabel3.setText("Motor");
+        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 180, -1, -1));
+
+        jLabel4.setText("Ruedas");
+        jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 180, -1, -1));
+
+        jLabel5.setText("Accesorios");
+        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 180, -1, -1));
+
+        CantidadCarrosLamborghini.setText("0");
+        jPanel1.add(CantidadCarrosLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 310, 40, 35));
+
+        CantidadCarroceriaLamborghini.setText("0");
+        jPanel1.add(CantidadCarroceriaLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 270, 43, 35));
+
+        CantidadRuedasLamborghini.setText("0");
+        jPanel1.add(CantidadRuedasLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 270, 43, 35));
+
+        CantidadMotorLamborghini.setText("0");
+        jPanel1.add(CantidadMotorLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 270, 43, 35));
+
+        CantidadAccesoriosLamborghini.setText("0");
+        jPanel1.add(CantidadAccesoriosLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 270, 43, 35));
+
+        CantidadChasisLamborghini.setText("0");
+        jPanel1.add(CantidadChasisLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 270, 43, 35));
+
+        jLabel6.setText("Salarios");
+        jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 140, -1, -1));
+
+        jLabel7.setText("Carros con accesorios ");
+        jPanel1.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 400, -1, -1));
+
+        jLabel8.setText("Ganancias");
+        jPanel1.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 170, -1, 20));
+
+        jLabel9.setText("para la entrega");
+        jPanel1.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 360, -1, 10));
+
+        EstandarLamborghini.setText("0");
+        jPanel1.add(EstandarLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 350, 43, 35));
+
+        jLabel10.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
+        jLabel10.setText("Lamborguini");
+        jLabel10.setMaximumSize(new java.awt.Dimension(80, 16));
+        jPanel1.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(55, 23, 143, 67));
+
+        jLabel11.setText("asignados");
+        jPanel1.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 180, 80, 20));
+
+        eCarroceriaLamborghini.setText("1");
+        jPanel1.add(eCarroceriaLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 130, 43, 35));
+
+        eMotorLamborghini.setText("1");
+        jPanel1.add(eMotorLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 130, 43, 35));
+
+        eRuedasLamborghini.setText("1");
+        jPanel1.add(eRuedasLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 130, 43, 35));
+
+        eEnsambladorLamborghini.setText("1");
+        jPanel1.add(eEnsambladorLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 130, 43, 35));
+
+        eChasisLamborghini.setText("1");
+        jPanel1.add(eChasisLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 130, 43, 35));
+
+        eAccesoriosLamborghini.setText("1");
+        jPanel1.add(eAccesoriosLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 130, 43, 35));
+
+        jLabel13.setText("Ensamblador");
+        jPanel1.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 180, -1, -1));
+
+        AumentarChasisLamborghini.setActionCommand("Contratar");
+        AumentarChasisLamborghini.setBackground(new java.awt.Color(0, 204, 0));
+        AumentarChasisLamborghini.setLabel("A");
+        AumentarChasisLamborghini.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                AumentarChasisLamborghiniActionPerformed(evt);
+            }
+        });
+        jPanel1.add(AumentarChasisLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 320, 33, -1));
+
+        DisminuirChasisLamborghini.setActionCommand("Contratar");
+        DisminuirChasisLamborghini.setBackground(new java.awt.Color(255, 0, 0));
+        DisminuirChasisLamborghini.setLabel("D");
+        DisminuirChasisLamborghini.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                DisminuirChasisLamborghiniActionPerformed(evt);
+            }
+        });
+        jPanel1.add(DisminuirChasisLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 360, 33, -1));
+
+        AumentarCarroceriaLamborghini.setActionCommand("Contratar");
+        AumentarCarroceriaLamborghini.setBackground(new java.awt.Color(0, 204, 0));
+        AumentarCarroceriaLamborghini.setLabel("A");
+        AumentarCarroceriaLamborghini.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                AumentarCarroceriaLamborghiniActionPerformed(evt);
+            }
+        });
+        jPanel1.add(AumentarCarroceriaLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 320, 34, -1));
+
+        DisminuirCarroceriaLamborghini.setActionCommand("Contratar");
+        DisminuirCarroceriaLamborghini.setBackground(new java.awt.Color(255, 0, 0));
+        DisminuirCarroceriaLamborghini.setLabel("D");
+        DisminuirCarroceriaLamborghini.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                DisminuirCarroceriaLamborghiniActionPerformed(evt);
+            }
+        });
+        jPanel1.add(DisminuirCarroceriaLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 360, 33, -1));
+
+        DisminuirAccesoriosLamborghini.setActionCommand("Contratar");
+        DisminuirAccesoriosLamborghini.setBackground(new java.awt.Color(255, 0, 0));
+        DisminuirAccesoriosLamborghini.setLabel("D");
+        DisminuirAccesoriosLamborghini.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                DisminuirAccesoriosLamborghiniActionPerformed(evt);
+            }
+        });
+        jPanel1.add(DisminuirAccesoriosLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 360, 33, -1));
+
+        DisminuirMotorLamborghini.setActionCommand("Contratar");
+        DisminuirMotorLamborghini.setBackground(new java.awt.Color(255, 0, 0));
+        DisminuirMotorLamborghini.setLabel("D");
+        DisminuirMotorLamborghini.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                DisminuirMotorLamborghiniActionPerformed(evt);
+            }
+        });
+        jPanel1.add(DisminuirMotorLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 360, 33, -1));
+
+        DisminuirRuedasLamborghini.setActionCommand("Contratar");
+        DisminuirRuedasLamborghini.setBackground(new java.awt.Color(255, 0, 0));
+        DisminuirRuedasLamborghini.setLabel("D");
+        DisminuirRuedasLamborghini.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                DisminuirRuedasLamborghiniActionPerformed(evt);
+            }
+        });
+        jPanel1.add(DisminuirRuedasLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 360, 33, -1));
+
+        DisminuirEnsambladorLamborghini.setActionCommand("Contratar");
+        DisminuirEnsambladorLamborghini.setBackground(new java.awt.Color(255, 0, 0));
+        DisminuirEnsambladorLamborghini.setLabel("D");
+        DisminuirEnsambladorLamborghini.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                DisminuirEnsambladorLamborghiniActionPerformed(evt);
+            }
+        });
+        jPanel1.add(DisminuirEnsambladorLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 270, 33, -1));
+
+        AumentarRuedasLamborghini.setActionCommand("Contratar");
+        AumentarRuedasLamborghini.setBackground(new java.awt.Color(0, 204, 0));
+        AumentarRuedasLamborghini.setLabel("A");
+        AumentarRuedasLamborghini.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                AumentarRuedasLamborghiniActionPerformed(evt);
+            }
+        });
+        jPanel1.add(AumentarRuedasLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 320, 34, -1));
+
+        AumentarAccesoriosLamborghini.setActionCommand("Contratar");
+        AumentarAccesoriosLamborghini.setBackground(new java.awt.Color(0, 204, 0));
+        AumentarAccesoriosLamborghini.setLabel("A");
+        AumentarAccesoriosLamborghini.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                AumentarAccesoriosLamborghiniActionPerformed(evt);
+            }
+        });
+        jPanel1.add(AumentarAccesoriosLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 320, 34, -1));
+
+        AumentarEnsambladorLamborghini.setActionCommand("Contratar");
+        AumentarEnsambladorLamborghini.setBackground(new java.awt.Color(0, 204, 0));
+        AumentarEnsambladorLamborghini.setLabel("A");
+        AumentarEnsambladorLamborghini.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                AumentarEnsambladorLamborghiniActionPerformed(evt);
+            }
+        });
+        jPanel1.add(AumentarEnsambladorLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 220, 34, -1));
+
+        AumentarMotorLamborghini.setActionCommand("Contratar");
+        AumentarMotorLamborghini.setBackground(new java.awt.Color(0, 204, 0));
+        AumentarMotorLamborghini.setLabel("A");
+        AumentarMotorLamborghini.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                AumentarMotorLamborghiniActionPerformed(evt);
+            }
+        });
+        jPanel1.add(AumentarMotorLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 320, 34, -1));
+
+        estadoLaborguini.setText("Activo");
+        jPanel1.add(estadoLaborguini, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 20, -1, -1));
+
+        estadoLaborguini1.setText("Labor del Director");
+        jPanel1.add(estadoLaborguini1, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 20, -1, -1));
+
+        jLabel27.setText("Trabajos");
+        jPanel1.add(jLabel27, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 170, -1, -1));
+
+        jLabel28.setText("N° de piezas");
+        jPanel1.add(jLabel28, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 270, -1, -1));
+
+        jLabel29.setText("Espacio Max ");
+        jPanel1.add(jLabel29, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, 80, 20));
+
+        MaxAlmacenChasisLamborghini.setText("25");
+        jPanel1.add(MaxAlmacenChasisLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 220, 43, 35));
+
+        MaxAlmacenCarroceriaLamborghini.setText("20");
+        jPanel1.add(MaxAlmacenCarroceriaLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 220, 43, 35));
+
+        MaxAlmacenMotorLamborghini.setText("55");
+        jPanel1.add(MaxAlmacenMotorLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 220, 43, 35));
+
+        MaxAlmacenRuedasLamborghini.setText("35");
+        jPanel1.add(MaxAlmacenRuedasLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 220, 43, 35));
+
+        MaxAlmacenAccesoriosLamborghini.setText("10");
+        jPanel1.add(MaxAlmacenAccesoriosLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 220, 43, 35));
+
+        jLabel30.setText("de Almacen");
+        jPanel1.add(jLabel30, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 234, 80, 20));
+
+        jLabel31.setText("disponibles");
+        jPanel1.add(jLabel31, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 280, 80, 20));
+
+        jLabel32.setText("Carros ensamblados");
+        jPanel1.add(jLabel32, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 320, -1, -1));
+
+        AccsLamborghini.setText("0");
+        jPanel1.add(AccsLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 390, 43, 35));
+
+        jLabel33.setText("Carros estándar");
+        jPanel1.add(jLabel33, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 360, -1, -1));
+
+        GananciasLamborghini.setText("0");
+        jPanel1.add(GananciasLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 160, 43, 35));
+
+        jLabel34.setText("Dias faltantes");
+        jPanel1.add(jLabel34, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 340, -1, -1));
+
+        estadoLaborguini3.setText("Salario Perdido");
+        jPanel1.add(estadoLaborguini3, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 110, -1, -1));
+
+        EntregaLamborghini.setText("0");
+        jPanel1.add(EntregaLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 340, 43, 35));
+
+        SalarioPerdidoLamborghini.setText("0");
+        jPanel1.add(SalarioPerdidoLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 100, 43, 35));
+
+        estadoLaborguini5.setText("Labor del Gerente");
+        jPanel1.add(estadoLaborguini5, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 50, -1, -1));
+
+        estadoLaborguini6.setText("Activo");
+        jPanel1.add(estadoLaborguini6, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 50, -1, -1));
+
+        SalariosLamborghini.setText("0");
+        jPanel1.add(SalariosLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 130, 43, 35));
+
+        estadoLaborguini4.setText("Faltas cometidas");
+        jPanel1.add(estadoLaborguini4, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 80, -1, -1));
+
+        FaltasGerenteLamborghini1.setText("0");
+        jPanel1.add(FaltasGerenteLamborghini1, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 70, 43, 35));
+
+        jTabbedPane2.addTab("Lamborghini", jPanel1);
 
         jLabel12.setText("Chasis");
 
@@ -514,281 +783,12 @@ public class InterfazMain extends javax.swing.JFrame {
 
         jTabbedPane2.addTab("Maserati", jPanel2);
 
-        jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        jTabbedPane5.setBackground(new java.awt.Color(204, 204, 204));
 
-        jLabel1.setText("Chasis");
-        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 180, -1, -1));
+        jLabel26.setText("Leer archivo txt");
+        jTabbedPane5.addTab("tab1", jLabel26);
 
-        jLabel2.setText("Carroceria");
-        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(134, 180, -1, -1));
-
-        jLabel3.setText("Motor");
-        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 180, -1, -1));
-
-        jLabel4.setText("Ruedas");
-        jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 180, -1, -1));
-
-        jLabel5.setText("Accesorios");
-        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 180, -1, -1));
-
-        CantidadCarrosLamborghini.setText("0");
-        jPanel1.add(CantidadCarrosLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 310, 40, 35));
-
-        CantidadCarroceriaLamborghini.setText("20");
-        jPanel1.add(CantidadCarroceriaLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 270, 43, 35));
-
-        CantidadRuedasLamborghini.setText("35");
-        jPanel1.add(CantidadRuedasLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 270, 43, 35));
-
-        CantidadMotorLamborghini.setText("55");
-        jPanel1.add(CantidadMotorLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 270, 43, 35));
-
-        CantidadAccesoriosLamborghini.setText("10");
-        jPanel1.add(CantidadAccesoriosLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 270, 43, 35));
-
-        CantidadChasisLamborghini.setText("25");
-        jPanel1.add(CantidadChasisLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 270, 43, 35));
-
-        jLabel6.setText("Salarios");
-        jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 140, -1, -1));
-
-        jLabel7.setText("Carros con accesorios ");
-        jPanel1.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 400, -1, -1));
-
-        jLabel8.setText("Ganancias");
-        jPanel1.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 170, -1, 20));
-
-        jLabel9.setText("para la entrega");
-        jPanel1.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 360, -1, 10));
-
-        EstandarLamborghini.setText("0");
-        jPanel1.add(EstandarLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 350, 43, 35));
-
-        jLabel10.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
-        jLabel10.setText("Lamborguini");
-        jLabel10.setMaximumSize(new java.awt.Dimension(80, 16));
-        jPanel1.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(55, 23, 143, 67));
-
-        jLabel11.setText("asignados");
-        jPanel1.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 180, 80, 20));
-
-        eCarroceriaLamborghini.setText("1");
-        jPanel1.add(eCarroceriaLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 130, 43, 35));
-
-        eMotorLamborghini.setText("1");
-        jPanel1.add(eMotorLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 130, 43, 35));
-
-        eRuedasLamborghini.setText("1");
-        jPanel1.add(eRuedasLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 130, 43, 35));
-
-        eEnsambladorLamborghini.setText("1");
-        jPanel1.add(eEnsambladorLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 130, 43, 35));
-
-        eChasisLamborghini.setText("1");
-        jPanel1.add(eChasisLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 130, 43, 35));
-
-        eAccesoriosLamborghini.setText("1");
-        jPanel1.add(eAccesoriosLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 130, 43, 35));
-
-        jLabel13.setText("Ensamblador");
-        jPanel1.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 180, -1, -1));
-
-        AumentarChasisLamborghini.setActionCommand("Contratar");
-        AumentarChasisLamborghini.setBackground(new java.awt.Color(0, 204, 0));
-        AumentarChasisLamborghini.setLabel("A");
-        AumentarChasisLamborghini.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                AumentarChasisLamborghiniActionPerformed(evt);
-            }
-        });
-        jPanel1.add(AumentarChasisLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 320, 33, -1));
-
-        DisminuirChasisLamborghini.setActionCommand("Contratar");
-        DisminuirChasisLamborghini.setBackground(new java.awt.Color(255, 0, 0));
-        DisminuirChasisLamborghini.setLabel("D");
-        DisminuirChasisLamborghini.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                DisminuirChasisLamborghiniActionPerformed(evt);
-            }
-        });
-        jPanel1.add(DisminuirChasisLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 360, 33, -1));
-
-        AumentarCarroceriaLamborghini.setActionCommand("Contratar");
-        AumentarCarroceriaLamborghini.setBackground(new java.awt.Color(0, 204, 0));
-        AumentarCarroceriaLamborghini.setLabel("A");
-        AumentarCarroceriaLamborghini.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                AumentarCarroceriaLamborghiniActionPerformed(evt);
-            }
-        });
-        jPanel1.add(AumentarCarroceriaLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 320, 34, -1));
-
-        DisminuirCarroceriaLamborghini.setActionCommand("Contratar");
-        DisminuirCarroceriaLamborghini.setBackground(new java.awt.Color(255, 0, 0));
-        DisminuirCarroceriaLamborghini.setLabel("D");
-        DisminuirCarroceriaLamborghini.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                DisminuirCarroceriaLamborghiniActionPerformed(evt);
-            }
-        });
-        jPanel1.add(DisminuirCarroceriaLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 360, 33, -1));
-
-        DisminuirAccesoriosLamborghini.setActionCommand("Contratar");
-        DisminuirAccesoriosLamborghini.setBackground(new java.awt.Color(255, 0, 0));
-        DisminuirAccesoriosLamborghini.setLabel("D");
-        DisminuirAccesoriosLamborghini.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                DisminuirAccesoriosLamborghiniActionPerformed(evt);
-            }
-        });
-        jPanel1.add(DisminuirAccesoriosLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 360, 33, -1));
-
-        DisminuirMotorLamborghini.setActionCommand("Contratar");
-        DisminuirMotorLamborghini.setBackground(new java.awt.Color(255, 0, 0));
-        DisminuirMotorLamborghini.setLabel("D");
-        DisminuirMotorLamborghini.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                DisminuirMotorLamborghiniActionPerformed(evt);
-            }
-        });
-        jPanel1.add(DisminuirMotorLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 360, 33, -1));
-
-        DisminuirRuedasLamborghini.setActionCommand("Contratar");
-        DisminuirRuedasLamborghini.setBackground(new java.awt.Color(255, 0, 0));
-        DisminuirRuedasLamborghini.setLabel("D");
-        DisminuirRuedasLamborghini.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                DisminuirRuedasLamborghiniActionPerformed(evt);
-            }
-        });
-        jPanel1.add(DisminuirRuedasLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 360, 33, -1));
-
-        DisminuirEnsambladorLamborghini.setActionCommand("Contratar");
-        DisminuirEnsambladorLamborghini.setBackground(new java.awt.Color(255, 0, 0));
-        DisminuirEnsambladorLamborghini.setLabel("D");
-        DisminuirEnsambladorLamborghini.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                DisminuirEnsambladorLamborghiniActionPerformed(evt);
-            }
-        });
-        jPanel1.add(DisminuirEnsambladorLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 270, 33, -1));
-
-        AumentarRuedasLamborghini.setActionCommand("Contratar");
-        AumentarRuedasLamborghini.setBackground(new java.awt.Color(0, 204, 0));
-        AumentarRuedasLamborghini.setLabel("A");
-        AumentarRuedasLamborghini.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                AumentarRuedasLamborghiniActionPerformed(evt);
-            }
-        });
-        jPanel1.add(AumentarRuedasLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 320, 34, -1));
-
-        AumentarAccesoriosLamborghini.setActionCommand("Contratar");
-        AumentarAccesoriosLamborghini.setBackground(new java.awt.Color(0, 204, 0));
-        AumentarAccesoriosLamborghini.setLabel("A");
-        AumentarAccesoriosLamborghini.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                AumentarAccesoriosLamborghiniActionPerformed(evt);
-            }
-        });
-        jPanel1.add(AumentarAccesoriosLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 320, 34, -1));
-
-        AumentarEnsambladorLamborghini.setActionCommand("Contratar");
-        AumentarEnsambladorLamborghini.setBackground(new java.awt.Color(0, 204, 0));
-        AumentarEnsambladorLamborghini.setLabel("A");
-        AumentarEnsambladorLamborghini.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                AumentarEnsambladorLamborghiniActionPerformed(evt);
-            }
-        });
-        jPanel1.add(AumentarEnsambladorLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 220, 34, -1));
-
-        AumentarMotorLamborghini.setActionCommand("Contratar");
-        AumentarMotorLamborghini.setBackground(new java.awt.Color(0, 204, 0));
-        AumentarMotorLamborghini.setLabel("A");
-        AumentarMotorLamborghini.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                AumentarMotorLamborghiniActionPerformed(evt);
-            }
-        });
-        jPanel1.add(AumentarMotorLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 320, 34, -1));
-
-        estadoLaborguini.setText("Activo");
-        jPanel1.add(estadoLaborguini, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 20, -1, -1));
-
-        estadoLaborguini1.setText("Labor del Director");
-        jPanel1.add(estadoLaborguini1, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 20, -1, -1));
-
-        jLabel27.setText("Trabajos");
-        jPanel1.add(jLabel27, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 170, -1, -1));
-
-        jLabel28.setText("N° de piezas");
-        jPanel1.add(jLabel28, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
-
-        jLabel29.setText("Espacio Max ");
-        jPanel1.add(jLabel29, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 270, 80, 20));
-
-        CantidadChasisLamborghini1.setText("0");
-        jPanel1.add(CantidadChasisLamborghini1, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 220, 43, 35));
-
-        CantidadCarroceriaLamborghini1.setText("0");
-        jPanel1.add(CantidadCarroceriaLamborghini1, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 220, 43, 35));
-
-        CantidadMotorLamborghini1.setText("0");
-        jPanel1.add(CantidadMotorLamborghini1, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 220, 43, 35));
-
-        CantidadRuedasLamborghini1.setText("0");
-        jPanel1.add(CantidadRuedasLamborghini1, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 220, 43, 35));
-
-        CantidadAccesoriosLamborghini1.setText("0");
-        jPanel1.add(CantidadAccesoriosLamborghini1, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 220, 43, 35));
-
-        jLabel30.setText("de Almacen");
-        jPanel1.add(jLabel30, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 286, 80, -1));
-
-        jLabel31.setText("disponibles");
-        jPanel1.add(jLabel31, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 240, 80, 20));
-
-        jLabel32.setText("Carros ensamblados");
-        jPanel1.add(jLabel32, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 320, -1, -1));
-
-        AccsLamborghini.setText("0");
-        jPanel1.add(AccsLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 390, 43, 35));
-
-        jLabel33.setText("Carros estándar");
-        jPanel1.add(jLabel33, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 360, -1, -1));
-
-        GananciasLamborghini.setText("0");
-        jPanel1.add(GananciasLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 160, 43, 35));
-
-        jLabel34.setText("Dias faltantes");
-        jPanel1.add(jLabel34, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 340, -1, -1));
-
-        estadoLaborguini3.setText("Salario Perdido");
-        jPanel1.add(estadoLaborguini3, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 110, -1, -1));
-
-        EntregaLamborghini.setText("0");
-        jPanel1.add(EntregaLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 340, 43, 35));
-
-        SalarioPerdidoLamborghini.setText("0");
-        jPanel1.add(SalarioPerdidoLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 100, 43, 35));
-
-        estadoLaborguini5.setText("Labor del Gerente");
-        jPanel1.add(estadoLaborguini5, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 50, -1, -1));
-
-        estadoLaborguini6.setText("Activo");
-        jPanel1.add(estadoLaborguini6, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 50, -1, -1));
-
-        SalariosLamborghini1.setText("0");
-        jPanel1.add(SalariosLamborghini1, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 130, 43, 35));
-
-        estadoLaborguini4.setText("Faltas cometidas");
-        jPanel1.add(estadoLaborguini4, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 80, -1, -1));
-
-        FaltasGerenteLamborghini1.setText("0");
-        jPanel1.add(FaltasGerenteLamborghini1, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 70, 43, 35));
-
-        jTabbedPane2.addTab("Lamborghini", jPanel1);
+        jTabbedPane2.addTab("Lector de Archivos", jTabbedPane5);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -1095,21 +1095,16 @@ public class InterfazMain extends javax.swing.JFrame {
     private java.awt.Button AumentarRuedasLamborghini;
     private java.awt.Button AumentarRuedasMaserati;
     public static volatile javax.swing.JLabel CantidadAccesoriosLamborghini;
-    public static volatile javax.swing.JLabel CantidadAccesoriosLamborghini1;
     public static volatile javax.swing.JLabel CantidadAccesoriosMaserati;
     public static volatile javax.swing.JLabel CantidadCarroceriaLamborghini;
-    public static volatile javax.swing.JLabel CantidadCarroceriaLamborghini1;
     public static volatile javax.swing.JLabel CantidadCarroceriaMaserati;
     public static volatile javax.swing.JLabel CantidadCarrosLamborghini;
     public static volatile javax.swing.JLabel CantidadCarrosMaserati;
     public static volatile javax.swing.JLabel CantidadChasisLamborghini;
-    public static volatile javax.swing.JLabel CantidadChasisLamborghini1;
     public static volatile javax.swing.JLabel CantidadChasisMaserati;
     public static volatile javax.swing.JLabel CantidadMotorLamborghini;
-    public static volatile javax.swing.JLabel CantidadMotorLamborghini1;
     public static volatile javax.swing.JLabel CantidadMotorMaserati;
     public static volatile javax.swing.JLabel CantidadRuedasLamborghini;
-    public static volatile javax.swing.JLabel CantidadRuedasLamborghini1;
     public static volatile javax.swing.JLabel CantidadRuedasMaserati;
     private java.awt.Button DisminuirAccesoriosLamborghini;
     private java.awt.Button DisminuirAccesoriosMaserati;
@@ -1129,8 +1124,13 @@ public class InterfazMain extends javax.swing.JFrame {
     public static volatile javax.swing.JLabel FaltasGerenteLamborghini1;
     public static volatile javax.swing.JLabel GananciasLamborghini;
     public static volatile javax.swing.JLabel GananciasMaserati;
+    public static volatile javax.swing.JLabel MaxAlmacenAccesoriosLamborghini;
+    public static volatile javax.swing.JLabel MaxAlmacenCarroceriaLamborghini;
+    public static volatile javax.swing.JLabel MaxAlmacenChasisLamborghini;
+    public static volatile javax.swing.JLabel MaxAlmacenMotorLamborghini;
+    public static volatile javax.swing.JLabel MaxAlmacenRuedasLamborghini;
     public static volatile javax.swing.JLabel SalarioPerdidoLamborghini;
-    public static volatile javax.swing.JLabel SalariosLamborghini1;
+    public static volatile javax.swing.JLabel SalariosLamborghini;
     public static volatile javax.swing.JLabel SalariosMaserati;
     public static volatile javax.swing.JLabel eAccesoriosLamborghini;
     public static volatile javax.swing.JLabel eAccesoriosMaserati;

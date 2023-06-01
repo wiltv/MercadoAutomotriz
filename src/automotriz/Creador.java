@@ -36,9 +36,6 @@ public class Creador extends Thread {
         while(true){
             try{
                 mutex.acquire(); //wait
-                //ERROR GRAVE, SI POR EJEMPLO HAY 7/3, SE TOMAN COMO DOS Y ESE 1/3 ES COMO SI NO EXISTE
-                //PAJA PEOR AUN, ANDO ES REDONDEANDO
-                //OTRO ERROR, CUANDO FALTA POCO PARA QUE SE LLENE LA COSA, SI NO ES EXACTO NO SE LLENA
                 if ("chasis".equals(parte)){
                     MercadoAutomotriz.Nomina = MercadoAutomotriz.Nomina + salario*24*EmpleadosLamborghini.eChasis; 
                     MercadoAutomotriz.diasChasis = MercadoAutomotriz.diasChasis + dias*EmpleadosLamborghini.eChasis;
