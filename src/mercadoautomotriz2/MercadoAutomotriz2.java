@@ -6,7 +6,6 @@ package mercadoautomotriz2;
 
 import java.util.concurrent.Semaphore;
 import Interfaces.InterfazMain;
-import Interfaces.Pestañas;
 /**
  *
  * @author wiltsson
@@ -32,7 +31,7 @@ public class MercadoAutomotriz2 {
         
     public static void main(String[] args) {
         
-        Pestañas interfaz = new Pestañas();
+        InterfazMain interfaz = new InterfazMain();
         interfaz.setLocationRelativeTo(null);
         interfaz.setVisible(true);
         

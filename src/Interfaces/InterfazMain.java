@@ -1,6 +1,7 @@
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
  */
 package Interfaces;
 
@@ -9,20 +10,18 @@ import javax.swing.JOptionPane;
 import mercadoautomotriz2.Almacen;
 import mercadoautomotriz2.Empleados;
 
+
 /**
  *
- * @author wiltsson
+ * @author Valeria
  */
 public class InterfazMain extends javax.swing.JFrame {
 
     /**
-     * Creates new form ASASASA
+     * Creates new form Pestañas
      */
     public InterfazMain() {
         initComponents();
-        
-        
-        
     }
 
     /**
@@ -34,7 +33,8 @@ public class InterfazMain extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jLabel12 = new javax.swing.JLabel();
+        jTabbedPane1 = new javax.swing.JTabbedPane();
+        jTabbedPane2 = new javax.swing.JTabbedPane();
         jPanel1 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
@@ -75,15 +75,49 @@ public class InterfazMain extends javax.swing.JFrame {
         AumentarAccesorios = new java.awt.Button();
         AumentarEnsamblador = new java.awt.Button();
         AumentarMotor = new java.awt.Button();
-
-        jLabel12.setText("Accesorios");
+        jPanel2 = new javax.swing.JPanel();
+        jLabel12 = new javax.swing.JLabel();
+        jLabel14 = new javax.swing.JLabel();
+        jLabel15 = new javax.swing.JLabel();
+        jLabel16 = new javax.swing.JLabel();
+        jLabel17 = new javax.swing.JLabel();
+        CantidadCarros1 = new javax.swing.JLabel();
+        CantidadCarroceria1 = new javax.swing.JLabel();
+        CantidadRuedas1 = new javax.swing.JLabel();
+        CantidadMotor1 = new javax.swing.JLabel();
+        CantidadAccesorios1 = new javax.swing.JLabel();
+        CantidadChasis1 = new javax.swing.JLabel();
+        jLabel18 = new javax.swing.JLabel();
+        jLabel19 = new javax.swing.JLabel();
+        jLabel20 = new javax.swing.JLabel();
+        Salarios1 = new javax.swing.JLabel();
+        Ganancias1 = new javax.swing.JLabel();
+        jLabel21 = new javax.swing.JLabel();
+        Entrega1 = new javax.swing.JLabel();
+        jLabel22 = new javax.swing.JLabel();
+        jLabel23 = new javax.swing.JLabel();
+        eCarroceria1 = new javax.swing.JLabel();
+        eMotor1 = new javax.swing.JLabel();
+        eRuedas1 = new javax.swing.JLabel();
+        eEnsamblador1 = new javax.swing.JLabel();
+        eChasis1 = new javax.swing.JLabel();
+        eAccesorios1 = new javax.swing.JLabel();
+        jLabel24 = new javax.swing.JLabel();
+        AumentarChasis1 = new java.awt.Button();
+        DisminuirChasis1 = new java.awt.Button();
+        AumentarCarroceria1 = new java.awt.Button();
+        DisminuirCarroceria1 = new java.awt.Button();
+        DisminuirAccesorios1 = new java.awt.Button();
+        DisminuirMotor1 = new java.awt.Button();
+        DisminuirRuedas1 = new java.awt.Button();
+        DisminuirEnsamblador1 = new java.awt.Button();
+        AumentarRuedas1 = new java.awt.Button();
+        AumentarAccesorios1 = new java.awt.Button();
+        AumentarEnsamblador1 = new java.awt.Button();
+        AumentarMotor1 = new java.awt.Button();
+        jTabbedPane5 = new javax.swing.JTabbedPane();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        addComponentListener(new java.awt.event.ComponentAdapter() {
-            public void componentHidden(java.awt.event.ComponentEvent evt) {
-                formComponentHidden(evt);
-            }
-        });
 
         jLabel1.setText("Chasis");
 
@@ -426,7 +460,7 @@ public class InterfazMain extends javax.swing.JFrame {
                                             .addComponent(DisminuirCarroceria, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                                             .addComponent(DisminuirAccesorios, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))))
                             .addComponent(DisminuirMotor, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 14, Short.MAX_VALUE)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                         .addComponent(jLabel13)
@@ -436,127 +470,509 @@ public class InterfazMain extends javax.swing.JFrame {
                 .addGap(20, 20, 20))
         );
 
+        jTabbedPane2.addTab("Lamborghini", jPanel1);
+
+        jLabel12.setText("Chasis");
+
+        jLabel14.setText("Carroceria");
+
+        jLabel15.setText("Motor");
+
+        jLabel16.setText("Ruedas");
+
+        jLabel17.setText("Accesorios");
+
+        CantidadCarros1.setText("0");
+
+        CantidadCarroceria1.setText("0");
+
+        CantidadRuedas1.setText("0");
+
+        CantidadMotor1.setText("0");
+
+        CantidadAccesorios1.setText("0");
+
+        CantidadChasis1.setText("0");
+
+        jLabel18.setText("Salarios");
+
+        jLabel19.setText("Carros");
+
+        jLabel20.setText("Ganancias");
+
+        Salarios1.setText("0");
+
+        Ganancias1.setText("0");
+
+        jLabel21.setText("Entrega");
+
+        Entrega1.setText("0");
+
+        jLabel22.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
+        jLabel22.setText("Maserati");
+        jLabel22.setMaximumSize(new java.awt.Dimension(80, 16));
+
+        jLabel23.setText("Trab Asig");
+
+        eCarroceria1.setText("1");
+
+        eMotor1.setText("1");
+
+        eRuedas1.setText("1");
+
+        eEnsamblador1.setText("1");
+
+        eChasis1.setText("1");
+
+        eAccesorios1.setText("1");
+
+        jLabel24.setText("Ensamblador");
+
+        AumentarChasis1.setActionCommand("Contratar");
+        AumentarChasis1.setBackground(new java.awt.Color(0, 204, 0));
+        AumentarChasis1.setLabel("A");
+        AumentarChasis1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                AumentarChasis1ActionPerformed(evt);
+            }
+        });
+
+        DisminuirChasis1.setActionCommand("Contratar");
+        DisminuirChasis1.setBackground(new java.awt.Color(255, 0, 0));
+        DisminuirChasis1.setLabel("D");
+        DisminuirChasis1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                DisminuirChasis1ActionPerformed(evt);
+            }
+        });
+
+        AumentarCarroceria1.setActionCommand("Contratar");
+        AumentarCarroceria1.setBackground(new java.awt.Color(0, 204, 0));
+        AumentarCarroceria1.setLabel("A");
+        AumentarCarroceria1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                AumentarCarroceria1ActionPerformed(evt);
+            }
+        });
+
+        DisminuirCarroceria1.setActionCommand("Contratar");
+        DisminuirCarroceria1.setBackground(new java.awt.Color(255, 0, 0));
+        DisminuirCarroceria1.setLabel("D");
+        DisminuirCarroceria1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                DisminuirCarroceria1ActionPerformed(evt);
+            }
+        });
+
+        DisminuirAccesorios1.setActionCommand("Contratar");
+        DisminuirAccesorios1.setBackground(new java.awt.Color(255, 0, 0));
+        DisminuirAccesorios1.setLabel("D");
+        DisminuirAccesorios1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                DisminuirAccesorios1ActionPerformed(evt);
+            }
+        });
+
+        DisminuirMotor1.setActionCommand("Contratar");
+        DisminuirMotor1.setBackground(new java.awt.Color(255, 0, 0));
+        DisminuirMotor1.setLabel("D");
+        DisminuirMotor1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                DisminuirMotor1ActionPerformed(evt);
+            }
+        });
+
+        DisminuirRuedas1.setActionCommand("Contratar");
+        DisminuirRuedas1.setBackground(new java.awt.Color(255, 0, 0));
+        DisminuirRuedas1.setLabel("D");
+        DisminuirRuedas1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                DisminuirRuedas1ActionPerformed(evt);
+            }
+        });
+
+        DisminuirEnsamblador1.setActionCommand("Contratar");
+        DisminuirEnsamblador1.setBackground(new java.awt.Color(255, 0, 0));
+        DisminuirEnsamblador1.setLabel("D");
+        DisminuirEnsamblador1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                DisminuirEnsamblador1ActionPerformed(evt);
+            }
+        });
+
+        AumentarRuedas1.setActionCommand("Contratar");
+        AumentarRuedas1.setBackground(new java.awt.Color(0, 204, 0));
+        AumentarRuedas1.setLabel("A");
+        AumentarRuedas1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                AumentarRuedas1ActionPerformed(evt);
+            }
+        });
+
+        AumentarAccesorios1.setActionCommand("Contratar");
+        AumentarAccesorios1.setBackground(new java.awt.Color(0, 204, 0));
+        AumentarAccesorios1.setLabel("A");
+        AumentarAccesorios1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                AumentarAccesorios1ActionPerformed(evt);
+            }
+        });
+
+        AumentarEnsamblador1.setActionCommand("Contratar");
+        AumentarEnsamblador1.setBackground(new java.awt.Color(0, 204, 0));
+        AumentarEnsamblador1.setLabel("A");
+        AumentarEnsamblador1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                AumentarEnsamblador1ActionPerformed(evt);
+            }
+        });
+
+        AumentarMotor1.setActionCommand("Contratar");
+        AumentarMotor1.setBackground(new java.awt.Color(0, 204, 0));
+        AumentarMotor1.setLabel("A");
+        AumentarMotor1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                AumentarMotor1ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
+        jPanel2.setLayout(jPanel2Layout);
+        jPanel2Layout.setHorizontalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel2Layout.createSequentialGroup()
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(jPanel2Layout.createSequentialGroup()
+                                        .addGap(69, 69, 69)
+                                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(CantidadChasis1, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(jLabel12)))
+                                    .addGroup(jPanel2Layout.createSequentialGroup()
+                                        .addComponent(jLabel23)
+                                        .addGap(18, 18, 18)
+                                        .addComponent(eChasis1, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
+                                        .addContainerGap()
+                                        .addComponent(jLabel24)))
+                                .addGap(22, 22, 22)
+                                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                    .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                        .addComponent(jLabel14)
+                                        .addComponent(CantidadCarroceria1, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(eCarroceria1, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addComponent(eEnsamblador1, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(jPanel2Layout.createSequentialGroup()
+                                        .addGap(18, 18, 18)
+                                        .addComponent(eMotor1, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addGroup(jPanel2Layout.createSequentialGroup()
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                    .addComponent(DisminuirRuedas1, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                    .addComponent(eRuedas1, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                    .addComponent(AumentarRuedas1, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                                .addGap(5, 5, 5))
+                                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                                    .addGroup(jPanel2Layout.createSequentialGroup()
+                                                        .addComponent(AumentarEnsamblador1, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                        .addComponent(DisminuirEnsamblador1, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                                    .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                        .addComponent(jLabel15)
+                                                        .addComponent(CantidadMotor1, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                                .addGap(32, 32, 32)
+                                                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                    .addComponent(jLabel16)
+                                                    .addComponent(CantidadRuedas1, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 71, Short.MAX_VALUE))))
+                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                .addGap(54, 54, 54)
+                                .addComponent(jLabel22, javax.swing.GroupLayout.PREFERRED_SIZE, 143, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
+                                    .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                        .addComponent(jLabel20)
+                                        .addComponent(jLabel18))
+                                    .addGap(68, 68, 68))
+                                .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
+                                    .addComponent(jLabel17)
+                                    .addGap(134, 134, 134)))
+                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(CantidadAccesorios1, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(eAccesorios1, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                        .addComponent(DisminuirAccesorios1, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(AumentarAccesorios1, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                .addGap(148, 148, 148))))
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(Entrega1, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)))
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel19)
+                    .addComponent(CantidadCarros1, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel21)
+                    .addComponent(Ganancias1, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(Salarios1, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(75, 75, 75))
+            .addGroup(jPanel2Layout.createSequentialGroup()
+                .addGap(56, 56, 56)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(DisminuirChasis1, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(AumentarChasis1, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(32, 32, 32)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(DisminuirCarroceria1, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(AumentarCarroceria1, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(40, 40, 40)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(AumentarMotor1, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(DisminuirMotor1, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        jPanel2Layout.setVerticalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel2Layout.createSequentialGroup()
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addGap(12, 12, 12)
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel18)
+                            .addComponent(Salarios1, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(18, 18, 18)
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel20)
+                            .addComponent(Ganancias1, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(55, 55, 55)
+                        .addComponent(jLabel19)
+                        .addGap(23, 23, 23)
+                        .addComponent(CantidadCarros1, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(101, 101, 101)
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel21)
+                            .addComponent(Entrega1, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addGap(43, 43, 43)
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                    .addGroup(jPanel2Layout.createSequentialGroup()
+                                        .addComponent(jLabel22, javax.swing.GroupLayout.PREFERRED_SIZE, 67, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addGap(10, 10, 10)
+                                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                                .addGap(1, 1, 1)
+                                                .addComponent(jLabel23))
+                                            .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                                .addComponent(eCarroceria1, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                .addComponent(eMotor1, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                .addComponent(eRuedas1, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                .addComponent(eChasis1, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                .addComponent(eAccesorios1, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                        .addGap(25, 25, 25)
+                                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                                .addComponent(jLabel17)
+                                                .addComponent(jLabel16)
+                                                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                                    .addComponent(jLabel15)
+                                                    .addComponent(jLabel14)))
+                                            .addComponent(jLabel12, javax.swing.GroupLayout.Alignment.TRAILING))
+                                        .addGap(26, 26, 26)
+                                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                            .addComponent(CantidadChasis1, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(CantidadCarroceria1, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(CantidadMotor1, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(CantidadRuedas1, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(CantidadAccesorios1, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(AumentarChasis1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(AumentarMotor1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(AumentarRuedas1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(AumentarAccesorios1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                    .addComponent(AumentarCarroceria1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                        .addComponent(DisminuirRuedas1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addGroup(jPanel2Layout.createSequentialGroup()
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(DisminuirChasis1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(DisminuirCarroceria1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(DisminuirAccesorios1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                            .addComponent(DisminuirMotor1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(jLabel24)
+                        .addComponent(eEnsamblador1, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(DisminuirEnsamblador1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(AumentarEnsamblador1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(20, 20, 20))
+        );
+
+        jTabbedPane2.addTab("Maserati", jPanel2);
+        jTabbedPane2.addTab("Lector de Archivos", jTabbedPane5);
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jTabbedPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 760, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jTabbedPane2, javax.swing.GroupLayout.Alignment.TRAILING)
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void formComponentHidden(java.awt.event.ComponentEvent evt) {//GEN-FIRST:event_formComponentHidden
-        // TODO add your handling code here:
-    }//GEN-LAST:event_formComponentHidden
-
-    private void AumentarChasisActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AumentarChasisActionPerformed
+    private void AumentarMotor1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AumentarMotor1ActionPerformed
         if(Empleados.eChasis+Empleados.eCarroceria+Empleados.eMotor+
-                Empleados.eRuedas+Empleados.eAccesorios+Empleados.eEnsamblador < Empleados.Empleados){
-            Empleados.eChasis= Empleados.eChasis + 1;
-            InterfazMain.eChasis.setText(String.valueOf(Empleados.eChasis));
-        }else{
-            JOptionPane.showMessageDialog(null, "Ya estan ocupados los 19 empleados");
-        }
-    }//GEN-LAST:event_AumentarChasisActionPerformed
-
-    private void DisminuirChasisActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DisminuirChasisActionPerformed
-        if(Empleados.eChasis>1){
-            Empleados.eChasis= Empleados.eChasis -1;
-            InterfazMain.eChasis.setText(String.valueOf(Empleados.eChasis));
-            
-        }else{
-            JOptionPane.showMessageDialog(null, "No se puede quedar un sector sin empleados");
-        }
-    }//GEN-LAST:event_DisminuirChasisActionPerformed
-
-    private void AumentarCarroceriaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AumentarCarroceriaActionPerformed
-        if(Empleados.eChasis+Empleados.eCarroceria+Empleados.eMotor+
-                Empleados.eRuedas+Empleados.eAccesorios+Empleados.eEnsamblador < Empleados.Empleados){
-            Empleados.eCarroceria= Empleados.eCarroceria + 1;
-            InterfazMain.eCarroceria.setText(String.valueOf(Empleados.eCarroceria));
-        }else{
-            JOptionPane.showMessageDialog(null, "Ya estan ocupados los 19 empleados");
-        }
-    }//GEN-LAST:event_AumentarCarroceriaActionPerformed
-
-    private void DisminuirCarroceriaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DisminuirCarroceriaActionPerformed
-        if(Empleados.eCarroceria>1){
-            Empleados.eCarroceria= Empleados.eCarroceria -1;
-            InterfazMain.eCarroceria.setText(String.valueOf(Empleados.eCarroceria));
-            
-        }else{
-            JOptionPane.showMessageDialog(null, "No se puede quedar un sector sin empleados");
-        }
-    }//GEN-LAST:event_DisminuirCarroceriaActionPerformed
-
-    private void DisminuirAccesoriosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DisminuirAccesoriosActionPerformed
-        if(Empleados.eAccesorios>1){
-            Empleados.eAccesorios= Empleados.eAccesorios -1;
-            InterfazMain.eAccesorios.setText(String.valueOf(Empleados.eAccesorios));
-            
-        }else{
-            JOptionPane.showMessageDialog(null, "No se puede quedar un sector sin empleados");
-        }
-    }//GEN-LAST:event_DisminuirAccesoriosActionPerformed
-
-    private void DisminuirMotorActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DisminuirMotorActionPerformed
-        if(Empleados.eMotor>1){
-            Empleados.eMotor= Empleados.eMotor -1;
+            Empleados.eRuedas+Empleados.eAccesorios+Empleados.eEnsamblador < Empleados.Empleados){
+            Empleados.eMotor= Empleados.eMotor + 1;
             InterfazMain.eMotor.setText(String.valueOf(Empleados.eMotor));
-            
-        }else{
-            JOptionPane.showMessageDialog(null, "No se puede quedar un sector sin empleados");
-        }
-    }//GEN-LAST:event_DisminuirMotorActionPerformed
-
-    private void DisminuirRuedasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DisminuirRuedasActionPerformed
-        if(Empleados.eRuedas>1){
-            Empleados.eRuedas= Empleados.eRuedas -1;
-            InterfazMain.eRuedas.setText(String.valueOf(Empleados.eRuedas));
-            
-        }else{
-            JOptionPane.showMessageDialog(null, "No se puede quedar un sector sin empleados");
-        }
-    }//GEN-LAST:event_DisminuirRuedasActionPerformed
-
-    private void DisminuirEnsambladorActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DisminuirEnsambladorActionPerformed
-        if(Empleados.eEnsamblador>1){
-            Empleados.eEnsamblador= Empleados.eEnsamblador -1;
-            InterfazMain.eEnsamblador.setText(String.valueOf(Empleados.eEnsamblador));
-            
-        }else{
-            JOptionPane.showMessageDialog(null, "No se puede quedar un sector sin empleados");
-        }
-    }//GEN-LAST:event_DisminuirEnsambladorActionPerformed
-
-    private void AumentarRuedasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AumentarRuedasActionPerformed
-        if(Empleados.eChasis+Empleados.eCarroceria+Empleados.eMotor+
-                Empleados.eRuedas+Empleados.eAccesorios+Empleados.eEnsamblador < Empleados.Empleados){
-            Empleados.eRuedas= Empleados.eRuedas + 1;
-            InterfazMain.eRuedas.setText(String.valueOf(Empleados.eRuedas));
         }else{
             JOptionPane.showMessageDialog(null, "Ya estan ocupados los 19 empleados");
         }
-    }//GEN-LAST:event_AumentarRuedasActionPerformed
+    }//GEN-LAST:event_AumentarMotor1ActionPerformed
 
-    private void AumentarAccesoriosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AumentarAccesoriosActionPerformed
-         if(Empleados.eChasis+Empleados.eCarroceria+Empleados.eMotor+
-                Empleados.eRuedas+Empleados.eAccesorios+Empleados.eEnsamblador < Empleados.Empleados){
+    private void AumentarEnsamblador1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AumentarEnsamblador1ActionPerformed
+        if(Empleados.eChasis+Empleados.eCarroceria+Empleados.eMotor+
+            Empleados.eRuedas+Empleados.eAccesorios+Empleados.eEnsamblador < Empleados.Empleados){
+            Empleados.eEnsamblador= Empleados.eEnsamblador + 1;
+            InterfazMain.eEnsamblador.setText(String.valueOf(Empleados.eEnsamblador));
+        }else{
+            JOptionPane.showMessageDialog(null, "Ya estan ocupados los 19 empleados");
+        }
+    }//GEN-LAST:event_AumentarEnsamblador1ActionPerformed
+
+    private void AumentarAccesorios1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AumentarAccesorios1ActionPerformed
+        if(Empleados.eChasis+Empleados.eCarroceria+Empleados.eMotor+
+            Empleados.eRuedas+Empleados.eAccesorios+Empleados.eEnsamblador < Empleados.Empleados){
             Empleados.eAccesorios= Empleados.eAccesorios + 1;
             InterfazMain.eAccesorios.setText(String.valueOf(Empleados.eAccesorios));
         }else{
             JOptionPane.showMessageDialog(null, "Ya estan ocupados los 19 empleados");
         }
-    }//GEN-LAST:event_AumentarAccesoriosActionPerformed
+    }//GEN-LAST:event_AumentarAccesorios1ActionPerformed
+
+    private void AumentarRuedas1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AumentarRuedas1ActionPerformed
+        if(Empleados.eChasis+Empleados.eCarroceria+Empleados.eMotor+
+            Empleados.eRuedas+Empleados.eAccesorios+Empleados.eEnsamblador < Empleados.Empleados){
+            Empleados.eRuedas= Empleados.eRuedas + 1;
+            InterfazMain.eRuedas.setText(String.valueOf(Empleados.eRuedas));
+        }else{
+            JOptionPane.showMessageDialog(null, "Ya estan ocupados los 19 empleados");
+        }
+    }//GEN-LAST:event_AumentarRuedas1ActionPerformed
+
+    private void DisminuirEnsamblador1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DisminuirEnsamblador1ActionPerformed
+        if(Empleados.eEnsamblador>1){
+            Empleados.eEnsamblador= Empleados.eEnsamblador -1;
+            InterfazMain.eEnsamblador.setText(String.valueOf(Empleados.eEnsamblador));
+
+        }else{
+            JOptionPane.showMessageDialog(null, "No se puede quedar un sector sin empleados");
+        }
+    }//GEN-LAST:event_DisminuirEnsamblador1ActionPerformed
+
+    private void DisminuirRuedas1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DisminuirRuedas1ActionPerformed
+        if(Empleados.eRuedas>1){
+            Empleados.eRuedas= Empleados.eRuedas -1;
+            InterfazMain.eRuedas.setText(String.valueOf(Empleados.eRuedas));
+
+        }else{
+            JOptionPane.showMessageDialog(null, "No se puede quedar un sector sin empleados");
+        }
+    }//GEN-LAST:event_DisminuirRuedas1ActionPerformed
+
+    private void DisminuirMotor1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DisminuirMotor1ActionPerformed
+        if(Empleados.eMotor>1){
+            Empleados.eMotor= Empleados.eMotor -1;
+            InterfazMain.eMotor.setText(String.valueOf(Empleados.eMotor));
+
+        }else{
+            JOptionPane.showMessageDialog(null, "No se puede quedar un sector sin empleados");
+        }
+    }//GEN-LAST:event_DisminuirMotor1ActionPerformed
+
+    private void DisminuirAccesorios1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DisminuirAccesorios1ActionPerformed
+        if(Empleados.eAccesorios>1){
+            Empleados.eAccesorios= Empleados.eAccesorios -1;
+            InterfazMain.eAccesorios.setText(String.valueOf(Empleados.eAccesorios));
+
+        }else{
+            JOptionPane.showMessageDialog(null, "No se puede quedar un sector sin empleados");
+        }
+    }//GEN-LAST:event_DisminuirAccesorios1ActionPerformed
+
+    private void DisminuirCarroceria1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DisminuirCarroceria1ActionPerformed
+        if(Empleados.eCarroceria>1){
+            Empleados.eCarroceria= Empleados.eCarroceria -1;
+            InterfazMain.eCarroceria.setText(String.valueOf(Empleados.eCarroceria));
+
+        }else{
+            JOptionPane.showMessageDialog(null, "No se puede quedar un sector sin empleados");
+        }
+    }//GEN-LAST:event_DisminuirCarroceria1ActionPerformed
+
+    private void AumentarCarroceria1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AumentarCarroceria1ActionPerformed
+        if(Empleados.eChasis+Empleados.eCarroceria+Empleados.eMotor+
+            Empleados.eRuedas+Empleados.eAccesorios+Empleados.eEnsamblador < Empleados.Empleados){
+            Empleados.eCarroceria= Empleados.eCarroceria + 1;
+            InterfazMain.eCarroceria.setText(String.valueOf(Empleados.eCarroceria));
+        }else{
+            JOptionPane.showMessageDialog(null, "Ya estan ocupados los 19 empleados");
+        }
+    }//GEN-LAST:event_AumentarCarroceria1ActionPerformed
+
+    private void DisminuirChasis1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DisminuirChasis1ActionPerformed
+        if(Empleados.eChasis>1){
+            Empleados.eChasis= Empleados.eChasis -1;
+            InterfazMain.eChasis.setText(String.valueOf(Empleados.eChasis));
+
+        }else{
+            JOptionPane.showMessageDialog(null, "No se puede quedar un sector sin empleados");
+        }
+    }//GEN-LAST:event_DisminuirChasis1ActionPerformed
+
+    private void AumentarChasis1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AumentarChasis1ActionPerformed
+        if(Empleados.eChasis+Empleados.eCarroceria+Empleados.eMotor+
+            Empleados.eRuedas+Empleados.eAccesorios+Empleados.eEnsamblador < Empleados.Empleados){
+            Empleados.eChasis= Empleados.eChasis + 1;
+            InterfazMain.eChasis.setText(String.valueOf(Empleados.eChasis));
+        }else{
+            JOptionPane.showMessageDialog(null, "Ya estan ocupados los 19 empleados");
+        }
+    }//GEN-LAST:event_AumentarChasis1ActionPerformed
+
+    private void AumentarMotorActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AumentarMotorActionPerformed
+        if(Empleados.eChasis+Empleados.eCarroceria+Empleados.eMotor+
+            Empleados.eRuedas+Empleados.eAccesorios+Empleados.eEnsamblador < Empleados.Empleados){
+            Empleados.eMotor= Empleados.eMotor + 1;
+            InterfazMain.eMotor.setText(String.valueOf(Empleados.eMotor));
+        }else{
+            JOptionPane.showMessageDialog(null, "Ya estan ocupados los 19 empleados");
+        }
+    }//GEN-LAST:event_AumentarMotorActionPerformed
 
     private void AumentarEnsambladorActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AumentarEnsambladorActionPerformed
         if(Empleados.eChasis+Empleados.eCarroceria+Empleados.eMotor+
-                Empleados.eRuedas+Empleados.eAccesorios+Empleados.eEnsamblador < Empleados.Empleados){
+            Empleados.eRuedas+Empleados.eAccesorios+Empleados.eEnsamblador < Empleados.Empleados){
             Empleados.eEnsamblador= Empleados.eEnsamblador + 1;
             InterfazMain.eEnsamblador.setText(String.valueOf(Empleados.eEnsamblador));
         }else{
@@ -564,15 +980,105 @@ public class InterfazMain extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_AumentarEnsambladorActionPerformed
 
-    private void AumentarMotorActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AumentarMotorActionPerformed
+    private void AumentarAccesoriosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AumentarAccesoriosActionPerformed
         if(Empleados.eChasis+Empleados.eCarroceria+Empleados.eMotor+
-                Empleados.eRuedas+Empleados.eAccesorios+Empleados.eEnsamblador < Empleados.Empleados){
-            Empleados.eMotor= Empleados.eMotor + 1;
-            InterfazMain.eMotor.setText(String.valueOf(Empleados.eMotor));
+            Empleados.eRuedas+Empleados.eAccesorios+Empleados.eEnsamblador < Empleados.Empleados){
+            Empleados.eAccesorios= Empleados.eAccesorios + 1;
+            InterfazMain.eAccesorios.setText(String.valueOf(Empleados.eAccesorios));
         }else{
             JOptionPane.showMessageDialog(null, "Ya estan ocupados los 19 empleados");
         }
-    }//GEN-LAST:event_AumentarMotorActionPerformed
+    }//GEN-LAST:event_AumentarAccesoriosActionPerformed
+
+    private void AumentarRuedasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AumentarRuedasActionPerformed
+        if(Empleados.eChasis+Empleados.eCarroceria+Empleados.eMotor+
+            Empleados.eRuedas+Empleados.eAccesorios+Empleados.eEnsamblador < Empleados.Empleados){
+            Empleados.eRuedas= Empleados.eRuedas + 1;
+            InterfazMain.eRuedas.setText(String.valueOf(Empleados.eRuedas));
+        }else{
+            JOptionPane.showMessageDialog(null, "Ya estan ocupados los 19 empleados");
+        }
+    }//GEN-LAST:event_AumentarRuedasActionPerformed
+
+    private void DisminuirEnsambladorActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DisminuirEnsambladorActionPerformed
+        if(Empleados.eEnsamblador>1){
+            Empleados.eEnsamblador= Empleados.eEnsamblador -1;
+            InterfazMain.eEnsamblador.setText(String.valueOf(Empleados.eEnsamblador));
+
+        }else{
+            JOptionPane.showMessageDialog(null, "No se puede quedar un sector sin empleados");
+        }
+    }//GEN-LAST:event_DisminuirEnsambladorActionPerformed
+
+    private void DisminuirRuedasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DisminuirRuedasActionPerformed
+        if(Empleados.eRuedas>1){
+            Empleados.eRuedas= Empleados.eRuedas -1;
+            InterfazMain.eRuedas.setText(String.valueOf(Empleados.eRuedas));
+
+        }else{
+            JOptionPane.showMessageDialog(null, "No se puede quedar un sector sin empleados");
+        }
+    }//GEN-LAST:event_DisminuirRuedasActionPerformed
+
+    private void DisminuirMotorActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DisminuirMotorActionPerformed
+        if(Empleados.eMotor>1){
+            Empleados.eMotor= Empleados.eMotor -1;
+            InterfazMain.eMotor.setText(String.valueOf(Empleados.eMotor));
+
+        }else{
+            JOptionPane.showMessageDialog(null, "No se puede quedar un sector sin empleados");
+        }
+    }//GEN-LAST:event_DisminuirMotorActionPerformed
+
+    private void DisminuirAccesoriosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DisminuirAccesoriosActionPerformed
+        if(Empleados.eAccesorios>1){
+            Empleados.eAccesorios= Empleados.eAccesorios -1;
+            InterfazMain.eAccesorios.setText(String.valueOf(Empleados.eAccesorios));
+
+        }else{
+            JOptionPane.showMessageDialog(null, "No se puede quedar un sector sin empleados");
+        }
+    }//GEN-LAST:event_DisminuirAccesoriosActionPerformed
+
+    private void DisminuirCarroceriaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DisminuirCarroceriaActionPerformed
+        if(Empleados.eCarroceria>1){
+            Empleados.eCarroceria= Empleados.eCarroceria -1;
+            InterfazMain.eCarroceria.setText(String.valueOf(Empleados.eCarroceria));
+
+        }else{
+            JOptionPane.showMessageDialog(null, "No se puede quedar un sector sin empleados");
+        }
+    }//GEN-LAST:event_DisminuirCarroceriaActionPerformed
+
+    private void AumentarCarroceriaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AumentarCarroceriaActionPerformed
+        if(Empleados.eChasis+Empleados.eCarroceria+Empleados.eMotor+
+            Empleados.eRuedas+Empleados.eAccesorios+Empleados.eEnsamblador < Empleados.Empleados){
+            Empleados.eCarroceria= Empleados.eCarroceria + 1;
+            InterfazMain.eCarroceria.setText(String.valueOf(Empleados.eCarroceria));
+        }else{
+            JOptionPane.showMessageDialog(null, "Ya estan ocupados los 19 empleados");
+        }
+    }//GEN-LAST:event_AumentarCarroceriaActionPerformed
+
+    private void DisminuirChasisActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DisminuirChasisActionPerformed
+        if(Empleados.eChasis>1){
+            Empleados.eChasis= Empleados.eChasis -1;
+            InterfazMain.eChasis.setText(String.valueOf(Empleados.eChasis));
+
+        }else{
+            JOptionPane.showMessageDialog(null, "No se puede quedar un sector sin empleados");
+        }
+    }//GEN-LAST:event_DisminuirChasisActionPerformed
+
+    private void AumentarChasisActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AumentarChasisActionPerformed
+        if(Empleados.eChasis+Empleados.eCarroceria+Empleados.eMotor+
+            Empleados.eRuedas+Empleados.eAccesorios+Empleados.eEnsamblador < Empleados.Empleados){
+            Empleados.eChasis= Empleados.eChasis + 1;
+            InterfazMain.eChasis.setText(String.valueOf(Empleados.eChasis));
+        }else{
+            JOptionPane.showMessageDialog(null, "Ya estan ocupados los 19 empleados");
+        }
+    }//GEN-LAST:event_AumentarChasisActionPerformed
 
     /**
      * @param args the command line arguments
@@ -612,38 +1118,76 @@ public class InterfazMain extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private java.awt.Button AumentarAccesorios;
+    private java.awt.Button AumentarAccesorios1;
     private java.awt.Button AumentarCarroceria;
+    private java.awt.Button AumentarCarroceria1;
     private java.awt.Button AumentarChasis;
+    private java.awt.Button AumentarChasis1;
     private java.awt.Button AumentarEnsamblador;
+    private java.awt.Button AumentarEnsamblador1;
     private java.awt.Button AumentarMotor;
+    private java.awt.Button AumentarMotor1;
     private java.awt.Button AumentarRuedas;
+    private java.awt.Button AumentarRuedas1;
     public static volatile javax.swing.JLabel CantidadAccesorios;
+    public static volatile javax.swing.JLabel CantidadAccesorios1;
     public static volatile javax.swing.JLabel CantidadCarroceria;
+    public static volatile javax.swing.JLabel CantidadCarroceria1;
     public static volatile javax.swing.JLabel CantidadCarros;
+    public static volatile javax.swing.JLabel CantidadCarros1;
     public static volatile javax.swing.JLabel CantidadChasis;
+    public static volatile javax.swing.JLabel CantidadChasis1;
     public static volatile javax.swing.JLabel CantidadMotor;
+    public static volatile javax.swing.JLabel CantidadMotor1;
     public static volatile javax.swing.JLabel CantidadRuedas;
+    public static volatile javax.swing.JLabel CantidadRuedas1;
     private java.awt.Button DisminuirAccesorios;
+    private java.awt.Button DisminuirAccesorios1;
     private java.awt.Button DisminuirCarroceria;
+    private java.awt.Button DisminuirCarroceria1;
     private java.awt.Button DisminuirChasis;
+    private java.awt.Button DisminuirChasis1;
     private java.awt.Button DisminuirEnsamblador;
+    private java.awt.Button DisminuirEnsamblador1;
     private java.awt.Button DisminuirMotor;
+    private java.awt.Button DisminuirMotor1;
     private java.awt.Button DisminuirRuedas;
+    private java.awt.Button DisminuirRuedas1;
     public static volatile javax.swing.JLabel Entrega;
+    public static volatile javax.swing.JLabel Entrega1;
     public static volatile javax.swing.JLabel Ganancias;
+    public static volatile javax.swing.JLabel Ganancias1;
     public static volatile javax.swing.JLabel Salarios;
+    public static volatile javax.swing.JLabel Salarios1;
     public static volatile javax.swing.JLabel eAccesorios;
+    public static volatile javax.swing.JLabel eAccesorios1;
     public static volatile javax.swing.JLabel eCarroceria;
+    public static volatile javax.swing.JLabel eCarroceria1;
     public static volatile javax.swing.JLabel eChasis;
+    public static volatile javax.swing.JLabel eChasis1;
     public static volatile javax.swing.JLabel eEnsamblador;
+    public static volatile javax.swing.JLabel eEnsamblador1;
     public static volatile javax.swing.JLabel eMotor;
+    public static volatile javax.swing.JLabel eMotor1;
     public static volatile javax.swing.JLabel eRuedas;
+    public static volatile javax.swing.JLabel eRuedas1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel13;
+    private javax.swing.JLabel jLabel14;
+    private javax.swing.JLabel jLabel15;
+    private javax.swing.JLabel jLabel16;
+    private javax.swing.JLabel jLabel17;
+    private javax.swing.JLabel jLabel18;
+    private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel20;
+    private javax.swing.JLabel jLabel21;
+    private javax.swing.JLabel jLabel22;
+    private javax.swing.JLabel jLabel23;
+    private javax.swing.JLabel jLabel24;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
@@ -652,5 +1196,9 @@ public class InterfazMain extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel2;
+    private javax.swing.JTabbedPane jTabbedPane1;
+    private javax.swing.JTabbedPane jTabbedPane2;
+    private javax.swing.JTabbedPane jTabbedPane5;
     // End of variables declaration//GEN-END:variables
 }
