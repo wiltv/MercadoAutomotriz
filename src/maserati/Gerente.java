@@ -33,7 +33,7 @@ public class Gerente extends Thread{
                 if (contadorEntrega > 0){
                     contadorEntrega = contadorEntrega - 1;
                     System.out.println("El gerente notifica que quedan " + contadorEntrega + " dias para la entrega");
-                    InterfazMain.EntregaLamborghini.setText(String.valueOf(contadorEntrega));
+                    InterfazMain.EstandarLamborghini.setText(String.valueOf(contadorEntrega));
                 }else{
                     System.out.println("El gerente notifica que ya se pueden entregar los carros al director");
                 }
@@ -41,12 +41,12 @@ public class Gerente extends Thread{
                 
                 MercadoAutomotriz.Nomina = MercadoAutomotriz.Nomina + 480;
                 System.out.println("El gerente ha registrado " + MercadoAutomotriz.Nomina + " pagos en nomina");
-                InterfazMain.SalariosLamborghini.setText(String.valueOf(MercadoAutomotriz.Nomina));
+                InterfazMain.GananciasLamborghini.setText(String.valueOf(MercadoAutomotriz.Nomina));
                 
                 if (Director.momento < 36 && Director.momento%2==1){
                     System.out.println("Pillado");
                     MercadoAutomotriz.Nomina = MercadoAutomotriz.Nomina - 50;
-                    InterfazMain.SalariosLamborghini.setText(String.valueOf(MercadoAutomotriz.Nomina));
+                    InterfazMain.GananciasLamborghini.setText(String.valueOf(MercadoAutomotriz.Nomina));
                     
                 }else{
                     System.out.println("Laborando");}

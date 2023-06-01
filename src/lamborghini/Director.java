@@ -60,7 +60,7 @@ public class Director extends Thread{
                     
                     MercadoAutomotriz.Carros = 0;
                     InterfazMain.CantidadCarrosLamborghini.setText(String.valueOf(MercadoAutomotriz.Carros));
-                    InterfazMain.EntregaLamborghini.setText(String.valueOf(Gerente.contadorEntrega));
+                    InterfazMain.EstandarLamborghini.setText(String.valueOf(Gerente.contadorEntrega));
                     InterfazMain.GananciasLamborghini.setText(String.valueOf(MercadoAutomotriz.Ganancia));
                 }else{
                     System.out.println("El director esta atento de entregar los carros");
