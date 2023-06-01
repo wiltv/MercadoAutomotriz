@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-package mercadoautomotriz2;
+package lamborghini;
 
 import java.util.concurrent.Semaphore;
 import Interfaces.InterfazMain;
@@ -10,7 +10,7 @@ import Interfaces.InterfazMain;
  *
  * @author wiltsson
  */
-public class MercadoAutomotriz2 {
+public class MercadoAutomotriz {
 
     /**
      * @param args the command line arguments

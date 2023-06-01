@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package mercadoautomotriz2;
+package maserati;
 
 import Interfaces.InterfazMain;
 import static java.lang.Thread.sleep;
@@ -12,7 +12,7 @@ import java.util.logging.Logger;
 
 /**
  *
- * @author wiltsson
+ * @author valeria
  */
 public class Gerente extends Thread{
     private Semaphore mutex;
@@ -37,9 +37,9 @@ public class Gerente extends Thread{
                 }
                 
                 
-                MercadoAutomotriz2.Nomina = MercadoAutomotriz2.Nomina + 480;
-                System.out.println("El gerente ha registrado " + MercadoAutomotriz2.Nomina + " pagos en nomina");
-                InterfazMain.Salarios.setText(String.valueOf(MercadoAutomotriz2.Nomina));
+                MercadoAutomotriz.Nomina = MercadoAutomotriz.Nomina + 480;
+                System.out.println("El gerente ha registrado " + MercadoAutomotriz.Nomina + " pagos en nomina");
+                InterfazMain.Salarios.setText(String.valueOf(MercadoAutomotriz.Nomina));
                 
                 sleep(500);
                 

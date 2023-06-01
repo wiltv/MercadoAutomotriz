@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package mercadoautomotriz2;
+package maserati;
 
 import Interfaces.InterfazMain;
 import java.util.concurrent.Semaphore;
@@ -11,7 +11,7 @@ import java.util.logging.Logger;
 
 /**
  *
- * @author wiltsson
+ * @author valeria
  */
 public class Ensamblador extends Thread{
     private Semaphore mutex;
@@ -29,31 +29,31 @@ public class Ensamblador extends Thread{
         while(true){
             try{
                 mutex.acquire(); //wait
-                MercadoAutomotriz2.Nomina = MercadoAutomotriz2.Nomina + 600*Empleados.eEnsamblador;
+                MercadoAutomotriz.Nomina = MercadoAutomotriz.Nomina + 600*Empleados.eEnsamblador;
                 diasEnsamblador = diasEnsamblador + dias*Empleados.eEnsamblador;
                 if(diasEnsamblador>=1){
-                    if (Almacen.ContChasis >=2 && Almacen.ContMotor >= 6
-                            && Almacen.ContCarroceria >= 1 && Almacen.ContRuedas >= 5){
+                    if (Almacen.ContChasis >=1 && Almacen.ContMotor >= 2
+                            && Almacen.ContCarroceria >= 1 && Almacen.ContRuedas >= 4){
 
 
-                        Almacen.ContChasis = Almacen.ContChasis -2;
-                        Almacen.ContMotor = Almacen.ContMotor - 6;
+                        Almacen.ContChasis = Almacen.ContChasis -1;
+                        Almacen.ContMotor = Almacen.ContMotor - 2;
                         Almacen.ContCarroceria = Almacen.ContCarroceria - 1;
-                        Almacen.ContRuedas = Almacen.ContRuedas - 5;
-                        MercadoAutomotriz2.Carros = MercadoAutomotriz2.Carros + 1;
+                        Almacen.ContRuedas = Almacen.ContRuedas - 4;
+                        MercadoAutomotriz.Carros = MercadoAutomotriz.Carros + 1;
                            
-                        if(MercadoAutomotriz2.Carros %4 == 0){
-                            Almacen.ContAccesorio = Almacen.ContAccesorio - 1;
-                            System.out.println("Hay " + MercadoAutomotriz2.Carros + " carros, este viene con accesorio");
+                        if(MercadoAutomotriz.Carros %3 == 0){
+                            Almacen.ContAccesorio = Almacen.ContAccesorio - 3;
+                            System.out.println("Hay " + MercadoAutomotriz.Carros + " carros, este viene con accesorio");
                             InterfazMain.CantidadAccesorios.setText(String.valueOf(Almacen.ContAccesorio));
                         }else{
-                           System.out.println("Hay " + MercadoAutomotriz2.Carros + " carros"); 
+                           System.out.println("Hay " + MercadoAutomotriz.Carros + " carros"); 
                         }
                         InterfazMain.CantidadChasis.setText(String.valueOf(Almacen.ContChasis));
                         InterfazMain.CantidadCarroceria.setText(String.valueOf(Almacen.ContCarroceria));
                         InterfazMain.CantidadMotor.setText(String.valueOf(Almacen.ContMotor));
                         InterfazMain.CantidadRuedas.setText(String.valueOf(Almacen.ContRuedas));
-                        InterfazMain.CantidadCarros.setText(String.valueOf(MercadoAutomotriz2.Carros));
+                        InterfazMain.CantidadCarros.setText(String.valueOf(MercadoAutomotriz.Carros));
                         diasEnsamblador = 0f;
                     }else{
                         System.out.println("No hay suficientes piezas, el ensamblador espera");       

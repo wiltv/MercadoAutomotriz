@@ -7,8 +7,8 @@ package Interfaces;
 
 
 import javax.swing.JOptionPane;
-import mercadoautomotriz2.Almacen;
-import mercadoautomotriz2.Empleados;
+import lamborghini.Almacen;
+import lamborghini.Empleados;
 
 
 /**
