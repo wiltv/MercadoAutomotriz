@@ -151,7 +151,7 @@ public class Creador extends Thread {
                 sleep(500);
                 
                 mutex.release(); //signal
-                sleep(1000);
+                sleep(5000);
                         
             }catch(InterruptedException ex){
                 Logger.getLogger(Creador.class.getName()).log(Level.SEVERE, null, ex);

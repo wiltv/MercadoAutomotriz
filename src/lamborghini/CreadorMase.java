@@ -54,7 +54,7 @@ public class CreadorMase extends Thread {
                             System.out.println("El almacen de " + parte + " de capacidad " + almacen + " esta lleno" );
                         }
                     }else{
-                        System.out.println("El creador de chasis mase sigue trabajando " + MercadoAutomotriz.diasChasisMase);
+                        System.out.println("El creador mase de chasis mase sigue trabajando " + MercadoAutomotriz.diasChasisMase);
 
                     }
                     
@@ -76,7 +76,7 @@ public class CreadorMase extends Thread {
                             System.out.println("El almacen de " + parte + " de capacidad " + almacen + " esta lleno" );
                         }
                     }else{
-                        System.out.println("El creador de carroceria sigue trabajando " + MercadoAutomotriz.diasCarroceriaMase);
+                        System.out.println("El creador mase de carroceria sigue trabajando " + MercadoAutomotriz.diasCarroceriaMase);
 
                     }
                 
@@ -91,14 +91,14 @@ public class CreadorMase extends Thread {
                             }else{
                                 AlmacenMase.ContMotorMase = AlmacenMase.AlmacenMotorMase;
                             }
-                            System.out.println("Hay " + AlmacenMase.ContMotorMase + " unidades de " + parte);
+                            System.out.println("Hay Mase" + AlmacenMase.ContMotorMase + " unidades de " + parte);
                             InterfazMain.CantidadMotorLamborghini.setText(String.valueOf(AlmacenMase.ContMotorMase));
                             MercadoAutomotriz.diasMotorMase = 0f;}
                         else{
                             System.out.println("El almacen de " + parte + " de capacidad " + almacen + " esta lleno" );
                         }
                     }else{
-                        System.out.println("El creador de motir sigue trabajando " + MercadoAutomotriz.diasMotorMase);
+                        System.out.println("El creador mase de motir sigue trabajando " + MercadoAutomotriz.diasMotorMase);
 
                     }
                 
@@ -112,14 +112,14 @@ public class CreadorMase extends Thread {
                             }else{
                                 AlmacenMase.ContRuedasMase = AlmacenMase.AlmacenRuedasMase;
                             }
-                            System.out.println("Hay " + AlmacenMase.ContRuedasMase + " unidades de " + parte);
+                            System.out.println("Hay Mase" + AlmacenMase.ContRuedasMase + " unidades de " + parte);
                             InterfazMain.CantidadRuedasLamborghini.setText(String.valueOf(AlmacenMase.ContRuedasMase));
                             MercadoAutomotriz.diasRuedaMase = 0f;}
                         else{
                             System.out.println("El almacen de " + parte + " de capacidad " + almacen + " esta lleno" );
                         }
                     }else{
-                        System.out.println("El creador de ruedas sigue trabajando " + MercadoAutomotriz.diasRuedaMase);
+                        System.out.println("El creador mase de ruedas sigue trabajando " + MercadoAutomotriz.diasRuedaMase);
 
                     }
                 
@@ -137,10 +137,10 @@ public class CreadorMase extends Thread {
                             InterfazMain.CantidadAccesoriosLamborghini.setText(String.valueOf(AlmacenMase.ContAccesorioMase));
                             MercadoAutomotriz.diasAccesorioMase = 0f;}
                         else{
-                            System.out.println("El almacen de " + parte + " de capacidad " + almacen + " esta lleno" );
+                            System.out.println("El almacen mase de " + parte + " de capacidad " + almacen + " esta lleno" );
                         }
                     }else{
-                        System.out.println("El creador de acesorio sigue trabajando " + MercadoAutomotriz.diasAccesorioMase);
+                        System.out.println("El creador mase de acesorio sigue trabajando " + MercadoAutomotriz.diasAccesorioMase);
 
                     }
                 
@@ -149,7 +149,7 @@ public class CreadorMase extends Thread {
                 sleep(500);
                 
                 mutex.release(); //signal
-                sleep(1000);
+                sleep(5000);
                         
             }catch(InterruptedException ex){
                 Logger.getLogger(CreadorMase.class.getName()).log(Level.SEVERE, null, ex);
