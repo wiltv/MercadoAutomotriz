@@ -21,6 +21,7 @@ public class GerenteMase extends Thread{
     public static volatile Integer contadorEntregaMase = 30; //El jefe entrega y desde esa clase tengo que volver esto 30
     public static volatile Integer atrapadoMase = 0;
     public static volatile Integer descuentoMase = 0;
+    public static volatile String estadoMase = "activo";
     
     public GerenteMase(Semaphore mutex){
         this.mutex = mutex;
@@ -48,9 +49,13 @@ public class GerenteMase extends Thread{
                     System.out.println("Pillado");
                     MercadoAutomotriz.NominaMase = MercadoAutomotriz.NominaMase - 50;
                     InterfazMain.SalariosMaserati.setText(String.valueOf(MercadoAutomotriz.NominaMase));
+                    estadoMase = "procrastinando";
+                    InterfazMain.estadoMaserati.setText(String.valueOf(estadoMase));
                     
                 }else{
                     System.out.println("Laborando");}
+                    estadoMase = "activo";
+                    InterfazMain.estadoMaserati.setText(String.valueOf(estadoMase));
                 
                 
                 sleep(500);
