@@ -29,7 +29,7 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Component id="jTabbedPane2" alignment="0" pref="760" max="32767" attributes="0"/>
+          <Component id="jTabbedPane2" alignment="0" max="32767" attributes="0"/>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
@@ -60,135 +60,127 @@
                           <Group type="102" alignment="0" attributes="0">
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
                                       <Group type="103" groupAlignment="0" attributes="0">
-                                          <Group type="102" alignment="0" attributes="0">
-                                              <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
-                                              <Group type="103" groupAlignment="0" attributes="0">
-                                                  <Component id="CantidadChasis" alignment="0" min="-2" pref="43" max="-2" attributes="0"/>
-                                                  <Component id="jLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
-                                              </Group>
-                                          </Group>
-                                          <Group type="102" alignment="0" attributes="0">
-                                              <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
-                                              <EmptySpace type="separate" max="-2" attributes="0"/>
-                                              <Component id="eChasis" min="-2" pref="43" max="-2" attributes="0"/>
-                                          </Group>
-                                          <Group type="102" alignment="1" attributes="0">
-                                              <EmptySpace max="-2" attributes="0"/>
-                                              <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
-                                          </Group>
-                                      </Group>
-                                      <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
-                                      <Group type="103" groupAlignment="1" attributes="0">
-                                          <Group type="103" alignment="1" groupAlignment="0" attributes="0">
-                                              <Component id="jLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
-                                              <Component id="CantidadCarroceria" alignment="0" min="-2" pref="43" max="-2" attributes="0"/>
-                                              <Component id="eCarroceria" alignment="0" min="-2" pref="43" max="-2" attributes="0"/>
-                                          </Group>
-                                          <Component id="eEnsamblador" alignment="1" min="-2" pref="43" max="-2" attributes="0"/>
-                                      </Group>
-                                      <Group type="103" groupAlignment="0" attributes="0">
-                                          <Group type="102" alignment="0" attributes="0">
-                                              <EmptySpace type="separate" max="-2" attributes="0"/>
-                                              <Component id="eMotor" min="-2" pref="43" max="-2" attributes="0"/>
-                                          </Group>
-                                          <Group type="102" alignment="0" attributes="0">
-                                              <EmptySpace max="32767" attributes="0"/>
-                                              <Group type="103" groupAlignment="1" attributes="0">
-                                                  <Group type="102" alignment="1" attributes="0">
-                                                      <Group type="103" groupAlignment="0" attributes="0">
-                                                          <Component id="DisminuirRuedas" alignment="0" min="-2" pref="33" max="-2" attributes="0"/>
-                                                          <Component id="eRuedas" alignment="0" min="-2" pref="43" max="-2" attributes="0"/>
-                                                          <Component id="AumentarRuedas" alignment="0" min="-2" pref="34" max="-2" attributes="0"/>
-                                                      </Group>
-                                                      <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
-                                                  </Group>
-                                                  <Group type="102" alignment="1" attributes="0">
-                                                      <Group type="103" groupAlignment="1" attributes="0">
-                                                          <Group type="102" alignment="1" attributes="0">
-                                                              <Component id="AumentarEnsamblador" min="-2" pref="34" max="-2" attributes="0"/>
-                                                              <EmptySpace max="-2" attributes="0"/>
-                                                              <Component id="DisminuirEnsamblador" min="-2" pref="33" max="-2" attributes="0"/>
-                                                          </Group>
-                                                          <Group type="103" alignment="1" groupAlignment="0" attributes="0">
-                                                              <Component id="jLabel3" alignment="0" min="-2" max="-2" attributes="0"/>
-                                                              <Component id="CantidadMotor" alignment="0" min="-2" pref="43" max="-2" attributes="0"/>
-                                                          </Group>
-                                                      </Group>
-                                                      <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
-                                                      <Group type="103" groupAlignment="0" attributes="0">
-                                                          <Component id="jLabel4" alignment="0" min="-2" max="-2" attributes="0"/>
-                                                          <Component id="CantidadRuedas" alignment="0" min="-2" pref="43" max="-2" attributes="0"/>
-                                                      </Group>
-                                                  </Group>
-                                              </Group>
-                                              <EmptySpace pref="71" max="32767" attributes="0"/>
-                                          </Group>
+                                          <Component id="CantidadChasisLamborghini" alignment="0" min="-2" pref="43" max="-2" attributes="0"/>
+                                          <Component id="jLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
                                       </Group>
                                   </Group>
                                   <Group type="102" alignment="0" attributes="0">
-                                      <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
-                                      <Component id="jLabel10" min="-2" pref="143" max="-2" attributes="0"/>
-                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="eChasisLamborghini" min="-2" pref="43" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Group type="103" alignment="0" groupAlignment="0" attributes="0">
-                                      <Group type="102" alignment="1" attributes="0">
-                                          <Group type="103" groupAlignment="1" attributes="0">
-                                              <Component id="jLabel8" alignment="1" min="-2" max="-2" attributes="0"/>
-                                              <Component id="jLabel6" alignment="1" min="-2" max="-2" attributes="0"/>
-                                          </Group>
-                                          <EmptySpace min="-2" pref="68" max="-2" attributes="0"/>
-                                      </Group>
-                                      <Group type="102" alignment="1" attributes="0">
-                                          <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace min="-2" pref="134" max="-2" attributes="0"/>
-                                      </Group>
+                              <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                                      <Component id="jLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="CantidadCarroceriaLamborghini" alignment="0" min="-2" pref="43" max="-2" attributes="0"/>
+                                      <Component id="eCarroceriaLamborghini" alignment="0" min="-2" pref="43" max="-2" attributes="0"/>
                                   </Group>
-                                  <Group type="102" alignment="0" attributes="0">
+                                  <Component id="eEnsambladorLamborghini" alignment="1" min="-2" pref="43" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace pref="39" max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Group type="102" alignment="1" attributes="0">
                                       <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="CantidadAccesorios" alignment="0" min="-2" pref="43" max="-2" attributes="0"/>
-                                          <Component id="eAccesorios" alignment="0" min="-2" pref="43" max="-2" attributes="0"/>
-                                          <Group type="103" alignment="0" groupAlignment="1" attributes="0">
-                                              <Component id="DisminuirAccesorios" alignment="1" min="-2" pref="33" max="-2" attributes="0"/>
-                                              <Component id="AumentarAccesorios" alignment="1" min="-2" pref="34" max="-2" attributes="0"/>
+                                          <Component id="DisminuirRuedasLamborghini" alignment="0" min="-2" pref="33" max="-2" attributes="0"/>
+                                          <Component id="eRuedasLamborghini" alignment="0" min="-2" pref="43" max="-2" attributes="0"/>
+                                          <Component id="AumentarRuedasLamborghini" alignment="0" min="-2" pref="34" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Group type="102" attributes="0">
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="DisminuirMotorLamborghini" min="-2" pref="33" max="-2" attributes="0"/>
+                                                  <Group type="102" attributes="0">
+                                                      <Group type="103" groupAlignment="1" attributes="0">
+                                                          <Component id="AumentarMotorLamborghini" min="-2" pref="34" max="-2" attributes="0"/>
+                                                          <Component id="AumentarEnsambladorLamborghini" min="-2" pref="34" max="-2" attributes="0"/>
+                                                      </Group>
+                                                      <EmptySpace max="-2" attributes="0"/>
+                                                      <Component id="DisminuirEnsambladorLamborghini" min="-2" pref="33" max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                              <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="eMotorLamborghini" min="-2" pref="43" max="-2" attributes="0"/>
+                                                  <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="CantidadMotorLamborghini" alignment="0" min="-2" pref="43" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace max="-2" attributes="0"/>
                                           </Group>
                                       </Group>
-                                      <EmptySpace min="-2" pref="148" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jLabel4" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="CantidadRuedasLamborghini" alignment="0" min="-2" pref="43" max="-2" attributes="0"/>
+                                      </Group>
                                   </Group>
+                              </Group>
+                              <EmptySpace pref="71" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
+                              <Component id="jLabel10" min="-2" pref="143" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" alignment="0" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="jLabel8" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel6" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="68" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="134" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace max="32767" attributes="0"/>
-                              <Component id="Entrega" min="-2" pref="43" max="-2" attributes="0"/>
-                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="CantidadAccesoriosLamborghini" alignment="0" min="-2" pref="43" max="-2" attributes="0"/>
+                                  <Component id="eAccesoriosLamborghini" alignment="0" min="-2" pref="43" max="-2" attributes="0"/>
+                                  <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                                      <Component id="DisminuirAccesoriosLamborghini" alignment="1" min="-2" pref="33" max="-2" attributes="0"/>
+                                      <Component id="AumentarAccesoriosLamborghini" alignment="1" min="-2" pref="34" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" pref="148" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Component id="jLabel7" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="CantidadCarros" alignment="0" min="-2" pref="43" max="-2" attributes="0"/>
+                          <Component id="CantidadCarrosLamborghini" alignment="0" min="-2" pref="43" max="-2" attributes="0"/>
                           <Component id="jLabel9" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="Ganancias" alignment="0" min="-2" pref="43" max="-2" attributes="0"/>
-                          <Component id="Salarios" alignment="0" min="-2" pref="43" max="-2" attributes="0"/>
+                          <Component id="GananciasLamborghini" alignment="0" min="-2" pref="43" max="-2" attributes="0"/>
+                          <Component id="SalariosLamborghini" alignment="0" min="-2" pref="43" max="-2" attributes="0"/>
+                          <Component id="EntregaLamborghini" min="-2" pref="43" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" pref="75" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="56" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="1" attributes="0">
-                          <Component id="DisminuirChasis" alignment="1" min="-2" pref="33" max="-2" attributes="0"/>
-                          <Component id="AumentarChasis" alignment="1" min="-2" pref="33" max="-2" attributes="0"/>
+                          <Component id="DisminuirChasisLamborghini" alignment="1" min="-2" pref="33" max="-2" attributes="0"/>
+                          <Component id="AumentarChasisLamborghini" alignment="1" min="-2" pref="33" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="DisminuirCarroceria" alignment="0" min="-2" pref="33" max="-2" attributes="0"/>
-                          <Component id="AumentarCarroceria" alignment="0" min="-2" pref="34" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="AumentarMotor" alignment="0" min="-2" pref="34" max="-2" attributes="0"/>
-                          <Component id="DisminuirMotor" alignment="0" min="-2" pref="33" max="-2" attributes="0"/>
+                          <Component id="DisminuirCarroceriaLamborghini" alignment="0" min="-2" pref="33" max="-2" attributes="0"/>
+                          <Component id="AumentarCarroceriaLamborghini" alignment="0" min="-2" pref="34" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="32767" attributes="0"/>
                   </Group>
@@ -202,103 +194,105 @@
                               <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="3" attributes="0">
                                   <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="Salarios" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
+                                  <Component id="SalariosLamborghini" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
                               </Group>
                               <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="3" attributes="0">
                                   <Component id="jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="Ganancias" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
+                                  <Component id="GananciasLamborghini" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
                               </Group>
                               <EmptySpace min="-2" pref="55" max="-2" attributes="0"/>
                               <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
-                              <Component id="CantidadCarros" min="-2" pref="35" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="101" max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="3" attributes="0">
-                                  <Component id="jLabel9" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="Entrega" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
-                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="CantidadCarrosLamborghini" min="-2" pref="35" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="123" max="-2" attributes="0"/>
+                              <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
                               <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="1" attributes="0">
                                   <Group type="102" alignment="1" attributes="0">
-                                      <Group type="103" groupAlignment="1" attributes="0">
-                                          <Group type="102" alignment="1" attributes="0">
-                                              <Component id="jLabel10" min="-2" pref="67" max="-2" attributes="0"/>
-                                              <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
-                                              <Group type="103" groupAlignment="0" attributes="0">
-                                                  <Group type="102" alignment="0" attributes="0">
-                                                      <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
-                                                      <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
-                                                  </Group>
-                                                  <Group type="103" alignment="0" groupAlignment="3" attributes="0">
-                                                      <Component id="eCarroceria" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
-                                                      <Component id="eMotor" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
-                                                      <Component id="eRuedas" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
-                                                      <Component id="eChasis" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
-                                                      <Component id="eAccesorios" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
-                                                  </Group>
-                                              </Group>
-                                              <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
-                                              <Group type="103" groupAlignment="0" attributes="0">
-                                                  <Group type="103" alignment="0" groupAlignment="1" attributes="0">
-                                                      <Component id="jLabel5" alignment="1" min="-2" max="-2" attributes="0"/>
-                                                      <Component id="jLabel4" alignment="1" min="-2" max="-2" attributes="0"/>
-                                                      <Group type="103" alignment="1" groupAlignment="3" attributes="0">
-                                                          <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
-                                                          <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
-                                                      </Group>
-                                                  </Group>
-                                                  <Component id="jLabel1" alignment="1" min="-2" max="-2" attributes="0"/>
-                                              </Group>
-                                              <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
-                                              <Group type="103" groupAlignment="3" attributes="0">
-                                                  <Component id="CantidadChasis" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
-                                                  <Component id="CantidadCarroceria" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
-                                                  <Component id="CantidadMotor" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
-                                                  <Component id="CantidadRuedas" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
-                                                  <Component id="CantidadAccesorios" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
-                                              </Group>
-                                              <EmptySpace max="-2" attributes="0"/>
-                                              <Group type="103" groupAlignment="0" attributes="0">
-                                                  <Component id="AumentarChasis" alignment="0" min="-2" max="-2" attributes="0"/>
-                                                  <Component id="AumentarMotor" alignment="0" min="-2" max="-2" attributes="0"/>
-                                                  <Component id="AumentarRuedas" alignment="1" min="-2" max="-2" attributes="0"/>
-                                                  <Component id="AumentarAccesorios" alignment="0" min="-2" max="-2" attributes="0"/>
-                                              </Group>
-                                          </Group>
-                                          <Component id="AumentarCarroceria" alignment="1" min="-2" max="-2" attributes="0"/>
-                                      </Group>
-                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                          <Group type="102" alignment="1" attributes="0">
-                                              <EmptySpace max="32767" attributes="0"/>
-                                              <Component id="DisminuirRuedas" min="-2" max="-2" attributes="0"/>
-                                          </Group>
+                                      <Component id="jLabel10" min="-2" pref="67" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
                                           <Group type="102" alignment="0" attributes="0">
-                                              <EmptySpace max="-2" attributes="0"/>
-                                              <Group type="103" groupAlignment="0" attributes="0">
-                                                  <Component id="DisminuirChasis" alignment="0" min="-2" max="-2" attributes="0"/>
-                                                  <Component id="DisminuirCarroceria" alignment="0" min="-2" max="-2" attributes="0"/>
-                                                  <Component id="DisminuirAccesorios" alignment="1" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+                                              <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                              <Component id="eCarroceriaLamborghini" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
+                                              <Component id="eMotorLamborghini" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
+                                              <Component id="eRuedasLamborghini" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
+                                              <Component id="eChasisLamborghini" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
+                                              <Component id="eAccesoriosLamborghini" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                                              <Component id="jLabel5" alignment="1" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jLabel4" alignment="1" min="-2" max="-2" attributes="0"/>
+                                              <Group type="103" alignment="1" groupAlignment="3" attributes="0">
+                                                  <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
                                               </Group>
                                           </Group>
+                                          <Component id="jLabel1" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="CantidadChasisLamborghini" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
+                                          <Component id="CantidadCarroceriaLamborghini" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
+                                          <Component id="CantidadMotorLamborghini" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
+                                          <Component id="CantidadRuedasLamborghini" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
+                                          <Component id="CantidadAccesoriosLamborghini" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="AumentarChasisLamborghini" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="AumentarMotorLamborghini" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="AumentarRuedasLamborghini" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="AumentarAccesoriosLamborghini" alignment="0" min="-2" max="-2" attributes="0"/>
                                       </Group>
                                   </Group>
-                                  <Component id="DisminuirMotor" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="AumentarCarroceriaLamborghini" alignment="1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="DisminuirRuedasLamborghini" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="DisminuirChasisLamborghini" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="DisminuirCarroceriaLamborghini" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="DisminuirAccesoriosLamborghini" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="DisminuirMotorLamborghini" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
                               </Group>
                           </Group>
                       </Group>
-                      <EmptySpace pref="14" max="32767" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="103" alignment="0" groupAlignment="3" attributes="0">
-                              <Component id="jLabel13" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="eEnsamblador" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <EmptySpace pref="25" max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                      <Component id="jLabel13" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="eEnsambladorLamborghini" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="DisminuirEnsambladorLamborghini" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="AumentarEnsambladorLamborghini" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
                           </Group>
-                          <Component id="DisminuirEnsamblador" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="AumentarEnsamblador" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="EntregaLamborghini" min="-2" pref="35" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                          </Group>
                       </Group>
-                      <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -329,7 +323,7 @@
                 <Property name="text" type="java.lang.String" value="Accesorios"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JLabel" name="CantidadCarros">
+            <Component class="javax.swing.JLabel" name="CantidadCarrosLamborghini">
               <Properties>
                 <Property name="text" type="java.lang.String" value="0"/>
               </Properties>
@@ -337,7 +331,7 @@
                 <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="73"/>
               </AuxValues>
             </Component>
-            <Component class="javax.swing.JLabel" name="CantidadCarroceria">
+            <Component class="javax.swing.JLabel" name="CantidadCarroceriaLamborghini">
               <Properties>
                 <Property name="text" type="java.lang.String" value="0"/>
               </Properties>
@@ -345,7 +339,7 @@
                 <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="73"/>
               </AuxValues>
             </Component>
-            <Component class="javax.swing.JLabel" name="CantidadRuedas">
+            <Component class="javax.swing.JLabel" name="CantidadRuedasLamborghini">
               <Properties>
                 <Property name="text" type="java.lang.String" value="0"/>
               </Properties>
@@ -353,7 +347,7 @@
                 <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="73"/>
               </AuxValues>
             </Component>
-            <Component class="javax.swing.JLabel" name="CantidadMotor">
+            <Component class="javax.swing.JLabel" name="CantidadMotorLamborghini">
               <Properties>
                 <Property name="text" type="java.lang.String" value="0"/>
               </Properties>
@@ -361,7 +355,7 @@
                 <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="73"/>
               </AuxValues>
             </Component>
-            <Component class="javax.swing.JLabel" name="CantidadAccesorios">
+            <Component class="javax.swing.JLabel" name="CantidadAccesoriosLamborghini">
               <Properties>
                 <Property name="text" type="java.lang.String" value="0"/>
               </Properties>
@@ -369,7 +363,7 @@
                 <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="73"/>
               </AuxValues>
             </Component>
-            <Component class="javax.swing.JLabel" name="CantidadChasis">
+            <Component class="javax.swing.JLabel" name="CantidadChasisLamborghini">
               <Properties>
                 <Property name="text" type="java.lang.String" value="0"/>
               </Properties>
@@ -392,7 +386,7 @@
                 <Property name="text" type="java.lang.String" value="Ganancias"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JLabel" name="Salarios">
+            <Component class="javax.swing.JLabel" name="SalariosLamborghini">
               <Properties>
                 <Property name="text" type="java.lang.String" value="0"/>
               </Properties>
@@ -400,7 +394,7 @@
                 <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="73"/>
               </AuxValues>
             </Component>
-            <Component class="javax.swing.JLabel" name="Ganancias">
+            <Component class="javax.swing.JLabel" name="GananciasLamborghini">
               <Properties>
                 <Property name="text" type="java.lang.String" value="0"/>
               </Properties>
@@ -413,7 +407,7 @@
                 <Property name="text" type="java.lang.String" value="Entrega"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JLabel" name="Entrega">
+            <Component class="javax.swing.JLabel" name="EntregaLamborghini">
               <Properties>
                 <Property name="text" type="java.lang.String" value="0"/>
               </Properties>
@@ -437,7 +431,7 @@
                 <Property name="text" type="java.lang.String" value="Trab Asig"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JLabel" name="eCarroceria">
+            <Component class="javax.swing.JLabel" name="eCarroceriaLamborghini">
               <Properties>
                 <Property name="text" type="java.lang.String" value="1"/>
               </Properties>
@@ -445,7 +439,7 @@
                 <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="73"/>
               </AuxValues>
             </Component>
-            <Component class="javax.swing.JLabel" name="eMotor">
+            <Component class="javax.swing.JLabel" name="eMotorLamborghini">
               <Properties>
                 <Property name="text" type="java.lang.String" value="1"/>
               </Properties>
@@ -453,7 +447,7 @@
                 <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="73"/>
               </AuxValues>
             </Component>
-            <Component class="javax.swing.JLabel" name="eRuedas">
+            <Component class="javax.swing.JLabel" name="eRuedasLamborghini">
               <Properties>
                 <Property name="text" type="java.lang.String" value="1"/>
               </Properties>
@@ -461,7 +455,7 @@
                 <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="73"/>
               </AuxValues>
             </Component>
-            <Component class="javax.swing.JLabel" name="eEnsamblador">
+            <Component class="javax.swing.JLabel" name="eEnsambladorLamborghini">
               <Properties>
                 <Property name="text" type="java.lang.String" value="1"/>
               </Properties>
@@ -469,7 +463,7 @@
                 <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="73"/>
               </AuxValues>
             </Component>
-            <Component class="javax.swing.JLabel" name="eChasis">
+            <Component class="javax.swing.JLabel" name="eChasisLamborghini">
               <Properties>
                 <Property name="text" type="java.lang.String" value="1"/>
               </Properties>
@@ -477,7 +471,7 @@
                 <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="73"/>
               </AuxValues>
             </Component>
-            <Component class="javax.swing.JLabel" name="eAccesorios">
+            <Component class="javax.swing.JLabel" name="eAccesoriosLamborghini">
               <Properties>
                 <Property name="text" type="java.lang.String" value="1"/>
               </Properties>
@@ -490,7 +484,7 @@
                 <Property name="text" type="java.lang.String" value="Ensamblador"/>
               </Properties>
             </Component>
-            <Component class="java.awt.Button" name="AumentarChasis">
+            <Component class="java.awt.Button" name="AumentarChasisLamborghini">
               <Properties>
                 <Property name="actionCommand" type="java.lang.String" value="Contratar"/>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
@@ -499,10 +493,10 @@
                 <Property name="label" type="java.lang.String" value="A"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AumentarChasisActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AumentarChasisLamborghiniActionPerformed"/>
               </Events>
             </Component>
-            <Component class="java.awt.Button" name="DisminuirChasis">
+            <Component class="java.awt.Button" name="DisminuirChasisLamborghini">
               <Properties>
                 <Property name="actionCommand" type="java.lang.String" value="Contratar"/>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
@@ -511,10 +505,10 @@
                 <Property name="label" type="java.lang.String" value="D"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="DisminuirChasisActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="DisminuirChasisLamborghiniActionPerformed"/>
               </Events>
             </Component>
-            <Component class="java.awt.Button" name="AumentarCarroceria">
+            <Component class="java.awt.Button" name="AumentarCarroceriaLamborghini">
               <Properties>
                 <Property name="actionCommand" type="java.lang.String" value="Contratar"/>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
@@ -523,10 +517,10 @@
                 <Property name="label" type="java.lang.String" value="A"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AumentarCarroceriaActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AumentarCarroceriaLamborghiniActionPerformed"/>
               </Events>
             </Component>
-            <Component class="java.awt.Button" name="DisminuirCarroceria">
+            <Component class="java.awt.Button" name="DisminuirCarroceriaLamborghini">
               <Properties>
                 <Property name="actionCommand" type="java.lang.String" value="Contratar"/>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
@@ -535,10 +529,10 @@
                 <Property name="label" type="java.lang.String" value="D"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="DisminuirCarroceriaActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="DisminuirCarroceriaLamborghiniActionPerformed"/>
               </Events>
             </Component>
-            <Component class="java.awt.Button" name="DisminuirAccesorios">
+            <Component class="java.awt.Button" name="DisminuirAccesoriosLamborghini">
               <Properties>
                 <Property name="actionCommand" type="java.lang.String" value="Contratar"/>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
@@ -547,10 +541,10 @@
                 <Property name="label" type="java.lang.String" value="D"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="DisminuirAccesoriosActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="DisminuirAccesoriosLamborghiniActionPerformed"/>
               </Events>
             </Component>
-            <Component class="java.awt.Button" name="DisminuirMotor">
+            <Component class="java.awt.Button" name="DisminuirMotorLamborghini">
               <Properties>
                 <Property name="actionCommand" type="java.lang.String" value="Contratar"/>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
@@ -559,10 +553,10 @@
                 <Property name="label" type="java.lang.String" value="D"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="DisminuirMotorActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="DisminuirMotorLamborghiniActionPerformed"/>
               </Events>
             </Component>
-            <Component class="java.awt.Button" name="DisminuirRuedas">
+            <Component class="java.awt.Button" name="DisminuirRuedasLamborghini">
               <Properties>
                 <Property name="actionCommand" type="java.lang.String" value="Contratar"/>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
@@ -571,10 +565,10 @@
                 <Property name="label" type="java.lang.String" value="D"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="DisminuirRuedasActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="DisminuirRuedasLamborghiniActionPerformed"/>
               </Events>
             </Component>
-            <Component class="java.awt.Button" name="DisminuirEnsamblador">
+            <Component class="java.awt.Button" name="DisminuirEnsambladorLamborghini">
               <Properties>
                 <Property name="actionCommand" type="java.lang.String" value="Contratar"/>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
@@ -583,10 +577,10 @@
                 <Property name="label" type="java.lang.String" value="D"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="DisminuirEnsambladorActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="DisminuirEnsambladorLamborghiniActionPerformed"/>
               </Events>
             </Component>
-            <Component class="java.awt.Button" name="AumentarRuedas">
+            <Component class="java.awt.Button" name="AumentarRuedasLamborghini">
               <Properties>
                 <Property name="actionCommand" type="java.lang.String" value="Contratar"/>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
@@ -595,10 +589,10 @@
                 <Property name="label" type="java.lang.String" value="A"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AumentarRuedasActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AumentarRuedasLamborghiniActionPerformed"/>
               </Events>
             </Component>
-            <Component class="java.awt.Button" name="AumentarAccesorios">
+            <Component class="java.awt.Button" name="AumentarAccesoriosLamborghini">
               <Properties>
                 <Property name="actionCommand" type="java.lang.String" value="Contratar"/>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
@@ -607,10 +601,10 @@
                 <Property name="label" type="java.lang.String" value="A"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AumentarAccesoriosActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AumentarAccesoriosLamborghiniActionPerformed"/>
               </Events>
             </Component>
-            <Component class="java.awt.Button" name="AumentarEnsamblador">
+            <Component class="java.awt.Button" name="AumentarEnsambladorLamborghini">
               <Properties>
                 <Property name="actionCommand" type="java.lang.String" value="Contratar"/>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
@@ -619,10 +613,10 @@
                 <Property name="label" type="java.lang.String" value="A"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AumentarEnsambladorActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AumentarEnsambladorLamborghiniActionPerformed"/>
               </Events>
             </Component>
-            <Component class="java.awt.Button" name="AumentarMotor">
+            <Component class="java.awt.Button" name="AumentarMotorLamborghini">
               <Properties>
                 <Property name="actionCommand" type="java.lang.String" value="Contratar"/>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
@@ -631,7 +625,7 @@
                 <Property name="label" type="java.lang.String" value="A"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AumentarMotorActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AumentarMotorLamborghiniActionPerformed"/>
               </Events>
             </Component>
           </SubComponents>
@@ -653,78 +647,80 @@
                           <Group type="102" alignment="0" attributes="0">
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
                                       <Group type="103" groupAlignment="0" attributes="0">
-                                          <Group type="102" alignment="0" attributes="0">
-                                              <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
-                                              <Group type="103" groupAlignment="0" attributes="0">
-                                                  <Component id="CantidadChasis1" alignment="0" min="-2" pref="43" max="-2" attributes="0"/>
-                                                  <Component id="jLabel12" alignment="0" min="-2" max="-2" attributes="0"/>
-                                              </Group>
-                                          </Group>
-                                          <Group type="102" alignment="0" attributes="0">
-                                              <Component id="jLabel23" min="-2" max="-2" attributes="0"/>
-                                              <EmptySpace type="separate" max="-2" attributes="0"/>
-                                              <Component id="eChasis1" min="-2" pref="43" max="-2" attributes="0"/>
-                                          </Group>
-                                          <Group type="102" alignment="1" attributes="0">
-                                              <EmptySpace max="-2" attributes="0"/>
-                                              <Component id="jLabel24" min="-2" max="-2" attributes="0"/>
-                                          </Group>
-                                      </Group>
-                                      <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
-                                      <Group type="103" groupAlignment="1" attributes="0">
-                                          <Group type="103" alignment="1" groupAlignment="0" attributes="0">
-                                              <Component id="jLabel14" alignment="0" min="-2" max="-2" attributes="0"/>
-                                              <Component id="CantidadCarroceria1" alignment="0" min="-2" pref="43" max="-2" attributes="0"/>
-                                              <Component id="eCarroceria1" alignment="0" min="-2" pref="43" max="-2" attributes="0"/>
-                                          </Group>
-                                          <Component id="eEnsamblador1" alignment="1" min="-2" pref="43" max="-2" attributes="0"/>
-                                      </Group>
-                                      <Group type="103" groupAlignment="0" attributes="0">
-                                          <Group type="102" alignment="0" attributes="0">
-                                              <EmptySpace type="separate" max="-2" attributes="0"/>
-                                              <Component id="eMotor1" min="-2" pref="43" max="-2" attributes="0"/>
-                                          </Group>
-                                          <Group type="102" alignment="0" attributes="0">
-                                              <EmptySpace max="32767" attributes="0"/>
-                                              <Group type="103" groupAlignment="1" attributes="0">
-                                                  <Group type="102" alignment="1" attributes="0">
-                                                      <Group type="103" groupAlignment="0" attributes="0">
-                                                          <Component id="DisminuirRuedas1" alignment="0" min="-2" pref="33" max="-2" attributes="0"/>
-                                                          <Component id="eRuedas1" alignment="0" min="-2" pref="43" max="-2" attributes="0"/>
-                                                          <Component id="AumentarRuedas1" alignment="0" min="-2" pref="34" max="-2" attributes="0"/>
-                                                      </Group>
-                                                      <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
-                                                  </Group>
-                                                  <Group type="102" alignment="1" attributes="0">
-                                                      <Group type="103" groupAlignment="1" attributes="0">
-                                                          <Group type="102" alignment="1" attributes="0">
-                                                              <Component id="AumentarEnsamblador1" min="-2" pref="34" max="-2" attributes="0"/>
-                                                              <EmptySpace max="-2" attributes="0"/>
-                                                              <Component id="DisminuirEnsamblador1" min="-2" pref="33" max="-2" attributes="0"/>
-                                                          </Group>
-                                                          <Group type="103" alignment="1" groupAlignment="0" attributes="0">
-                                                              <Component id="jLabel15" alignment="0" min="-2" max="-2" attributes="0"/>
-                                                              <Component id="CantidadMotor1" alignment="0" min="-2" pref="43" max="-2" attributes="0"/>
-                                                          </Group>
-                                                      </Group>
-                                                      <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
-                                                      <Group type="103" groupAlignment="0" attributes="0">
-                                                          <Component id="jLabel16" alignment="0" min="-2" max="-2" attributes="0"/>
-                                                          <Component id="CantidadRuedas1" alignment="0" min="-2" pref="43" max="-2" attributes="0"/>
-                                                      </Group>
-                                                  </Group>
-                                              </Group>
-                                              <EmptySpace pref="71" max="32767" attributes="0"/>
-                                          </Group>
+                                          <Component id="CantidadChasisMaserati" alignment="0" min="-2" pref="43" max="-2" attributes="0"/>
+                                          <Component id="jLabel12" alignment="0" min="-2" max="-2" attributes="0"/>
                                       </Group>
                                   </Group>
                                   <Group type="102" alignment="0" attributes="0">
-                                      <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
-                                      <Component id="jLabel22" min="-2" pref="143" max="-2" attributes="0"/>
-                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="jLabel23" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="eChasisMaserati" min="-2" pref="43" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="jLabel24" min="-2" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
+                              <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                                      <Component id="jLabel14" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="CantidadCarroceriaMaserati" alignment="0" min="-2" pref="43" max="-2" attributes="0"/>
+                                      <Component id="eCarroceriaMaserati" alignment="0" min="-2" pref="43" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="eEnsambladorMaserati" alignment="1" min="-2" pref="43" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace pref="39" max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="eMotorMaserati" min="-2" pref="43" max="-2" attributes="0"/>
+                                              <EmptySpace max="32767" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="1" attributes="0">
+                                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="jLabel15" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="CantidadMotorMaserati" min="-2" pref="43" max="-2" attributes="0"/>
+                                                  <Component id="AumentarMotorMaserati" alignment="0" min="-2" pref="34" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace min="-2" pref="59" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="DisminuirRuedasMaserati" alignment="0" min="-2" pref="33" max="-2" attributes="0"/>
+                                          <Component id="eRuedasMaserati" alignment="0" min="-2" pref="43" max="-2" attributes="0"/>
+                                          <Component id="AumentarRuedasMaserati" alignment="0" min="-2" pref="34" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                                      <Component id="DisminuirMotorMaserati" min="-2" pref="33" max="-2" attributes="0"/>
+                                      <Group type="102" attributes="0">
+                                          <Component id="AumentarEnsambladorMaserati" min="-2" pref="34" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="DisminuirEnsambladorMaserati" min="-2" pref="33" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="jLabel16" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="CantidadRuedasMaserati" alignment="0" min="-2" pref="43" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <EmptySpace pref="71" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
+                              <Component id="jLabel22" min="-2" pref="143" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Group type="103" alignment="0" groupAlignment="0" attributes="0">
                                       <Group type="102" alignment="1" attributes="0">
@@ -741,47 +737,41 @@
                                   </Group>
                                   <Group type="102" alignment="0" attributes="0">
                                       <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="CantidadAccesorios1" alignment="0" min="-2" pref="43" max="-2" attributes="0"/>
-                                          <Component id="eAccesorios1" alignment="0" min="-2" pref="43" max="-2" attributes="0"/>
+                                          <Component id="CantidadAccesoriosMaserati" alignment="0" min="-2" pref="43" max="-2" attributes="0"/>
+                                          <Component id="eAccesoriosMaserati" alignment="0" min="-2" pref="43" max="-2" attributes="0"/>
                                           <Group type="103" alignment="0" groupAlignment="1" attributes="0">
-                                              <Component id="DisminuirAccesorios1" alignment="1" min="-2" pref="33" max="-2" attributes="0"/>
-                                              <Component id="AumentarAccesorios1" alignment="1" min="-2" pref="34" max="-2" attributes="0"/>
+                                              <Component id="DisminuirAccesoriosMaserati" alignment="1" min="-2" pref="33" max="-2" attributes="0"/>
+                                              <Component id="AumentarAccesoriosMaserati" alignment="1" min="-2" pref="34" max="-2" attributes="0"/>
                                           </Group>
                                       </Group>
                                       <EmptySpace min="-2" pref="148" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel19" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="CantidadCarrosMaserati" alignment="0" min="-2" pref="43" max="-2" attributes="0"/>
+                                  <Component id="jLabel21" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="GananciasMaserati" alignment="0" min="-2" pref="43" max="-2" attributes="0"/>
+                                  <Component id="SalariosMaserati" alignment="0" min="-2" pref="43" max="-2" attributes="0"/>
+                              </Group>
                           </Group>
-                          <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace max="32767" attributes="0"/>
-                              <Component id="Entrega1" min="-2" pref="43" max="-2" attributes="0"/>
-                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="EntregaMaserati" min="-2" pref="43" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
                           </Group>
-                      </Group>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="jLabel19" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="CantidadCarros1" alignment="0" min="-2" pref="43" max="-2" attributes="0"/>
-                          <Component id="jLabel21" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="Ganancias1" alignment="0" min="-2" pref="43" max="-2" attributes="0"/>
-                          <Component id="Salarios1" alignment="0" min="-2" pref="43" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" pref="75" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="56" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="1" attributes="0">
-                          <Component id="DisminuirChasis1" alignment="1" min="-2" pref="33" max="-2" attributes="0"/>
-                          <Component id="AumentarChasis1" alignment="1" min="-2" pref="33" max="-2" attributes="0"/>
+                          <Component id="DisminuirChasisMaserati" alignment="1" min="-2" pref="33" max="-2" attributes="0"/>
+                          <Component id="AumentarChasisMaserati" alignment="1" min="-2" pref="33" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="DisminuirCarroceria1" alignment="0" min="-2" pref="33" max="-2" attributes="0"/>
-                          <Component id="AumentarCarroceria1" alignment="0" min="-2" pref="34" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="AumentarMotor1" alignment="0" min="-2" pref="34" max="-2" attributes="0"/>
-                          <Component id="DisminuirMotor1" alignment="0" min="-2" pref="33" max="-2" attributes="0"/>
+                          <Component id="DisminuirCarroceriaMaserati" alignment="0" min="-2" pref="33" max="-2" attributes="0"/>
+                          <Component id="AumentarCarroceriaMaserati" alignment="0" min="-2" pref="34" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="32767" attributes="0"/>
                   </Group>
@@ -795,103 +785,107 @@
                               <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="3" attributes="0">
                                   <Component id="jLabel18" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="Salarios1" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
+                                  <Component id="SalariosMaserati" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
                               </Group>
                               <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="3" attributes="0">
                                   <Component id="jLabel20" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="Ganancias1" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
+                                  <Component id="GananciasMaserati" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
                               </Group>
                               <EmptySpace min="-2" pref="55" max="-2" attributes="0"/>
                               <Component id="jLabel19" min="-2" max="-2" attributes="0"/>
                               <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
-                              <Component id="CantidadCarros1" min="-2" pref="35" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="101" max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="3" attributes="0">
-                                  <Component id="jLabel21" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="Entrega1" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
-                              </Group>
+                              <Component id="CantidadCarrosMaserati" min="-2" pref="35" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="111" max="-2" attributes="0"/>
+                              <Component id="jLabel21" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
                               <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="1" attributes="0">
                                   <Group type="102" alignment="1" attributes="0">
-                                      <Group type="103" groupAlignment="1" attributes="0">
-                                          <Group type="102" alignment="1" attributes="0">
-                                              <Component id="jLabel22" min="-2" pref="67" max="-2" attributes="0"/>
-                                              <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
-                                              <Group type="103" groupAlignment="0" attributes="0">
-                                                  <Group type="102" alignment="0" attributes="0">
-                                                      <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
-                                                      <Component id="jLabel23" min="-2" max="-2" attributes="0"/>
-                                                  </Group>
-                                                  <Group type="103" alignment="0" groupAlignment="3" attributes="0">
-                                                      <Component id="eCarroceria1" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
-                                                      <Component id="eMotor1" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
-                                                      <Component id="eRuedas1" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
-                                                      <Component id="eChasis1" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
-                                                      <Component id="eAccesorios1" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
-                                                  </Group>
-                                              </Group>
-                                              <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
-                                              <Group type="103" groupAlignment="0" attributes="0">
-                                                  <Group type="103" alignment="0" groupAlignment="1" attributes="0">
-                                                      <Component id="jLabel17" alignment="1" min="-2" max="-2" attributes="0"/>
-                                                      <Component id="jLabel16" alignment="1" min="-2" max="-2" attributes="0"/>
-                                                      <Group type="103" alignment="1" groupAlignment="3" attributes="0">
-                                                          <Component id="jLabel15" alignment="3" min="-2" max="-2" attributes="0"/>
-                                                          <Component id="jLabel14" alignment="3" min="-2" max="-2" attributes="0"/>
-                                                      </Group>
-                                                  </Group>
-                                                  <Component id="jLabel12" alignment="1" min="-2" max="-2" attributes="0"/>
-                                              </Group>
-                                              <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
-                                              <Group type="103" groupAlignment="3" attributes="0">
-                                                  <Component id="CantidadChasis1" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
-                                                  <Component id="CantidadCarroceria1" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
-                                                  <Component id="CantidadMotor1" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
-                                                  <Component id="CantidadRuedas1" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
-                                                  <Component id="CantidadAccesorios1" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
-                                              </Group>
-                                              <EmptySpace max="-2" attributes="0"/>
-                                              <Group type="103" groupAlignment="0" attributes="0">
-                                                  <Component id="AumentarChasis1" alignment="0" min="-2" max="-2" attributes="0"/>
-                                                  <Component id="AumentarMotor1" alignment="0" min="-2" max="-2" attributes="0"/>
-                                                  <Component id="AumentarRuedas1" alignment="1" min="-2" max="-2" attributes="0"/>
-                                                  <Component id="AumentarAccesorios1" alignment="0" min="-2" max="-2" attributes="0"/>
-                                              </Group>
-                                          </Group>
-                                          <Component id="AumentarCarroceria1" alignment="1" min="-2" max="-2" attributes="0"/>
-                                      </Group>
-                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                          <Group type="102" alignment="1" attributes="0">
-                                              <EmptySpace max="32767" attributes="0"/>
-                                              <Component id="DisminuirRuedas1" min="-2" max="-2" attributes="0"/>
-                                          </Group>
+                                      <Component id="jLabel22" min="-2" pref="67" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
                                           <Group type="102" alignment="0" attributes="0">
-                                              <EmptySpace max="-2" attributes="0"/>
-                                              <Group type="103" groupAlignment="0" attributes="0">
-                                                  <Component id="DisminuirChasis1" alignment="0" min="-2" max="-2" attributes="0"/>
-                                                  <Component id="DisminuirCarroceria1" alignment="0" min="-2" max="-2" attributes="0"/>
-                                                  <Component id="DisminuirAccesorios1" alignment="1" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+                                              <Component id="jLabel23" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                              <Component id="eCarroceriaMaserati" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
+                                              <Component id="eMotorMaserati" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
+                                              <Component id="eRuedasMaserati" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
+                                              <Component id="eChasisMaserati" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
+                                              <Component id="eAccesoriosMaserati" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                                              <Component id="jLabel17" alignment="1" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jLabel16" alignment="1" min="-2" max="-2" attributes="0"/>
+                                              <Group type="103" alignment="1" groupAlignment="3" attributes="0">
+                                                  <Component id="jLabel15" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jLabel14" alignment="3" min="-2" max="-2" attributes="0"/>
                                               </Group>
                                           </Group>
+                                          <Component id="jLabel12" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="CantidadMotorMaserati" alignment="1" min="-2" pref="35" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="CantidadChasisMaserati" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
+                                              <Component id="CantidadCarroceriaMaserati" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
+                                              <Component id="CantidadRuedasMaserati" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
+                                              <Component id="CantidadAccesoriosMaserati" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="AumentarChasisMaserati" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="AumentarRuedasMaserati" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="AumentarAccesoriosMaserati" alignment="0" min="-2" max="-2" attributes="0"/>
                                       </Group>
                                   </Group>
-                                  <Component id="DisminuirMotor1" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="AumentarCarroceriaMaserati" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="AumentarMotorMaserati" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="DisminuirRuedasMaserati" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="DisminuirChasisMaserati" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="DisminuirCarroceriaMaserati" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="DisminuirAccesoriosMaserati" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="DisminuirMotorMaserati" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
                               </Group>
                           </Group>
                       </Group>
-                      <EmptySpace max="32767" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="103" alignment="0" groupAlignment="3" attributes="0">
-                              <Component id="jLabel24" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="eEnsamblador1" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <EmptySpace pref="25" max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                      <Component id="jLabel24" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="eEnsambladorMaserati" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="DisminuirEnsambladorMaserati" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="AumentarEnsambladorMaserati" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
                           </Group>
-                          <Component id="DisminuirEnsamblador1" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="AumentarEnsamblador1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="EntregaMaserati" min="-2" pref="35" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                          </Group>
                       </Group>
-                      <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -922,7 +916,7 @@
                 <Property name="text" type="java.lang.String" value="Accesorios"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JLabel" name="CantidadCarros1">
+            <Component class="javax.swing.JLabel" name="CantidadCarrosMaserati">
               <Properties>
                 <Property name="text" type="java.lang.String" value="0"/>
               </Properties>
@@ -930,7 +924,7 @@
                 <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="73"/>
               </AuxValues>
             </Component>
-            <Component class="javax.swing.JLabel" name="CantidadCarroceria1">
+            <Component class="javax.swing.JLabel" name="CantidadCarroceriaMaserati">
               <Properties>
                 <Property name="text" type="java.lang.String" value="0"/>
               </Properties>
@@ -938,7 +932,7 @@
                 <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="73"/>
               </AuxValues>
             </Component>
-            <Component class="javax.swing.JLabel" name="CantidadRuedas1">
+            <Component class="javax.swing.JLabel" name="CantidadRuedasMaserati">
               <Properties>
                 <Property name="text" type="java.lang.String" value="0"/>
               </Properties>
@@ -946,7 +940,7 @@
                 <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="73"/>
               </AuxValues>
             </Component>
-            <Component class="javax.swing.JLabel" name="CantidadMotor1">
+            <Component class="javax.swing.JLabel" name="CantidadMotorMaserati">
               <Properties>
                 <Property name="text" type="java.lang.String" value="0"/>
               </Properties>
@@ -954,7 +948,7 @@
                 <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="73"/>
               </AuxValues>
             </Component>
-            <Component class="javax.swing.JLabel" name="CantidadAccesorios1">
+            <Component class="javax.swing.JLabel" name="CantidadAccesoriosMaserati">
               <Properties>
                 <Property name="text" type="java.lang.String" value="0"/>
               </Properties>
@@ -962,7 +956,7 @@
                 <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="73"/>
               </AuxValues>
             </Component>
-            <Component class="javax.swing.JLabel" name="CantidadChasis1">
+            <Component class="javax.swing.JLabel" name="CantidadChasisMaserati">
               <Properties>
                 <Property name="text" type="java.lang.String" value="0"/>
               </Properties>
@@ -985,7 +979,7 @@
                 <Property name="text" type="java.lang.String" value="Ganancias"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JLabel" name="Salarios1">
+            <Component class="javax.swing.JLabel" name="SalariosMaserati">
               <Properties>
                 <Property name="text" type="java.lang.String" value="0"/>
               </Properties>
@@ -993,7 +987,7 @@
                 <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="73"/>
               </AuxValues>
             </Component>
-            <Component class="javax.swing.JLabel" name="Ganancias1">
+            <Component class="javax.swing.JLabel" name="GananciasMaserati">
               <Properties>
                 <Property name="text" type="java.lang.String" value="0"/>
               </Properties>
@@ -1006,7 +1000,7 @@
                 <Property name="text" type="java.lang.String" value="Entrega"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JLabel" name="Entrega1">
+            <Component class="javax.swing.JLabel" name="EntregaMaserati">
               <Properties>
                 <Property name="text" type="java.lang.String" value="0"/>
               </Properties>
@@ -1030,7 +1024,7 @@
                 <Property name="text" type="java.lang.String" value="Trab Asig"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JLabel" name="eCarroceria1">
+            <Component class="javax.swing.JLabel" name="eCarroceriaMaserati">
               <Properties>
                 <Property name="text" type="java.lang.String" value="1"/>
               </Properties>
@@ -1038,7 +1032,7 @@
                 <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="73"/>
               </AuxValues>
             </Component>
-            <Component class="javax.swing.JLabel" name="eMotor1">
+            <Component class="javax.swing.JLabel" name="eMotorMaserati">
               <Properties>
                 <Property name="text" type="java.lang.String" value="1"/>
               </Properties>
@@ -1046,7 +1040,7 @@
                 <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="73"/>
               </AuxValues>
             </Component>
-            <Component class="javax.swing.JLabel" name="eRuedas1">
+            <Component class="javax.swing.JLabel" name="eRuedasMaserati">
               <Properties>
                 <Property name="text" type="java.lang.String" value="1"/>
               </Properties>
@@ -1054,7 +1048,7 @@
                 <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="73"/>
               </AuxValues>
             </Component>
-            <Component class="javax.swing.JLabel" name="eEnsamblador1">
+            <Component class="javax.swing.JLabel" name="eEnsambladorMaserati">
               <Properties>
                 <Property name="text" type="java.lang.String" value="1"/>
               </Properties>
@@ -1062,7 +1056,7 @@
                 <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="73"/>
               </AuxValues>
             </Component>
-            <Component class="javax.swing.JLabel" name="eChasis1">
+            <Component class="javax.swing.JLabel" name="eChasisMaserati">
               <Properties>
                 <Property name="text" type="java.lang.String" value="1"/>
               </Properties>
@@ -1070,7 +1064,7 @@
                 <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="73"/>
               </AuxValues>
             </Component>
-            <Component class="javax.swing.JLabel" name="eAccesorios1">
+            <Component class="javax.swing.JLabel" name="eAccesoriosMaserati">
               <Properties>
                 <Property name="text" type="java.lang.String" value="1"/>
               </Properties>
@@ -1083,7 +1077,7 @@
                 <Property name="text" type="java.lang.String" value="Ensamblador"/>
               </Properties>
             </Component>
-            <Component class="java.awt.Button" name="AumentarChasis1">
+            <Component class="java.awt.Button" name="AumentarChasisMaserati">
               <Properties>
                 <Property name="actionCommand" type="java.lang.String" value="Contratar"/>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
@@ -1092,10 +1086,10 @@
                 <Property name="label" type="java.lang.String" value="A"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AumentarChasis1ActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AumentarChasisMaseratiActionPerformed"/>
               </Events>
             </Component>
-            <Component class="java.awt.Button" name="DisminuirChasis1">
+            <Component class="java.awt.Button" name="DisminuirChasisMaserati">
               <Properties>
                 <Property name="actionCommand" type="java.lang.String" value="Contratar"/>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
@@ -1104,10 +1098,10 @@
                 <Property name="label" type="java.lang.String" value="D"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="DisminuirChasis1ActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="DisminuirChasisMaseratiActionPerformed"/>
               </Events>
             </Component>
-            <Component class="java.awt.Button" name="AumentarCarroceria1">
+            <Component class="java.awt.Button" name="AumentarCarroceriaMaserati">
               <Properties>
                 <Property name="actionCommand" type="java.lang.String" value="Contratar"/>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
@@ -1116,10 +1110,10 @@
                 <Property name="label" type="java.lang.String" value="A"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AumentarCarroceria1ActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AumentarCarroceriaMaseratiActionPerformed"/>
               </Events>
             </Component>
-            <Component class="java.awt.Button" name="DisminuirCarroceria1">
+            <Component class="java.awt.Button" name="DisminuirCarroceriaMaserati">
               <Properties>
                 <Property name="actionCommand" type="java.lang.String" value="Contratar"/>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
@@ -1128,10 +1122,10 @@
                 <Property name="label" type="java.lang.String" value="D"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="DisminuirCarroceria1ActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="DisminuirCarroceriaMaseratiActionPerformed"/>
               </Events>
             </Component>
-            <Component class="java.awt.Button" name="DisminuirAccesorios1">
+            <Component class="java.awt.Button" name="DisminuirAccesoriosMaserati">
               <Properties>
                 <Property name="actionCommand" type="java.lang.String" value="Contratar"/>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
@@ -1140,10 +1134,10 @@
                 <Property name="label" type="java.lang.String" value="D"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="DisminuirAccesorios1ActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="DisminuirAccesoriosMaseratiActionPerformed"/>
               </Events>
             </Component>
-            <Component class="java.awt.Button" name="DisminuirMotor1">
+            <Component class="java.awt.Button" name="DisminuirMotorMaserati">
               <Properties>
                 <Property name="actionCommand" type="java.lang.String" value="Contratar"/>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
@@ -1152,10 +1146,10 @@
                 <Property name="label" type="java.lang.String" value="D"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="DisminuirMotor1ActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="DisminuirMotorMaseratiActionPerformed"/>
               </Events>
             </Component>
-            <Component class="java.awt.Button" name="DisminuirRuedas1">
+            <Component class="java.awt.Button" name="DisminuirRuedasMaserati">
               <Properties>
                 <Property name="actionCommand" type="java.lang.String" value="Contratar"/>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
@@ -1164,10 +1158,10 @@
                 <Property name="label" type="java.lang.String" value="D"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="DisminuirRuedas1ActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="DisminuirRuedasMaseratiActionPerformed"/>
               </Events>
             </Component>
-            <Component class="java.awt.Button" name="DisminuirEnsamblador1">
+            <Component class="java.awt.Button" name="DisminuirEnsambladorMaserati">
               <Properties>
                 <Property name="actionCommand" type="java.lang.String" value="Contratar"/>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
@@ -1176,10 +1170,10 @@
                 <Property name="label" type="java.lang.String" value="D"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="DisminuirEnsamblador1ActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="DisminuirEnsambladorMaseratiActionPerformed"/>
               </Events>
             </Component>
-            <Component class="java.awt.Button" name="AumentarRuedas1">
+            <Component class="java.awt.Button" name="AumentarRuedasMaserati">
               <Properties>
                 <Property name="actionCommand" type="java.lang.String" value="Contratar"/>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
@@ -1188,10 +1182,10 @@
                 <Property name="label" type="java.lang.String" value="A"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AumentarRuedas1ActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AumentarRuedasMaseratiActionPerformed"/>
               </Events>
             </Component>
-            <Component class="java.awt.Button" name="AumentarAccesorios1">
+            <Component class="java.awt.Button" name="AumentarAccesoriosMaserati">
               <Properties>
                 <Property name="actionCommand" type="java.lang.String" value="Contratar"/>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
@@ -1200,10 +1194,10 @@
                 <Property name="label" type="java.lang.String" value="A"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AumentarAccesorios1ActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AumentarAccesoriosMaseratiActionPerformed"/>
               </Events>
             </Component>
-            <Component class="java.awt.Button" name="AumentarEnsamblador1">
+            <Component class="java.awt.Button" name="AumentarEnsambladorMaserati">
               <Properties>
                 <Property name="actionCommand" type="java.lang.String" value="Contratar"/>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
@@ -1212,10 +1206,10 @@
                 <Property name="label" type="java.lang.String" value="A"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AumentarEnsamblador1ActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AumentarEnsambladorMaseratiActionPerformed"/>
               </Events>
             </Component>
-            <Component class="java.awt.Button" name="AumentarMotor1">
+            <Component class="java.awt.Button" name="AumentarMotorMaserati">
               <Properties>
                 <Property name="actionCommand" type="java.lang.String" value="Contratar"/>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
@@ -1224,7 +1218,7 @@
                 <Property name="label" type="java.lang.String" value="A"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AumentarMotor1ActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AumentarMotorMaseratiActionPerformed"/>
               </Events>
             </Component>
           </SubComponents>

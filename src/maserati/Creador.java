@@ -37,8 +37,8 @@ public class Creador extends Thread {
             try{
                 mutex.acquire(); //error
                 if ("chasis".equals(parte)){
-                    MercadoAutomotriz.Nomina = MercadoAutomotriz.Nomina + salario*24*Empleados.eChasis; 
-                    MercadoAutomotriz.diasChasis = MercadoAutomotriz.diasChasis + dias*Empleados.eChasis;
+                    MercadoAutomotriz.Nomina = MercadoAutomotriz.Nomina + salario*24*EmpleadosMaserati.eChasis; 
+                    MercadoAutomotriz.diasChasis = MercadoAutomotriz.diasChasis + dias*EmpleadosMaserati.eChasis;
                     if (MercadoAutomotriz.diasChasis >= 1){
                         if (Almacen.ContChasis < almacen){
                             if (Almacen.ContChasis + Math.round(MercadoAutomotriz.diasChasis) < Almacen.AlmacenChasis){
@@ -47,7 +47,7 @@ public class Creador extends Thread {
                                 Almacen.ContChasis = Almacen.AlmacenChasis;
                             }
                             System.out.println("Hay " + Almacen.ContChasis + " unidades de " + parte);
-                            InterfazMain.CantidadChasis.setText(String.valueOf(Almacen.ContChasis));
+                            InterfazMain.CantidadChasisLamborghini.setText(String.valueOf(Almacen.ContChasis));
                             MercadoAutomotriz.diasChasis = 0f;}
                         else{
                             System.out.println("El almacen de " + parte + " de capacidad " + almacen + " esta lleno" );
@@ -59,8 +59,8 @@ public class Creador extends Thread {
                     
                     
                 } else if ("carroceria".equals(parte)){
-                    MercadoAutomotriz.Nomina = MercadoAutomotriz.Nomina + salario*24*Empleados.eCarroceria; 
-                    MercadoAutomotriz.diasCarroceria = MercadoAutomotriz.diasCarroceria + dias*Empleados.eCarroceria;
+                    MercadoAutomotriz.Nomina = MercadoAutomotriz.Nomina + salario*24*EmpleadosMaserati.eCarroceria; 
+                    MercadoAutomotriz.diasCarroceria = MercadoAutomotriz.diasCarroceria + dias*EmpleadosMaserati.eCarroceria;
                     if (MercadoAutomotriz.diasCarroceria >= 1){
                         if (Almacen.ContCarroceria < almacen){
                             if (Almacen.ContCarroceria + Math.round(MercadoAutomotriz.diasCarroceria) < Almacen.AlmacenCarroceria){
@@ -69,7 +69,7 @@ public class Creador extends Thread {
                                 Almacen.ContCarroceria = Almacen.AlmacenCarroceria;
                             }
                             System.out.println("Hay " + Almacen.ContCarroceria + " unidades de " + parte);
-                            InterfazMain.CantidadCarroceria.setText(String.valueOf(Almacen.ContCarroceria));
+                            InterfazMain.CantidadCarroceriaLamborghini.setText(String.valueOf(Almacen.ContCarroceria));
                             MercadoAutomotriz.diasCarroceria = 0f;}
                         else{
                             System.out.println("El almacen de " + parte + " de capacidad " + almacen + " esta lleno" );
@@ -81,8 +81,8 @@ public class Creador extends Thread {
                 
                 
                 } else if ("motor".equals(parte)){
-                    MercadoAutomotriz.Nomina = MercadoAutomotriz.Nomina + salario*24*Empleados.eMotor; 
-                    MercadoAutomotriz.diasMotor = MercadoAutomotriz.diasMotor + dias*Empleados.eMotor;
+                    MercadoAutomotriz.Nomina = MercadoAutomotriz.Nomina + salario*24*EmpleadosMaserati.eMotor; 
+                    MercadoAutomotriz.diasMotor = MercadoAutomotriz.diasMotor + dias*EmpleadosMaserati.eMotor;
                     if (MercadoAutomotriz.diasMotor >= 1){
                         if (Almacen.ContMotor < almacen){
                             if (Almacen.ContMotor + Math.round(MercadoAutomotriz.diasMotor) < Almacen.AlmacenMotor){
@@ -91,7 +91,7 @@ public class Creador extends Thread {
                                 Almacen.ContMotor = Almacen.AlmacenMotor;
                             }
                             System.out.println("Hay " + Almacen.ContMotor + " unidades de " + parte);
-                            InterfazMain.CantidadMotor.setText(String.valueOf(Almacen.ContMotor));
+                            InterfazMain.CantidadMotorLamborghini.setText(String.valueOf(Almacen.ContMotor));
                             MercadoAutomotriz.diasMotor = 0f;}
                         else{
                             System.out.println("El almacen de " + parte + " de capacidad " + almacen + " esta lleno" );
@@ -102,8 +102,8 @@ public class Creador extends Thread {
                     }
                 
                 } else if ("ruedas".equals(parte)){
-                    MercadoAutomotriz.Nomina = MercadoAutomotriz.Nomina + salario*24*Empleados.eRuedas; 
-                    MercadoAutomotriz.diasRueda = MercadoAutomotriz.diasMotor + dias*Empleados.eRuedas;
+                    MercadoAutomotriz.Nomina = MercadoAutomotriz.Nomina + salario*24*EmpleadosMaserati.eRuedas; 
+                    MercadoAutomotriz.diasRueda = MercadoAutomotriz.diasMotor + dias*EmpleadosMaserati.eRuedas;
                     if (MercadoAutomotriz.diasRueda >= 1){
                         if (Almacen.ContRuedas < almacen){
                             if (Almacen.ContRuedas + Math.round(MercadoAutomotriz.diasRueda) < Almacen.AlmacenRuedas){
@@ -112,7 +112,7 @@ public class Creador extends Thread {
                                 Almacen.ContRuedas = Almacen.AlmacenRuedas;
                             }
                             System.out.println("Hay " + Almacen.ContRuedas + " unidades de " + parte);
-                            InterfazMain.CantidadRuedas.setText(String.valueOf(Almacen.ContRuedas));
+                            InterfazMain.CantidadRuedasLamborghini.setText(String.valueOf(Almacen.ContRuedas));
                             MercadoAutomotriz.diasRueda = 0f;}
                         else{
                             System.out.println("El almacen de " + parte + " de capacidad " + almacen + " esta lleno" );
@@ -123,8 +123,8 @@ public class Creador extends Thread {
                     }
                 
                 } else if ("accesorio".equals(parte)){
-                    MercadoAutomotriz.Nomina = MercadoAutomotriz.Nomina + salario*24*Empleados.eAccesorios; 
-                    MercadoAutomotriz.diasAccesorio = MercadoAutomotriz.diasAccesorio + dias*Empleados.eAccesorios;
+                    MercadoAutomotriz.Nomina = MercadoAutomotriz.Nomina + salario*24*EmpleadosMaserati.eAccesorios; 
+                    MercadoAutomotriz.diasAccesorio = MercadoAutomotriz.diasAccesorio + dias*EmpleadosMaserati.eAccesorios;
                     if (MercadoAutomotriz.diasAccesorio >= 1){
                         if (Almacen.ContAccesorio < almacen){
                             if (Almacen.ContAccesorio + Math.round(MercadoAutomotriz.diasAccesorio) < Almacen.AlmacenAccesorio){
@@ -133,7 +133,7 @@ public class Creador extends Thread {
                                 Almacen.ContAccesorio = Almacen.AlmacenAccesorio;
                             }
                             System.out.println("Hay " + Almacen.ContAccesorio + " unidades de " + parte);
-                            InterfazMain.CantidadAccesorios.setText(String.valueOf(Almacen.ContAccesorio));
+                            InterfazMain.CantidadAccesoriosLamborghini.setText(String.valueOf(Almacen.ContAccesorio));
                             MercadoAutomotriz.diasAccesorio = 0f;}
                         else{
                             System.out.println("El almacen de " + parte + " de capacidad " + almacen + " esta lleno" );

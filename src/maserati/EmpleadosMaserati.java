@@ -9,7 +9,7 @@ package maserati;
  *
  * @author valeria
  */
-public class Empleados {
+public class EmpleadosMaserati {
     public static volatile Integer Empleados = 13;
     public static volatile Integer eChasis = 1;
     public static volatile Integer eCarroceria = 1;

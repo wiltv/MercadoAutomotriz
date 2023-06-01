@@ -29,8 +29,8 @@ public class Ensamblador extends Thread{
         while(true){
             try{
                 mutex.acquire(); //wait
-                MercadoAutomotriz.Nomina = MercadoAutomotriz.Nomina + 600*Empleados.eEnsamblador;
-                diasEnsamblador = diasEnsamblador + dias*Empleados.eEnsamblador;
+                MercadoAutomotriz.Nomina = MercadoAutomotriz.Nomina + 600*EmpleadosMaserati.eEnsamblador;
+                diasEnsamblador = diasEnsamblador + dias*EmpleadosMaserati.eEnsamblador;
                 if(diasEnsamblador>=1){
                     if (Almacen.ContChasis >=1 && Almacen.ContMotor >= 2
                             && Almacen.ContCarroceria >= 1 && Almacen.ContRuedas >= 4){
@@ -45,15 +45,15 @@ public class Ensamblador extends Thread{
                         if(MercadoAutomotriz.Carros %3 == 0){
                             Almacen.ContAccesorio = Almacen.ContAccesorio - 3;
                             System.out.println("Hay " + MercadoAutomotriz.Carros + " carros, este viene con accesorio");
-                            InterfazMain.CantidadAccesorios.setText(String.valueOf(Almacen.ContAccesorio));
+                            InterfazMain.CantidadAccesoriosLamborghini.setText(String.valueOf(Almacen.ContAccesorio));
                         }else{
                            System.out.println("Hay " + MercadoAutomotriz.Carros + " carros"); 
                         }
-                        InterfazMain.CantidadChasis.setText(String.valueOf(Almacen.ContChasis));
-                        InterfazMain.CantidadCarroceria.setText(String.valueOf(Almacen.ContCarroceria));
-                        InterfazMain.CantidadMotor.setText(String.valueOf(Almacen.ContMotor));
-                        InterfazMain.CantidadRuedas.setText(String.valueOf(Almacen.ContRuedas));
-                        InterfazMain.CantidadCarros.setText(String.valueOf(MercadoAutomotriz.Carros));
+                        InterfazMain.CantidadChasisLamborghini.setText(String.valueOf(Almacen.ContChasis));
+                        InterfazMain.CantidadCarroceriaLamborghini.setText(String.valueOf(Almacen.ContCarroceria));
+                        InterfazMain.CantidadMotorLamborghini.setText(String.valueOf(Almacen.ContMotor));
+                        InterfazMain.CantidadRuedasLamborghini.setText(String.valueOf(Almacen.ContRuedas));
+                        InterfazMain.CantidadCarrosLamborghini.setText(String.valueOf(MercadoAutomotriz.Carros));
                         diasEnsamblador = 0f;
                     }else{
                         System.out.println("No hay suficientes piezas, el ensamblador espera");       

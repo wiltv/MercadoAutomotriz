@@ -8,7 +8,7 @@ package lamborghini;
  *
  * @author wiltsson
  */
-public class Empleados {
+public class EmpleadosLamborghini {
     public static volatile Integer Empleados = 16;
     public static volatile Integer eChasis = 1;
     public static volatile Integer eCarroceria = 1;
