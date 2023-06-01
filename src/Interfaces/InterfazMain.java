@@ -34,6 +34,71 @@ public class InterfazMain extends javax.swing.JFrame {
 
         jTabbedPane1 = new javax.swing.JTabbedPane();
         jTabbedPane2 = new javax.swing.JTabbedPane();
+        jPanel2 = new javax.swing.JPanel();
+        jLabel35 = new javax.swing.JLabel();
+        jLabel36 = new javax.swing.JLabel();
+        jLabel37 = new javax.swing.JLabel();
+        jLabel38 = new javax.swing.JLabel();
+        jLabel39 = new javax.swing.JLabel();
+        CantidadCarrosMaserati = new javax.swing.JLabel();
+        CantidadCarroceriaMaserati = new javax.swing.JLabel();
+        CantidadRuedasMaserati = new javax.swing.JLabel();
+        CantidadMotorMaserati = new javax.swing.JLabel();
+        CantidadAccesoriosMaserati = new javax.swing.JLabel();
+        CantidadChasisMaserati = new javax.swing.JLabel();
+        jLabel40 = new javax.swing.JLabel();
+        jLabel41 = new javax.swing.JLabel();
+        jLabel42 = new javax.swing.JLabel();
+        jLabel43 = new javax.swing.JLabel();
+        EstandarMaserati = new javax.swing.JLabel();
+        jLabel44 = new javax.swing.JLabel();
+        jLabel45 = new javax.swing.JLabel();
+        eCarroceriaMaserati = new javax.swing.JLabel();
+        eMotorMaserati = new javax.swing.JLabel();
+        eRuedasMaserati = new javax.swing.JLabel();
+        eEnsambladorMaserati = new javax.swing.JLabel();
+        eChasisMaserati = new javax.swing.JLabel();
+        eAccesoriosMaserati = new javax.swing.JLabel();
+        jLabel46 = new javax.swing.JLabel();
+        AumentarChasisMaserati = new java.awt.Button();
+        DisminuirChasisMaserati = new java.awt.Button();
+        AumentarCarroceriaMaserati = new java.awt.Button();
+        DisminuirCarroceriaMaserati = new java.awt.Button();
+        DisminuirAccesoriosMaserati = new java.awt.Button();
+        DisminuirMotorMaserati = new java.awt.Button();
+        DisminuirRuedasMaserati = new java.awt.Button();
+        DisminuirEnsambladorMaserati = new java.awt.Button();
+        AumentarRuedasMaserati = new java.awt.Button();
+        AumentarAccesoriosMaserati = new java.awt.Button();
+        AumentarEnsambladorMaserati = new java.awt.Button();
+        AumentarMotorMaserati = new java.awt.Button();
+        estadoDirMaserati = new javax.swing.JLabel();
+        estadoLaborguini2 = new javax.swing.JLabel();
+        jLabel47 = new javax.swing.JLabel();
+        jLabel48 = new javax.swing.JLabel();
+        jLabel49 = new javax.swing.JLabel();
+        MaxAlmacenChasisMaserati = new javax.swing.JLabel();
+        MaxAlmacenCarroceriaMaserati = new javax.swing.JLabel();
+        MaxAlmacenMotorMaserati = new javax.swing.JLabel();
+        MaxAlmacenRuedasMaserati = new javax.swing.JLabel();
+        MaxAlmacenAccesoriosMaserati = new javax.swing.JLabel();
+        jLabel50 = new javax.swing.JLabel();
+        jLabel51 = new javax.swing.JLabel();
+        jLabel52 = new javax.swing.JLabel();
+        AccsMaserati = new javax.swing.JLabel();
+        jLabel53 = new javax.swing.JLabel();
+        GananciasMaserati = new javax.swing.JLabel();
+        jLabel54 = new javax.swing.JLabel();
+        estadoLaborguini7 = new javax.swing.JLabel();
+        EntregaMaserati = new javax.swing.JLabel();
+        SalarioPerdidoMaserati = new javax.swing.JLabel();
+        estadoLaborguini8 = new javax.swing.JLabel();
+        estadoGerMaserati = new javax.swing.JLabel();
+        SalariosMaserati = new javax.swing.JLabel();
+        estadoLaborguini10 = new javax.swing.JLabel();
+        FaltasGerenteMaserati = new javax.swing.JLabel();
+        jTabbedPane5 = new javax.swing.JTabbedPane();
+        jLabel26 = new javax.swing.JLabel();
         jPanel1 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
@@ -72,7 +137,7 @@ public class InterfazMain extends javax.swing.JFrame {
         AumentarAccesoriosLamborghini = new java.awt.Button();
         AumentarEnsambladorLamborghini = new java.awt.Button();
         AumentarMotorLamborghini = new java.awt.Button();
-        estadoLaborguini = new javax.swing.JLabel();
+        estadoDirLamborghini = new javax.swing.JLabel();
         estadoLaborguini1 = new javax.swing.JLabel();
         jLabel27 = new javax.swing.JLabel();
         jLabel28 = new javax.swing.JLabel();
@@ -93,56 +158,295 @@ public class InterfazMain extends javax.swing.JFrame {
         EntregaLamborghini = new javax.swing.JLabel();
         SalarioPerdidoLamborghini = new javax.swing.JLabel();
         estadoLaborguini5 = new javax.swing.JLabel();
-        estadoLaborguini6 = new javax.swing.JLabel();
+        estadoGerLamborghini = new javax.swing.JLabel();
         SalariosLamborghini = new javax.swing.JLabel();
         estadoLaborguini4 = new javax.swing.JLabel();
         FaltasGerenteLamborghini1 = new javax.swing.JLabel();
-        jPanel2 = new javax.swing.JPanel();
-        jLabel12 = new javax.swing.JLabel();
-        jLabel14 = new javax.swing.JLabel();
-        jLabel15 = new javax.swing.JLabel();
-        jLabel16 = new javax.swing.JLabel();
-        jLabel17 = new javax.swing.JLabel();
-        CantidadCarrosMaserati = new javax.swing.JLabel();
-        CantidadCarroceriaMaserati = new javax.swing.JLabel();
-        CantidadRuedasMaserati = new javax.swing.JLabel();
-        CantidadMotorMaserati = new javax.swing.JLabel();
-        CantidadAccesoriosMaserati = new javax.swing.JLabel();
-        CantidadChasisMaserati = new javax.swing.JLabel();
-        jLabel18 = new javax.swing.JLabel();
-        jLabel19 = new javax.swing.JLabel();
-        jLabel20 = new javax.swing.JLabel();
-        SalariosMaserati = new javax.swing.JLabel();
-        GananciasMaserati = new javax.swing.JLabel();
-        jLabel21 = new javax.swing.JLabel();
-        EntregaMaserati = new javax.swing.JLabel();
-        jLabel22 = new javax.swing.JLabel();
-        jLabel23 = new javax.swing.JLabel();
-        eCarroceriaMaserati = new javax.swing.JLabel();
-        eMotorMaserati = new javax.swing.JLabel();
-        eRuedasMaserati = new javax.swing.JLabel();
-        eEnsambladorMaserati = new javax.swing.JLabel();
-        eChasisMaserati = new javax.swing.JLabel();
-        eAccesoriosMaserati = new javax.swing.JLabel();
-        jLabel24 = new javax.swing.JLabel();
-        AumentarChasisMaserati = new java.awt.Button();
-        DisminuirChasisMaserati = new java.awt.Button();
-        AumentarCarroceriaMaserati = new java.awt.Button();
-        DisminuirCarroceriaMaserati = new java.awt.Button();
-        DisminuirAccesoriosMaserati = new java.awt.Button();
-        DisminuirMotorMaserati = new java.awt.Button();
-        DisminuirRuedasMaserati = new java.awt.Button();
-        DisminuirEnsambladorMaserati = new java.awt.Button();
-        AumentarRuedasMaserati = new java.awt.Button();
-        AumentarAccesoriosMaserati = new java.awt.Button();
-        AumentarEnsambladorMaserati = new java.awt.Button();
-        AumentarMotorMaserati = new java.awt.Button();
-        jLabel25 = new javax.swing.JLabel();
-        estadoMaserati = new javax.swing.JLabel();
-        jTabbedPane5 = new javax.swing.JTabbedPane();
-        jLabel26 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+
+        jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel35.setText("Chasis");
+        jPanel2.add(jLabel35, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 170, -1, -1));
+
+        jLabel36.setText("Carroceria");
+        jPanel2.add(jLabel36, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 170, -1, -1));
+
+        jLabel37.setText("Motor");
+        jPanel2.add(jLabel37, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 170, -1, -1));
+
+        jLabel38.setText("Ruedas");
+        jPanel2.add(jLabel38, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 170, -1, -1));
+
+        jLabel39.setText("Accesorios");
+        jPanel2.add(jLabel39, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 170, -1, -1));
+
+        CantidadCarrosMaserati.setText("0");
+        jPanel2.add(CantidadCarrosMaserati, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 300, 40, 35));
+
+        CantidadCarroceriaMaserati.setText("0");
+        jPanel2.add(CantidadCarroceriaMaserati, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 260, 43, 35));
+
+        CantidadRuedasMaserati.setText("0");
+        jPanel2.add(CantidadRuedasMaserati, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 260, 43, 35));
+
+        CantidadMotorMaserati.setText("0");
+        jPanel2.add(CantidadMotorMaserati, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 260, 43, 35));
+
+        CantidadAccesoriosMaserati.setText("0");
+        jPanel2.add(CantidadAccesoriosMaserati, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 260, 43, 35));
+
+        CantidadChasisMaserati.setText("0");
+        jPanel2.add(CantidadChasisMaserati, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 260, 43, 35));
+
+        jLabel40.setText("Salarios");
+        jPanel2.add(jLabel40, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 130, -1, -1));
+
+        jLabel41.setText("Carros con accesorios ");
+        jPanel2.add(jLabel41, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 390, -1, -1));
+
+        jLabel42.setText("Ganancias");
+        jPanel2.add(jLabel42, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 160, -1, 20));
+
+        jLabel43.setText("para la entrega");
+        jPanel2.add(jLabel43, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 350, -1, 10));
+
+        EstandarMaserati.setText("0");
+        jPanel2.add(EstandarMaserati, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 340, 43, 35));
+
+        jLabel44.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
+        jLabel44.setText("Maserati");
+        jLabel44.setMaximumSize(new java.awt.Dimension(80, 16));
+        jPanel2.add(jLabel44, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 30, 143, 67));
+
+        jLabel45.setText("asignados");
+        jPanel2.add(jLabel45, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 170, 80, 20));
+
+        eCarroceriaMaserati.setText("1");
+        jPanel2.add(eCarroceriaMaserati, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 120, 43, 35));
+
+        eMotorMaserati.setText("1");
+        jPanel2.add(eMotorMaserati, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 120, 43, 35));
+
+        eRuedasMaserati.setText("1");
+        jPanel2.add(eRuedasMaserati, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 120, 43, 35));
+
+        eEnsambladorMaserati.setText("1");
+        jPanel2.add(eEnsambladorMaserati, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 120, 43, 35));
+
+        eChasisMaserati.setText("1");
+        jPanel2.add(eChasisMaserati, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 120, 43, 35));
+
+        eAccesoriosMaserati.setText("1");
+        jPanel2.add(eAccesoriosMaserati, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 120, 43, 35));
+
+        jLabel46.setText("Ensamblador");
+        jPanel2.add(jLabel46, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 170, -1, -1));
+
+        AumentarChasisMaserati.setActionCommand("Contratar");
+        AumentarChasisMaserati.setBackground(new java.awt.Color(0, 204, 0));
+        AumentarChasisMaserati.setLabel("A");
+        AumentarChasisMaserati.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                AumentarChasisMaseratiActionPerformed(evt);
+            }
+        });
+        jPanel2.add(AumentarChasisMaserati, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 310, 33, -1));
+
+        DisminuirChasisMaserati.setActionCommand("Contratar");
+        DisminuirChasisMaserati.setBackground(new java.awt.Color(255, 0, 0));
+        DisminuirChasisMaserati.setLabel("D");
+        DisminuirChasisMaserati.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                DisminuirChasisMaseratiActionPerformed(evt);
+            }
+        });
+        jPanel2.add(DisminuirChasisMaserati, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 350, 33, -1));
+
+        AumentarCarroceriaMaserati.setActionCommand("Contratar");
+        AumentarCarroceriaMaserati.setBackground(new java.awt.Color(0, 204, 0));
+        AumentarCarroceriaMaserati.setLabel("A");
+        AumentarCarroceriaMaserati.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                AumentarCarroceriaMaseratiActionPerformed(evt);
+            }
+        });
+        jPanel2.add(AumentarCarroceriaMaserati, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 310, 34, -1));
+
+        DisminuirCarroceriaMaserati.setActionCommand("Contratar");
+        DisminuirCarroceriaMaserati.setBackground(new java.awt.Color(255, 0, 0));
+        DisminuirCarroceriaMaserati.setLabel("D");
+        DisminuirCarroceriaMaserati.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                DisminuirCarroceriaMaseratiActionPerformed(evt);
+            }
+        });
+        jPanel2.add(DisminuirCarroceriaMaserati, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 350, 33, -1));
+
+        DisminuirAccesoriosMaserati.setActionCommand("Contratar");
+        DisminuirAccesoriosMaserati.setBackground(new java.awt.Color(255, 0, 0));
+        DisminuirAccesoriosMaserati.setLabel("D");
+        DisminuirAccesoriosMaserati.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                DisminuirAccesoriosMaseratiActionPerformed(evt);
+            }
+        });
+        jPanel2.add(DisminuirAccesoriosMaserati, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 350, 33, -1));
+
+        DisminuirMotorMaserati.setActionCommand("Contratar");
+        DisminuirMotorMaserati.setBackground(new java.awt.Color(255, 0, 0));
+        DisminuirMotorMaserati.setLabel("D");
+        DisminuirMotorMaserati.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                DisminuirMotorMaseratiActionPerformed(evt);
+            }
+        });
+        jPanel2.add(DisminuirMotorMaserati, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 350, 33, -1));
+
+        DisminuirRuedasMaserati.setActionCommand("Contratar");
+        DisminuirRuedasMaserati.setBackground(new java.awt.Color(255, 0, 0));
+        DisminuirRuedasMaserati.setLabel("D");
+        DisminuirRuedasMaserati.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                DisminuirRuedasMaseratiActionPerformed(evt);
+            }
+        });
+        jPanel2.add(DisminuirRuedasMaserati, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 350, 33, -1));
+
+        DisminuirEnsambladorMaserati.setActionCommand("Contratar");
+        DisminuirEnsambladorMaserati.setBackground(new java.awt.Color(255, 0, 0));
+        DisminuirEnsambladorMaserati.setLabel("D");
+        DisminuirEnsambladorMaserati.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                DisminuirEnsambladorMaseratiActionPerformed(evt);
+            }
+        });
+        jPanel2.add(DisminuirEnsambladorMaserati, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 260, 33, -1));
+
+        AumentarRuedasMaserati.setActionCommand("Contratar");
+        AumentarRuedasMaserati.setBackground(new java.awt.Color(0, 204, 0));
+        AumentarRuedasMaserati.setLabel("A");
+        AumentarRuedasMaserati.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                AumentarRuedasMaseratiActionPerformed(evt);
+            }
+        });
+        jPanel2.add(AumentarRuedasMaserati, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 310, 34, -1));
+
+        AumentarAccesoriosMaserati.setActionCommand("Contratar");
+        AumentarAccesoriosMaserati.setBackground(new java.awt.Color(0, 204, 0));
+        AumentarAccesoriosMaserati.setLabel("A");
+        AumentarAccesoriosMaserati.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                AumentarAccesoriosMaseratiActionPerformed(evt);
+            }
+        });
+        jPanel2.add(AumentarAccesoriosMaserati, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 310, 34, -1));
+
+        AumentarEnsambladorMaserati.setActionCommand("Contratar");
+        AumentarEnsambladorMaserati.setBackground(new java.awt.Color(0, 204, 0));
+        AumentarEnsambladorMaserati.setLabel("A");
+        AumentarEnsambladorMaserati.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                AumentarEnsambladorMaseratiActionPerformed(evt);
+            }
+        });
+        jPanel2.add(AumentarEnsambladorMaserati, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 210, 34, -1));
+
+        AumentarMotorMaserati.setActionCommand("Contratar");
+        AumentarMotorMaserati.setBackground(new java.awt.Color(0, 204, 0));
+        AumentarMotorMaserati.setLabel("A");
+        AumentarMotorMaserati.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                AumentarMotorMaseratiActionPerformed(evt);
+            }
+        });
+        jPanel2.add(AumentarMotorMaserati, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 310, 34, -1));
+
+        estadoDirMaserati.setText("Activo");
+        jPanel2.add(estadoDirMaserati, new org.netbeans.lib.awtextra.AbsoluteConstraints(770, 10, -1, -1));
+
+        estadoLaborguini2.setText("Labor del Director");
+        jPanel2.add(estadoLaborguini2, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 10, -1, -1));
+
+        jLabel47.setText("Trabajos");
+        jPanel2.add(jLabel47, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 160, -1, -1));
+
+        jLabel48.setText("N° de piezas");
+        jPanel2.add(jLabel48, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 260, -1, -1));
+
+        jLabel49.setText("Espacio Max ");
+        jPanel2.add(jLabel49, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 210, 80, 20));
+
+        MaxAlmacenChasisMaserati.setText("25");
+        jPanel2.add(MaxAlmacenChasisMaserati, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 210, 43, 35));
+
+        MaxAlmacenCarroceriaMaserati.setText("20");
+        jPanel2.add(MaxAlmacenCarroceriaMaserati, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 210, 43, 35));
+
+        MaxAlmacenMotorMaserati.setText("55");
+        jPanel2.add(MaxAlmacenMotorMaserati, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 210, 43, 35));
+
+        MaxAlmacenRuedasMaserati.setText("35");
+        jPanel2.add(MaxAlmacenRuedasMaserati, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 210, 43, 35));
+
+        MaxAlmacenAccesoriosMaserati.setText("10");
+        jPanel2.add(MaxAlmacenAccesoriosMaserati, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 210, 43, 35));
+
+        jLabel50.setText("de Almacen");
+        jPanel2.add(jLabel50, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 230, 80, 20));
+
+        jLabel51.setText("disponibles");
+        jPanel2.add(jLabel51, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 270, 80, 20));
+
+        jLabel52.setText("Carros ensamblados");
+        jPanel2.add(jLabel52, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 310, -1, -1));
+
+        AccsMaserati.setText("0");
+        jPanel2.add(AccsMaserati, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 380, 43, 35));
+
+        jLabel53.setText("Carros estándar");
+        jPanel2.add(jLabel53, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 350, -1, -1));
+
+        GananciasMaserati.setText("0");
+        jPanel2.add(GananciasMaserati, new org.netbeans.lib.awtextra.AbsoluteConstraints(770, 150, 43, 35));
+
+        jLabel54.setText("Dias faltantes");
+        jPanel2.add(jLabel54, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 330, -1, -1));
+
+        estadoLaborguini7.setText("Salario Perdido");
+        jPanel2.add(estadoLaborguini7, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 100, -1, -1));
+
+        EntregaMaserati.setText("0");
+        jPanel2.add(EntregaMaserati, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 330, 43, 35));
+
+        SalarioPerdidoMaserati.setText("0");
+        jPanel2.add(SalarioPerdidoMaserati, new org.netbeans.lib.awtextra.AbsoluteConstraints(770, 90, 43, 35));
+
+        estadoLaborguini8.setText("Labor del Gerente");
+        jPanel2.add(estadoLaborguini8, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 40, -1, -1));
+
+        estadoGerMaserati.setText("Activo");
+        jPanel2.add(estadoGerMaserati, new org.netbeans.lib.awtextra.AbsoluteConstraints(770, 40, -1, -1));
+
+        SalariosMaserati.setText("0");
+        jPanel2.add(SalariosMaserati, new org.netbeans.lib.awtextra.AbsoluteConstraints(770, 120, 43, 35));
+
+        estadoLaborguini10.setText("Faltas cometidas");
+        jPanel2.add(estadoLaborguini10, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 70, -1, -1));
+
+        FaltasGerenteMaserati.setText("0");
+        jPanel2.add(FaltasGerenteMaserati, new org.netbeans.lib.awtextra.AbsoluteConstraints(770, 60, 43, 35));
+
+        jTabbedPane2.addTab("Maserati", jPanel2);
+
+        jTabbedPane5.setBackground(new java.awt.Color(204, 204, 204));
+
+        jLabel26.setText("Leer archivo txt");
+        jTabbedPane5.addTab("tab1", jLabel26);
+
+        jTabbedPane2.addTab("Lector de Archivos", jTabbedPane5);
 
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -197,7 +501,7 @@ public class InterfazMain extends javax.swing.JFrame {
         jLabel10.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
         jLabel10.setText("Lamborguini");
         jLabel10.setMaximumSize(new java.awt.Dimension(80, 16));
-        jPanel1.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(55, 23, 143, 67));
+        jPanel1.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 40, 143, 67));
 
         jLabel11.setText("asignados");
         jPanel1.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 180, 80, 20));
@@ -343,8 +647,8 @@ public class InterfazMain extends javax.swing.JFrame {
         });
         jPanel1.add(AumentarMotorLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 320, 34, -1));
 
-        estadoLaborguini.setText("Activo");
-        jPanel1.add(estadoLaborguini, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 20, -1, -1));
+        estadoDirLamborghini.setText("Activo");
+        jPanel1.add(estadoDirLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 20, -1, -1));
 
         estadoLaborguini1.setText("Labor del Director");
         jPanel1.add(estadoLaborguini1, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 20, -1, -1));
@@ -406,8 +710,8 @@ public class InterfazMain extends javax.swing.JFrame {
         estadoLaborguini5.setText("Labor del Gerente");
         jPanel1.add(estadoLaborguini5, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 50, -1, -1));
 
-        estadoLaborguini6.setText("Activo");
-        jPanel1.add(estadoLaborguini6, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 50, -1, -1));
+        estadoGerLamborghini.setText("Activo");
+        jPanel1.add(estadoGerLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 50, -1, -1));
 
         SalariosLamborghini.setText("0");
         jPanel1.add(SalariosLamborghini, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 130, 43, 35));
@@ -419,376 +723,6 @@ public class InterfazMain extends javax.swing.JFrame {
         jPanel1.add(FaltasGerenteLamborghini1, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 70, 43, 35));
 
         jTabbedPane2.addTab("Lamborghini", jPanel1);
-
-        jLabel12.setText("Chasis");
-
-        jLabel14.setText("Carroceria");
-
-        jLabel15.setText("Motor");
-
-        jLabel16.setText("Ruedas");
-
-        jLabel17.setText("Accesorios");
-
-        CantidadCarrosMaserati.setText("0");
-
-        CantidadCarroceriaMaserati.setText("0");
-
-        CantidadRuedasMaserati.setText("0");
-
-        CantidadMotorMaserati.setText("0");
-
-        CantidadAccesoriosMaserati.setText("0");
-
-        CantidadChasisMaserati.setText("0");
-
-        jLabel18.setText("Salarios");
-
-        jLabel19.setText("Carros");
-
-        jLabel20.setText("Ganancias");
-
-        SalariosMaserati.setText("0");
-
-        GananciasMaserati.setText("0");
-
-        jLabel21.setText("Entrega");
-
-        EntregaMaserati.setText("0");
-
-        jLabel22.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
-        jLabel22.setText("Maserati");
-        jLabel22.setMaximumSize(new java.awt.Dimension(80, 16));
-
-        jLabel23.setText("Trab Asig");
-
-        eCarroceriaMaserati.setText("1");
-
-        eMotorMaserati.setText("1");
-
-        eRuedasMaserati.setText("1");
-
-        eEnsambladorMaserati.setText("1");
-
-        eChasisMaserati.setText("1");
-
-        eAccesoriosMaserati.setText("1");
-
-        jLabel24.setText("Ensamblador");
-
-        AumentarChasisMaserati.setActionCommand("Contratar");
-        AumentarChasisMaserati.setBackground(new java.awt.Color(0, 204, 0));
-        AumentarChasisMaserati.setLabel("A");
-        AumentarChasisMaserati.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                AumentarChasisMaseratiActionPerformed(evt);
-            }
-        });
-
-        DisminuirChasisMaserati.setActionCommand("Contratar");
-        DisminuirChasisMaserati.setBackground(new java.awt.Color(255, 0, 0));
-        DisminuirChasisMaserati.setLabel("D");
-        DisminuirChasisMaserati.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                DisminuirChasisMaseratiActionPerformed(evt);
-            }
-        });
-
-        AumentarCarroceriaMaserati.setActionCommand("Contratar");
-        AumentarCarroceriaMaserati.setBackground(new java.awt.Color(0, 204, 0));
-        AumentarCarroceriaMaserati.setLabel("A");
-        AumentarCarroceriaMaserati.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                AumentarCarroceriaMaseratiActionPerformed(evt);
-            }
-        });
-
-        DisminuirCarroceriaMaserati.setActionCommand("Contratar");
-        DisminuirCarroceriaMaserati.setBackground(new java.awt.Color(255, 0, 0));
-        DisminuirCarroceriaMaserati.setLabel("D");
-        DisminuirCarroceriaMaserati.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                DisminuirCarroceriaMaseratiActionPerformed(evt);
-            }
-        });
-
-        DisminuirAccesoriosMaserati.setActionCommand("Contratar");
-        DisminuirAccesoriosMaserati.setBackground(new java.awt.Color(255, 0, 0));
-        DisminuirAccesoriosMaserati.setLabel("D");
-        DisminuirAccesoriosMaserati.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                DisminuirAccesoriosMaseratiActionPerformed(evt);
-            }
-        });
-
-        DisminuirMotorMaserati.setActionCommand("Contratar");
-        DisminuirMotorMaserati.setBackground(new java.awt.Color(255, 0, 0));
-        DisminuirMotorMaserati.setLabel("D");
-        DisminuirMotorMaserati.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                DisminuirMotorMaseratiActionPerformed(evt);
-            }
-        });
-
-        DisminuirRuedasMaserati.setActionCommand("Contratar");
-        DisminuirRuedasMaserati.setBackground(new java.awt.Color(255, 0, 0));
-        DisminuirRuedasMaserati.setLabel("D");
-        DisminuirRuedasMaserati.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                DisminuirRuedasMaseratiActionPerformed(evt);
-            }
-        });
-
-        DisminuirEnsambladorMaserati.setActionCommand("Contratar");
-        DisminuirEnsambladorMaserati.setBackground(new java.awt.Color(255, 0, 0));
-        DisminuirEnsambladorMaserati.setLabel("D");
-        DisminuirEnsambladorMaserati.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                DisminuirEnsambladorMaseratiActionPerformed(evt);
-            }
-        });
-
-        AumentarRuedasMaserati.setActionCommand("Contratar");
-        AumentarRuedasMaserati.setBackground(new java.awt.Color(0, 204, 0));
-        AumentarRuedasMaserati.setLabel("A");
-        AumentarRuedasMaserati.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                AumentarRuedasMaseratiActionPerformed(evt);
-            }
-        });
-
-        AumentarAccesoriosMaserati.setActionCommand("Contratar");
-        AumentarAccesoriosMaserati.setBackground(new java.awt.Color(0, 204, 0));
-        AumentarAccesoriosMaserati.setLabel("A");
-        AumentarAccesoriosMaserati.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                AumentarAccesoriosMaseratiActionPerformed(evt);
-            }
-        });
-
-        AumentarEnsambladorMaserati.setActionCommand("Contratar");
-        AumentarEnsambladorMaserati.setBackground(new java.awt.Color(0, 204, 0));
-        AumentarEnsambladorMaserati.setLabel("A");
-        AumentarEnsambladorMaserati.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                AumentarEnsambladorMaseratiActionPerformed(evt);
-            }
-        });
-
-        AumentarMotorMaserati.setActionCommand("Contratar");
-        AumentarMotorMaserati.setBackground(new java.awt.Color(0, 204, 0));
-        AumentarMotorMaserati.setLabel("A");
-        AumentarMotorMaserati.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                AumentarMotorMaseratiActionPerformed(evt);
-            }
-        });
-
-        jLabel25.setText("Gerente");
-
-        estadoMaserati.setText("activo");
-
-        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
-        jPanel2.setLayout(jPanel2Layout);
-        jPanel2Layout.setHorizontalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel2Layout.createSequentialGroup()
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel2Layout.createSequentialGroup()
-                                .addGap(69, 69, 69)
-                                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(CantidadChasisMaserati, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jLabel12)))
-                            .addGroup(jPanel2Layout.createSequentialGroup()
-                                .addComponent(jLabel23)
-                                .addGap(18, 18, 18)
-                                .addComponent(eChasisMaserati, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
-                                .addContainerGap()
-                                .addComponent(jLabel24)))
-                        .addGap(22, 22, 22)
-                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addComponent(jLabel14)
-                                .addComponent(CantidadCarroceriaMaserati, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(eCarroceriaMaserati, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addComponent(eEnsambladorMaserati, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 106, Short.MAX_VALUE)
-                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                            .addGroup(jPanel2Layout.createSequentialGroup()
-                                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel2Layout.createSequentialGroup()
-                                        .addComponent(eMotorMaserati, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                                    .addGroup(jPanel2Layout.createSequentialGroup()
-                                        .addGap(0, 0, Short.MAX_VALUE)
-                                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(jLabel15)
-                                            .addComponent(CantidadMotorMaserati, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(AumentarMotorMaserati, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                        .addGap(59, 59, 59)))
-                                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(DisminuirRuedasMaserati, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(eRuedasMaserati, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(AumentarRuedasMaserati, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jLabel25))
-                                .addGap(5, 5, 5))
-                            .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addComponent(DisminuirMotorMaserati, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGroup(jPanel2Layout.createSequentialGroup()
-                                    .addComponent(AumentarEnsambladorMaserati, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                    .addComponent(DisminuirEnsambladorMaserati, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addGap(32, 32, 32)
-                                    .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                        .addComponent(jLabel16)
-                                        .addComponent(CantidadRuedasMaserati, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)))))
-                        .addGap(19, 19, 19)
-                        .addComponent(estadoMaserati)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 13, Short.MAX_VALUE))
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addGap(54, 54, 54)
-                        .addComponent(jLabel22, javax.swing.GroupLayout.PREFERRED_SIZE, 143, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
-                                    .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                        .addComponent(jLabel20)
-                                        .addComponent(jLabel18))
-                                    .addGap(68, 68, 68))
-                                .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
-                                    .addComponent(jLabel17)
-                                    .addGap(134, 134, 134)))
-                            .addGroup(jPanel2Layout.createSequentialGroup()
-                                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(CantidadAccesoriosMaserati, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(eAccesoriosMaserati, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                        .addComponent(DisminuirAccesoriosMaserati, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(AumentarAccesoriosMaserati, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                                .addGap(148, 148, 148)))
-                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel19)
-                            .addComponent(CantidadCarrosMaserati, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel21)
-                            .addComponent(GananciasMaserati, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(SalariosMaserati, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addComponent(EntregaMaserati, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(5, 5, 5)))
-                .addGap(75, 75, 75))
-            .addGroup(jPanel2Layout.createSequentialGroup()
-                .addGap(56, 56, 56)
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(DisminuirChasisMaserati, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(AumentarChasisMaserati, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(32, 32, 32)
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(DisminuirCarroceriaMaserati, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(AumentarCarroceriaMaserati, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-        jPanel2Layout.setVerticalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel2Layout.createSequentialGroup()
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addGap(12, 12, 12)
-                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLabel18)
-                            .addComponent(SalariosMaserati, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel25)
-                            .addComponent(estadoMaserati))
-                        .addGap(18, 18, 18)
-                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLabel20)
-                            .addComponent(GananciasMaserati, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(55, 55, 55)
-                        .addComponent(jLabel19)
-                        .addGap(23, 23, 23)
-                        .addComponent(CantidadCarrosMaserati, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(111, 111, 111)
-                        .addComponent(jLabel21))
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addGap(43, 43, 43)
-                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addGroup(jPanel2Layout.createSequentialGroup()
-                                .addComponent(jLabel22, javax.swing.GroupLayout.PREFERRED_SIZE, 67, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(10, 10, 10)
-                                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(jPanel2Layout.createSequentialGroup()
-                                        .addGap(1, 1, 1)
-                                        .addComponent(jLabel23))
-                                    .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                        .addComponent(eCarroceriaMaserati, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(eMotorMaserati, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(eRuedasMaserati, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(eChasisMaserati, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(eAccesoriosMaserati, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                                .addGap(25, 25, 25)
-                                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                        .addComponent(jLabel17)
-                                        .addComponent(jLabel16)
-                                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                            .addComponent(jLabel15)
-                                            .addComponent(jLabel14)))
-                                    .addComponent(jLabel12, javax.swing.GroupLayout.Alignment.TRAILING))
-                                .addGap(26, 26, 26)
-                                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(CantidadMotorMaserati, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                        .addComponent(CantidadChasisMaserati, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(CantidadCarroceriaMaserati, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(CantidadRuedasMaserati, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(CantidadAccesoriosMaserati, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(AumentarChasisMaserati, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(AumentarRuedasMaserati, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(AumentarAccesoriosMaserati, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                            .addComponent(AumentarCarroceriaMaserati, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(AumentarMotorMaserati, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(DisminuirRuedasMaserati, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(jPanel2Layout.createSequentialGroup()
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(DisminuirChasisMaserati, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(DisminuirCarroceriaMaserati, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(DisminuirAccesoriosMaserati, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(DisminuirMotorMaserati, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))))
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 25, Short.MAX_VALUE)
-                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                .addComponent(jLabel24)
-                                .addComponent(eEnsambladorMaserati, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addComponent(DisminuirEnsambladorMaserati, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(AumentarEnsambladorMaserati, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(20, 20, 20))
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(EntregaMaserati, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
-        );
-
-        jTabbedPane2.addTab("Maserati", jPanel2);
-
-        jTabbedPane5.setBackground(new java.awt.Color(204, 204, 204));
-
-        jLabel26.setText("Leer archivo txt");
-        jTabbedPane5.addTab("tab1", jLabel26);
-
-        jTabbedPane2.addTab("Lector de Archivos", jTabbedPane5);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -803,126 +737,6 @@ public class InterfazMain extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
-    private void AumentarMotorMaseratiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AumentarMotorMaseratiActionPerformed
-        if(EmpleadosMaserati.eChasisMase+EmpleadosMaserati.eCarroceriaMase+EmpleadosMaserati.eMotorMase+
-            EmpleadosMaserati.eRuedasMase+EmpleadosMaserati.eAccesoriosMase+EmpleadosMaserati.eEnsambladorMase < EmpleadosMaserati.EmpleadosMase){
-            EmpleadosMaserati.eMotorMase = EmpleadosMaserati.eMotorMase + 1;
-            InterfazMain.eMotorMaserati.setText(String.valueOf(EmpleadosMaserati.eMotorMase));
-        }else{
-            JOptionPane.showMessageDialog(null, "Ya estan ocupados los 13 empleados");
-        }
-    }//GEN-LAST:event_AumentarMotorMaseratiActionPerformed
-
-    private void AumentarEnsambladorMaseratiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AumentarEnsambladorMaseratiActionPerformed
-        if(EmpleadosMaserati.eChasisMase+EmpleadosMaserati.eCarroceriaMase+EmpleadosMaserati.eMotorMase+
-            EmpleadosMaserati.eRuedasMase+EmpleadosMaserati.eAccesoriosMase+EmpleadosMaserati.eEnsambladorMase < EmpleadosMaserati.EmpleadosMase){
-            EmpleadosMaserati.eEnsambladorMase= EmpleadosMaserati.eEnsambladorMase + 1;
-            InterfazMain.eEnsambladorMaserati.setText(String.valueOf(EmpleadosMaserati.eEnsambladorMase));
-        }else{
-            JOptionPane.showMessageDialog(null, "Ya estan ocupados los 13 empleados");
-        }
-    }//GEN-LAST:event_AumentarEnsambladorMaseratiActionPerformed
-
-    private void AumentarAccesoriosMaseratiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AumentarAccesoriosMaseratiActionPerformed
-        if(EmpleadosMaserati.eChasisMase+EmpleadosMaserati.eCarroceriaMase+EmpleadosMaserati.eMotorMase+
-            EmpleadosMaserati.eRuedasMase+EmpleadosMaserati.eAccesoriosMase+EmpleadosMaserati.eEnsambladorMase < EmpleadosMaserati.EmpleadosMase){
-            EmpleadosMaserati.eAccesoriosMase= EmpleadosMaserati.eAccesoriosMase + 1;
-            InterfazMain.eAccesoriosMaserati.setText(String.valueOf(EmpleadosMaserati.eAccesoriosMase));
-        }else{
-            JOptionPane.showMessageDialog(null, "Ya estan ocupados los 13 empleados");
-        }
-    }//GEN-LAST:event_AumentarAccesoriosMaseratiActionPerformed
-
-    private void AumentarRuedasMaseratiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AumentarRuedasMaseratiActionPerformed
-        if(EmpleadosMaserati.eChasisMase+EmpleadosMaserati.eCarroceriaMase+EmpleadosMaserati.eMotorMase+
-            EmpleadosMaserati.eRuedasMase+EmpleadosMaserati.eAccesoriosMase+EmpleadosMaserati.eEnsambladorMase < EmpleadosMaserati.EmpleadosMase){
-            EmpleadosMaserati.eRuedasMase= EmpleadosMaserati.eRuedasMase + 1;
-            InterfazMain.eRuedasMaserati.setText(String.valueOf(EmpleadosMaserati.eRuedasMase));
-        }else{
-            JOptionPane.showMessageDialog(null, "Ya estan ocupados los 13 empleados");
-        }
-    }//GEN-LAST:event_AumentarRuedasMaseratiActionPerformed
-
-    private void DisminuirEnsambladorMaseratiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DisminuirEnsambladorMaseratiActionPerformed
-        if(EmpleadosMaserati.eEnsambladorMase>1){
-            EmpleadosMaserati.eEnsambladorMase= EmpleadosMaserati.eEnsambladorMase -1;
-            InterfazMain.eEnsambladorMaserati.setText(String.valueOf(EmpleadosMaserati.eEnsambladorMase));
-
-        }else{
-            JOptionPane.showMessageDialog(null, "No se puede quedar un sector sin empleados");
-        }
-    }//GEN-LAST:event_DisminuirEnsambladorMaseratiActionPerformed
-
-    private void DisminuirRuedasMaseratiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DisminuirRuedasMaseratiActionPerformed
-        if(EmpleadosMaserati.eRuedasMase>1){
-            EmpleadosMaserati.eRuedasMase= EmpleadosMaserati.eRuedasMase -1;
-            InterfazMain.eRuedasMaserati.setText(String.valueOf(EmpleadosMaserati.eRuedasMase));
-
-        }else{
-            JOptionPane.showMessageDialog(null, "No se puede quedar un sector sin empleados");
-        }
-    }//GEN-LAST:event_DisminuirRuedasMaseratiActionPerformed
-
-    private void DisminuirMotorMaseratiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DisminuirMotorMaseratiActionPerformed
-        if(EmpleadosMaserati.eMotorMase>1){
-            EmpleadosMaserati.eMotorMase= EmpleadosMaserati.eMotorMase -1;
-            InterfazMain.eMotorMaserati.setText(String.valueOf(EmpleadosMaserati.eMotorMase));
-
-        }else{
-            JOptionPane.showMessageDialog(null, "No se puede quedar un sector sin empleados");
-        }
-    }//GEN-LAST:event_DisminuirMotorMaseratiActionPerformed
-
-    private void DisminuirAccesoriosMaseratiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DisminuirAccesoriosMaseratiActionPerformed
-        if(EmpleadosMaserati.eAccesoriosMase>1){
-            EmpleadosMaserati.eAccesoriosMase= EmpleadosMaserati.eAccesoriosMase -1;
-            InterfazMain.eAccesoriosMaserati.setText(String.valueOf(EmpleadosMaserati.eAccesoriosMase));
-
-        }else{
-            JOptionPane.showMessageDialog(null, "No se puede quedar un sector sin empleados");
-        }
-    }//GEN-LAST:event_DisminuirAccesoriosMaseratiActionPerformed
-
-    private void DisminuirCarroceriaMaseratiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DisminuirCarroceriaMaseratiActionPerformed
-        if(EmpleadosMaserati.eCarroceriaMase>1){
-            EmpleadosMaserati.eCarroceriaMase= EmpleadosMaserati.eCarroceriaMase -1;
-            InterfazMain.eCarroceriaMaserati.setText(String.valueOf(EmpleadosMaserati.eCarroceriaMase));
-
-        }else{
-            JOptionPane.showMessageDialog(null, "No se puede quedar un sector sin empleados");
-        }
-    }//GEN-LAST:event_DisminuirCarroceriaMaseratiActionPerformed
-
-    private void AumentarCarroceriaMaseratiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AumentarCarroceriaMaseratiActionPerformed
-        if(EmpleadosMaserati.eChasisMase+EmpleadosMaserati.eCarroceriaMase+EmpleadosMaserati.eMotorMase+
-            EmpleadosMaserati.eRuedasMase+EmpleadosMaserati.eAccesoriosMase+EmpleadosMaserati.eEnsambladorMase < EmpleadosMaserati.EmpleadosMase){
-            EmpleadosMaserati.eCarroceriaMase= EmpleadosMaserati.eCarroceriaMase + 1;
-            InterfazMain.eCarroceriaMaserati.setText(String.valueOf(EmpleadosMaserati.eCarroceriaMase));
-        }else{
-            JOptionPane.showMessageDialog(null, "Ya estan ocupados los 13 empleados");
-        }
-    }//GEN-LAST:event_AumentarCarroceriaMaseratiActionPerformed
-
-    private void DisminuirChasisMaseratiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DisminuirChasisMaseratiActionPerformed
-        if(EmpleadosMaserati.eChasisMase>1){
-           EmpleadosMaserati.eChasisMase= EmpleadosMaserati.eChasisMase -1;
-            InterfazMain.eChasisMaserati.setText(String.valueOf(EmpleadosMaserati.eChasisMase));
-
-        }else{
-            JOptionPane.showMessageDialog(null, "No se puede quedar un sector sin empleados");
-        }
-    }//GEN-LAST:event_DisminuirChasisMaseratiActionPerformed
-
-    private void AumentarChasisMaseratiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AumentarChasisMaseratiActionPerformed
-        if(EmpleadosMaserati.eChasisMase+EmpleadosMaserati.eCarroceriaMase+EmpleadosMaserati.eMotorMase+
-            EmpleadosMaserati.eRuedasMase+EmpleadosMaserati.eAccesoriosMase+EmpleadosMaserati.eEnsambladorMase < EmpleadosMaserati.EmpleadosMase){
-            EmpleadosMaserati.eChasisMase= EmpleadosMaserati.eChasisMase + 1;
-            InterfazMain.eChasisMaserati.setText(String.valueOf(EmpleadosMaserati.eChasisMase));
-        }else{
-            JOptionPane.showMessageDialog(null, "Ya estan ocupados los 13 empleados");
-        }
-    }//GEN-LAST:event_AumentarChasisMaseratiActionPerformed
 
     private void AumentarMotorLamborghiniActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AumentarMotorLamborghiniActionPerformed
         if(EmpleadosLamborghini.eChasis+EmpleadosLamborghini.eCarroceria+EmpleadosLamborghini.eMotor+
@@ -1044,6 +858,126 @@ public class InterfazMain extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_AumentarChasisLamborghiniActionPerformed
 
+    private void AumentarChasisMaseratiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AumentarChasisMaseratiActionPerformed
+        if(EmpleadosMaserati.eChasisMase+EmpleadosMaserati.eCarroceriaMase+EmpleadosMaserati.eMotorMase+
+            EmpleadosMaserati.eRuedasMase+EmpleadosMaserati.eAccesoriosMase+EmpleadosMaserati.eEnsambladorMase < EmpleadosMaserati.EmpleadosMase){
+            EmpleadosMaserati.eChasisMase= EmpleadosMaserati.eChasisMase + 1;
+            InterfazMain.eChasisMaserati.setText(String.valueOf(EmpleadosMaserati.eChasisMase));
+        }else{
+            JOptionPane.showMessageDialog(null, "Ya estan ocupados los 13 empleados");
+        }
+    }//GEN-LAST:event_AumentarChasisMaseratiActionPerformed
+
+    private void DisminuirChasisMaseratiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DisminuirChasisMaseratiActionPerformed
+        if(EmpleadosMaserati.eChasisMase>1){
+            EmpleadosMaserati.eChasisMase= EmpleadosMaserati.eChasisMase -1;
+            InterfazMain.eChasisMaserati.setText(String.valueOf(EmpleadosMaserati.eChasisMase));
+
+        }else{
+            JOptionPane.showMessageDialog(null, "No se puede quedar un sector sin empleados");
+        }
+    }//GEN-LAST:event_DisminuirChasisMaseratiActionPerformed
+
+    private void AumentarCarroceriaMaseratiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AumentarCarroceriaMaseratiActionPerformed
+        if(EmpleadosMaserati.eChasisMase+EmpleadosMaserati.eCarroceriaMase+EmpleadosMaserati.eMotorMase+
+            EmpleadosMaserati.eRuedasMase+EmpleadosMaserati.eAccesoriosMase+EmpleadosMaserati.eEnsambladorMase < EmpleadosMaserati.EmpleadosMase){
+            EmpleadosMaserati.eCarroceriaMase= EmpleadosMaserati.eCarroceriaMase + 1;
+            InterfazMain.eCarroceriaMaserati.setText(String.valueOf(EmpleadosMaserati.eCarroceriaMase));
+        }else{
+            JOptionPane.showMessageDialog(null, "Ya estan ocupados los 13 empleados");
+        }
+    }//GEN-LAST:event_AumentarCarroceriaMaseratiActionPerformed
+
+    private void DisminuirCarroceriaMaseratiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DisminuirCarroceriaMaseratiActionPerformed
+        if(EmpleadosMaserati.eCarroceriaMase>1){
+            EmpleadosMaserati.eCarroceriaMase= EmpleadosMaserati.eCarroceriaMase -1;
+            InterfazMain.eCarroceriaMaserati.setText(String.valueOf(EmpleadosMaserati.eCarroceriaMase));
+
+        }else{
+            JOptionPane.showMessageDialog(null, "No se puede quedar un sector sin empleados");
+        }
+    }//GEN-LAST:event_DisminuirCarroceriaMaseratiActionPerformed
+
+    private void DisminuirAccesoriosMaseratiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DisminuirAccesoriosMaseratiActionPerformed
+        if(EmpleadosMaserati.eAccesoriosMase>1){
+            EmpleadosMaserati.eAccesoriosMase= EmpleadosMaserati.eAccesoriosMase -1;
+            InterfazMain.eAccesoriosMaserati.setText(String.valueOf(EmpleadosMaserati.eAccesoriosMase));
+
+        }else{
+            JOptionPane.showMessageDialog(null, "No se puede quedar un sector sin empleados");
+        }
+    }//GEN-LAST:event_DisminuirAccesoriosMaseratiActionPerformed
+
+    private void DisminuirMotorMaseratiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DisminuirMotorMaseratiActionPerformed
+        if(EmpleadosMaserati.eMotorMase>1){
+            EmpleadosMaserati.eMotorMase= EmpleadosMaserati.eMotorMase -1;
+            InterfazMain.eMotorMaserati.setText(String.valueOf(EmpleadosMaserati.eMotorMase));
+
+        }else{
+            JOptionPane.showMessageDialog(null, "No se puede quedar un sector sin empleados");
+        }
+    }//GEN-LAST:event_DisminuirMotorMaseratiActionPerformed
+
+    private void DisminuirRuedasMaseratiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DisminuirRuedasMaseratiActionPerformed
+        if(EmpleadosMaserati.eRuedasMase>1){
+            EmpleadosMaserati.eRuedasMase= EmpleadosMaserati.eRuedasMase -1;
+            InterfazMain.eRuedasMaserati.setText(String.valueOf(EmpleadosMaserati.eRuedasMase));
+
+        }else{
+            JOptionPane.showMessageDialog(null, "No se puede quedar un sector sin empleados");
+        }
+    }//GEN-LAST:event_DisminuirRuedasMaseratiActionPerformed
+
+    private void DisminuirEnsambladorMaseratiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DisminuirEnsambladorMaseratiActionPerformed
+        if(EmpleadosMaserati.eEnsambladorMase>1){
+            EmpleadosMaserati.eEnsambladorMase= EmpleadosMaserati.eEnsambladorMase -1;
+            InterfazMain.eEnsambladorMaserati.setText(String.valueOf(EmpleadosMaserati.eEnsambladorMase));
+
+        }else{
+            JOptionPane.showMessageDialog(null, "No se puede quedar un sector sin empleados");
+        }
+    }//GEN-LAST:event_DisminuirEnsambladorMaseratiActionPerformed
+
+    private void AumentarRuedasMaseratiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AumentarRuedasMaseratiActionPerformed
+        if(EmpleadosMaserati.eChasisMase+EmpleadosMaserati.eCarroceriaMase+EmpleadosMaserati.eMotorMase+
+            EmpleadosMaserati.eRuedasMase+EmpleadosMaserati.eAccesoriosMase+EmpleadosMaserati.eEnsambladorMase < EmpleadosMaserati.EmpleadosMase){
+            EmpleadosMaserati.eRuedasMase= EmpleadosMaserati.eRuedasMase + 1;
+            InterfazMain.eRuedasMaserati.setText(String.valueOf(EmpleadosMaserati.eRuedasMase));
+        }else{
+            JOptionPane.showMessageDialog(null, "Ya estan ocupados los 13 empleados");
+        }
+    }//GEN-LAST:event_AumentarRuedasMaseratiActionPerformed
+
+    private void AumentarAccesoriosMaseratiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AumentarAccesoriosMaseratiActionPerformed
+        if(EmpleadosMaserati.eChasisMase+EmpleadosMaserati.eCarroceriaMase+EmpleadosMaserati.eMotorMase+
+            EmpleadosMaserati.eRuedasMase+EmpleadosMaserati.eAccesoriosMase+EmpleadosMaserati.eEnsambladorMase < EmpleadosMaserati.EmpleadosMase){
+            EmpleadosMaserati.eAccesoriosMase= EmpleadosMaserati.eAccesoriosMase + 1;
+            InterfazMain.eAccesoriosMaserati.setText(String.valueOf(EmpleadosMaserati.eAccesoriosMase));
+        }else{
+            JOptionPane.showMessageDialog(null, "Ya estan ocupados los 13 empleados");
+        }
+    }//GEN-LAST:event_AumentarAccesoriosMaseratiActionPerformed
+
+    private void AumentarEnsambladorMaseratiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AumentarEnsambladorMaseratiActionPerformed
+       if(EmpleadosMaserati.eChasisMase+EmpleadosMaserati.eCarroceriaMase+EmpleadosMaserati.eMotorMase+
+            EmpleadosMaserati.eRuedasMase+EmpleadosMaserati.eAccesoriosMase+EmpleadosMaserati.eEnsambladorMase < EmpleadosMaserati.EmpleadosMase){
+            EmpleadosMaserati.eEnsambladorMase= EmpleadosMaserati.eEnsambladorMase + 1;
+            InterfazMain.eEnsambladorMaserati.setText(String.valueOf(EmpleadosMaserati.eEnsambladorMase));
+        }else{
+            JOptionPane.showMessageDialog(null, "Ya estan ocupados los 13 empleados");
+        }
+    }//GEN-LAST:event_AumentarEnsambladorMaseratiActionPerformed
+
+    private void AumentarMotorMaseratiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AumentarMotorMaseratiActionPerformed
+        if(EmpleadosMaserati.eChasisMase+EmpleadosMaserati.eCarroceriaMase+EmpleadosMaserati.eMotorMase+
+            EmpleadosMaserati.eRuedasMase+EmpleadosMaserati.eAccesoriosMase+EmpleadosMaserati.eEnsambladorMase < EmpleadosMaserati.EmpleadosMase){
+            EmpleadosMaserati.eMotorMase= EmpleadosMaserati.eMotorMase + 1;
+            InterfazMain.eMotorMaserati.setText(String.valueOf(EmpleadosMaserati.eMotorMase));
+        }else{
+            JOptionPane.showMessageDialog(null, "Ya estan ocupados los 13 empleados");
+        }
+    }//GEN-LAST:event_AumentarMotorMaseratiActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -1082,6 +1016,7 @@ public class InterfazMain extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     public static volatile javax.swing.JLabel AccsLamborghini;
+    public static volatile javax.swing.JLabel AccsMaserati;
     private java.awt.Button AumentarAccesoriosLamborghini;
     private java.awt.Button AumentarAccesoriosMaserati;
     private java.awt.Button AumentarCarroceriaLamborghini;
@@ -1121,15 +1056,23 @@ public class InterfazMain extends javax.swing.JFrame {
     public static volatile javax.swing.JLabel EntregaLamborghini;
     public static volatile javax.swing.JLabel EntregaMaserati;
     public static volatile javax.swing.JLabel EstandarLamborghini;
+    public static volatile javax.swing.JLabel EstandarMaserati;
     public static volatile javax.swing.JLabel FaltasGerenteLamborghini1;
+    public static volatile javax.swing.JLabel FaltasGerenteMaserati;
     public static volatile javax.swing.JLabel GananciasLamborghini;
     public static volatile javax.swing.JLabel GananciasMaserati;
     public static volatile javax.swing.JLabel MaxAlmacenAccesoriosLamborghini;
+    public static volatile javax.swing.JLabel MaxAlmacenAccesoriosMaserati;
     public static volatile javax.swing.JLabel MaxAlmacenCarroceriaLamborghini;
+    public static volatile javax.swing.JLabel MaxAlmacenCarroceriaMaserati;
     public static volatile javax.swing.JLabel MaxAlmacenChasisLamborghini;
+    public static volatile javax.swing.JLabel MaxAlmacenChasisMaserati;
     public static volatile javax.swing.JLabel MaxAlmacenMotorLamborghini;
+    public static volatile javax.swing.JLabel MaxAlmacenMotorMaserati;
     public static volatile javax.swing.JLabel MaxAlmacenRuedasLamborghini;
+    public static volatile javax.swing.JLabel MaxAlmacenRuedasMaserati;
     public static volatile javax.swing.JLabel SalarioPerdidoLamborghini;
+    public static volatile javax.swing.JLabel SalarioPerdidoMaserati;
     public static volatile javax.swing.JLabel SalariosLamborghini;
     public static volatile javax.swing.JLabel SalariosMaserati;
     public static volatile javax.swing.JLabel eAccesoriosLamborghini;
@@ -1144,31 +1087,23 @@ public class InterfazMain extends javax.swing.JFrame {
     public static volatile javax.swing.JLabel eMotorMaserati;
     public static volatile javax.swing.JLabel eRuedasLamborghini;
     public static volatile javax.swing.JLabel eRuedasMaserati;
-    public static volatile javax.swing.JLabel estadoLaborguini;
+    public static volatile javax.swing.JLabel estadoDirLamborghini;
+    public static volatile javax.swing.JLabel estadoDirMaserati;
+    public static volatile javax.swing.JLabel estadoGerLamborghini;
+    public static volatile javax.swing.JLabel estadoGerMaserati;
     private javax.swing.JLabel estadoLaborguini1;
+    private javax.swing.JLabel estadoLaborguini10;
+    private javax.swing.JLabel estadoLaborguini2;
     private javax.swing.JLabel estadoLaborguini3;
     private javax.swing.JLabel estadoLaborguini4;
     private javax.swing.JLabel estadoLaborguini5;
-    public static volatile javax.swing.JLabel estadoLaborguini6;
-    public static volatile javax.swing.JLabel estadoMaserati;
+    private javax.swing.JLabel estadoLaborguini7;
+    private javax.swing.JLabel estadoLaborguini8;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
-    private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel13;
-    private javax.swing.JLabel jLabel14;
-    private javax.swing.JLabel jLabel15;
-    private javax.swing.JLabel jLabel16;
-    private javax.swing.JLabel jLabel17;
-    private javax.swing.JLabel jLabel18;
-    private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel20;
-    private javax.swing.JLabel jLabel21;
-    private javax.swing.JLabel jLabel22;
-    private javax.swing.JLabel jLabel23;
-    private javax.swing.JLabel jLabel24;
-    private javax.swing.JLabel jLabel25;
     private javax.swing.JLabel jLabel26;
     private javax.swing.JLabel jLabel27;
     private javax.swing.JLabel jLabel28;
@@ -1179,8 +1114,28 @@ public class InterfazMain extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel32;
     private javax.swing.JLabel jLabel33;
     private javax.swing.JLabel jLabel34;
+    private javax.swing.JLabel jLabel35;
+    private javax.swing.JLabel jLabel36;
+    private javax.swing.JLabel jLabel37;
+    private javax.swing.JLabel jLabel38;
+    private javax.swing.JLabel jLabel39;
     private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel40;
+    private javax.swing.JLabel jLabel41;
+    private javax.swing.JLabel jLabel42;
+    private javax.swing.JLabel jLabel43;
+    private javax.swing.JLabel jLabel44;
+    private javax.swing.JLabel jLabel45;
+    private javax.swing.JLabel jLabel46;
+    private javax.swing.JLabel jLabel47;
+    private javax.swing.JLabel jLabel48;
+    private javax.swing.JLabel jLabel49;
     private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel50;
+    private javax.swing.JLabel jLabel51;
+    private javax.swing.JLabel jLabel52;
+    private javax.swing.JLabel jLabel53;
+    private javax.swing.JLabel jLabel54;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;

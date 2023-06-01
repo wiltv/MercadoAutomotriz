@@ -69,7 +69,7 @@ public class CreadorMase extends Thread {
                                 AlmacenMase.ContCarroceriaMase = AlmacenMase.AlmacenCarroceriaMase;
                             }
                             System.out.println("Hay " + AlmacenMase.ContCarroceriaMase + " unidades de " + parte);
-                            InterfazMain.CantidadCarroceriaLamborghini.setText(String.valueOf(AlmacenMase.ContCarroceriaMase));
+                            InterfazMain.CantidadCarroceriaMaserati.setText(String.valueOf(AlmacenMase.ContCarroceriaMase));
                             MercadoAutomotriz.diasCarroceriaMase = 0f;}
                         else{
                             System.out.println("El almacen de " + parte + " de capacidad " + almacen + " esta lleno" );
@@ -91,7 +91,7 @@ public class CreadorMase extends Thread {
                                 AlmacenMase.ContMotorMase = AlmacenMase.AlmacenMotorMase;
                             }
                             System.out.println("Hay Mase" + AlmacenMase.ContMotorMase + " unidades de " + parte);
-                            InterfazMain.CantidadMotorLamborghini.setText(String.valueOf(AlmacenMase.ContMotorMase));
+                            InterfazMain.CantidadMotorMaserati.setText(String.valueOf(AlmacenMase.ContMotorMase));
                             MercadoAutomotriz.diasMotorMase = 0f;}
                         else{
                             System.out.println("El almacen de " + parte + " de capacidad " + almacen + " esta lleno" );
@@ -112,7 +112,7 @@ public class CreadorMase extends Thread {
                                 AlmacenMase.ContRuedasMase = AlmacenMase.AlmacenRuedasMase;
                             }
                             System.out.println("Hay Mase" + AlmacenMase.ContRuedasMase + " unidades de " + parte);
-                            InterfazMain.CantidadRuedasLamborghini.setText(String.valueOf(AlmacenMase.ContRuedasMase));
+                            InterfazMain.CantidadRuedasMaserati.setText(String.valueOf(AlmacenMase.ContRuedasMase));
                             MercadoAutomotriz.diasRuedaMase = 0f;}
                         else{
                             System.out.println("El almacen de " + parte + " de capacidad " + almacen + " esta lleno" );
@@ -133,7 +133,7 @@ public class CreadorMase extends Thread {
                                 AlmacenMase.ContAccesorioMase = AlmacenMase.AlmacenAccesorioMase;
                             }
                             System.out.println("Hay " + AlmacenMase.ContAccesorioMase + " unidades de " + parte);
-                            InterfazMain.CantidadAccesoriosLamborghini.setText(String.valueOf(AlmacenMase.ContAccesorioMase));
+                            InterfazMain.CantidadAccesoriosMaserati.setText(String.valueOf(AlmacenMase.ContAccesorioMase));
                             MercadoAutomotriz.diasAccesorioMase = 0f;}
                         else{
                             System.out.println("El almacen mase de " + parte + " de capacidad " + almacen + " esta lleno" );
