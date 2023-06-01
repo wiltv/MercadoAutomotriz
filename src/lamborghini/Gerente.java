@@ -17,7 +17,7 @@ import java.util.logging.Logger;
 public class Gerente extends Thread{
     private Semaphore mutex;
     
-    public static volatile Integer contadorEntrega = 30; //El jefe entrega y desde esa clase tengo que volver esto 30
+    public static volatile Integer contadorEntrega = 30; 
     public static volatile Integer atrapado = 0;
     public static volatile Integer descuento = 0;
     public static volatile String estado = "activo";

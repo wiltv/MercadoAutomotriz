@@ -39,8 +39,12 @@ public class MercadoAutomotriz {
     public static volatile float diasAccesorioMase = 0f;
     
     public static volatile Integer EmpleadosMase = 13;
+    
+    public static volatile Integer DiasEntregatxt = 0;
         
     public static void main(String[] args) {
+        
+        Leetxt.leertxt();
         
         InterfazMain interfaz = new InterfazMain();
         interfaz.setLocationRelativeTo(null);
