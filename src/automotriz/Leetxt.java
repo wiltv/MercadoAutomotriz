@@ -5,13 +5,72 @@
  */
 package automotriz;
 import Interfaces.InterfazMain;
+import java.awt.BorderLayout;
+import java.awt.Dimension;
 import java.io.*;
+import org.jfree.chart.ChartFactory;
+import org.jfree.chart.ChartPanel;
+import org.jfree.chart.JFreeChart;
+import org.jfree.chart.plot.PlotOrientation;
+import org.jfree.data.category.DefaultCategoryDataset;
 
 /**
  *
  * @author Valeria
  */
 public class Leetxt {
+    
+    
+    public static int grafico(){
+        DefaultCategoryDataset datos = new DefaultCategoryDataset();
+        datos.setValue(MercadoAutomotriz.Ganancia,"Ganancias","");
+        datos.setValue(Gerente.contadorEntrega,"Tiempo","");
+        JFreeChart grafico_barras = ChartFactory.createBarChart3D(
+        "Ganancia por tiempo",
+        "Criterio",
+        "",
+        datos,
+        PlotOrientation.VERTICAL,
+        true,
+        true,
+        false
+        );
+        
+        ChartPanel panel = new ChartPanel(grafico_barras);
+        panel.setMouseWheelEnabled(true);
+        panel.setPreferredSize(new Dimension(400,200));
+        
+        InterfazMain.graficoLam.setLayout(new BorderLayout());
+        InterfazMain.graficoLam.add(panel,BorderLayout.NORTH);
+        
+        return 0;
+    }
+    
+    public static int graficoMase(){
+        DefaultCategoryDataset datos = new DefaultCategoryDataset();
+        datos.setValue(MercadoAutomotriz.GananciaMase,"Ganancias","");
+        datos.setValue(Gerente.contadorEntrega,"Tiempo","");
+        JFreeChart grafico_barras = ChartFactory.createBarChart3D(
+        "Ganancia por tiempo",
+        "Criterio",
+        "",
+        datos,
+        PlotOrientation.VERTICAL,
+        true,
+        true,
+        false
+        );
+        
+        ChartPanel panel = new ChartPanel(grafico_barras);
+        panel.setMouseWheelEnabled(true);
+        panel.setPreferredSize(new Dimension(400,200));
+        
+        InterfazMain.graficoMase.setLayout(new BorderLayout());
+        InterfazMain.graficoMase.add(panel,BorderLayout.NORTH);
+        
+        return 0;
+    }
+    
     
     public static int leertxt(){
       System.out.println("ENTRAAA");

@@ -76,6 +76,7 @@ public class MercadoAutomotriz {
         interfaz.setVisible(true);
         
         Leetxt.leertxt();
+       
         
         Semaphore mainMutexLambo = new Semaphore(1);
         Semaphore mainMutexMase = new Semaphore(1);

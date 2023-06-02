@@ -9,6 +9,15 @@ package Interfaces;
 import javax.swing.JOptionPane;
 import automotriz.EmpleadosLamborghini;
 import automotriz.EmpleadosMaserati;
+import automotriz.Gerente;
+import automotriz.MercadoAutomotriz;
+import java.awt.BorderLayout;
+import java.awt.Dimension;
+import org.jfree.chart.ChartFactory;
+import org.jfree.chart.ChartPanel;
+import org.jfree.chart.JFreeChart;
+import org.jfree.chart.plot.PlotOrientation;
+import org.jfree.data.category.DefaultCategoryDataset;
 
 /**
  *
@@ -35,7 +44,6 @@ public class InterfazMain extends javax.swing.JFrame {
         jTabbedPane1 = new javax.swing.JTabbedPane();
         jTabbedPane2 = new javax.swing.JTabbedPane();
         jTabbedPane5 = new javax.swing.JTabbedPane();
-        jLabel26 = new javax.swing.JLabel();
         jPanel1 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
@@ -101,6 +109,7 @@ public class InterfazMain extends javax.swing.JFrame {
         AccsLamborghini = new javax.swing.JLabel();
         jLabel14 = new javax.swing.JLabel();
         GananciasLamborghini1 = new javax.swing.JLabel();
+        graficoLam = new javax.swing.JPanel();
         jPanel2 = new javax.swing.JPanel();
         jLabel35 = new javax.swing.JLabel();
         jLabel36 = new javax.swing.JLabel();
@@ -166,14 +175,11 @@ public class InterfazMain extends javax.swing.JFrame {
         AccsMaserati1 = new javax.swing.JLabel();
         jLabel55 = new javax.swing.JLabel();
         GananciasMaserati1 = new javax.swing.JLabel();
+        graficoMase = new javax.swing.JPanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jTabbedPane5.setBackground(new java.awt.Color(204, 204, 204));
-
-        jLabel26.setText("Leer archivo txt");
-        jTabbedPane5.addTab("tab1", jLabel26);
-
         jTabbedPane2.addTab("Lector de Archivos", jTabbedPane5);
 
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -455,6 +461,19 @@ public class InterfazMain extends javax.swing.JFrame {
 
         GananciasLamborghini1.setText("0");
         jPanel1.add(GananciasLamborghini1, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 160, 43, 35));
+
+        javax.swing.GroupLayout graficoLamLayout = new javax.swing.GroupLayout(graficoLam);
+        graficoLam.setLayout(graficoLamLayout);
+        graficoLamLayout.setHorizontalGroup(
+            graficoLamLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 260, Short.MAX_VALUE)
+        );
+        graficoLamLayout.setVerticalGroup(
+            graficoLamLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 210, Short.MAX_VALUE)
+        );
+
+        jPanel1.add(graficoLam, new org.netbeans.lib.awtextra.AbsoluteConstraints(840, 20, 260, 210));
 
         jTabbedPane2.addTab("Lamborghini", jPanel1);
 
@@ -738,13 +757,28 @@ public class InterfazMain extends javax.swing.JFrame {
         GananciasMaserati1.setText("0");
         jPanel2.add(GananciasMaserati1, new org.netbeans.lib.awtextra.AbsoluteConstraints(770, 150, 43, 35));
 
+        javax.swing.GroupLayout graficoMaseLayout = new javax.swing.GroupLayout(graficoMase);
+        graficoMase.setLayout(graficoMaseLayout);
+        graficoMaseLayout.setHorizontalGroup(
+            graficoMaseLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 250, Short.MAX_VALUE)
+        );
+        graficoMaseLayout.setVerticalGroup(
+            graficoMaseLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 200, Short.MAX_VALUE)
+        );
+
+        jPanel2.add(graficoMase, new org.netbeans.lib.awtextra.AbsoluteConstraints(850, 20, 250, 200));
+
         jTabbedPane2.addTab("Maserati", jPanel2);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jTabbedPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 849, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addComponent(jTabbedPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 1115, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -754,6 +788,8 @@ public class InterfazMain extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+    
+    
     private void AumentarMotorLamborghiniActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AumentarMotorLamborghiniActionPerformed
         if(EmpleadosLamborghini.eChasis+EmpleadosLamborghini.eCarroceria+EmpleadosLamborghini.eMotor+
             EmpleadosLamborghini.eRuedas+EmpleadosLamborghini.eAccesorios+EmpleadosLamborghini.eEnsamblador < EmpleadosLamborghini.Empleados){
@@ -994,6 +1030,9 @@ public class InterfazMain extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_AumentarMotorMaseratiActionPerformed
 
+    
+    
+    
     /**
      * @param args the command line arguments
      */
@@ -1117,6 +1156,8 @@ public class InterfazMain extends javax.swing.JFrame {
     private javax.swing.JLabel estadoLaborguini5;
     private javax.swing.JLabel estadoLaborguini7;
     private javax.swing.JLabel estadoLaborguini8;
+    public static volatile javax.swing.JPanel graficoLam;
+    public static volatile javax.swing.JPanel graficoMase;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
@@ -1124,7 +1165,6 @@ public class InterfazMain extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel13;
     private javax.swing.JLabel jLabel14;
     private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel26;
     private javax.swing.JLabel jLabel27;
     private javax.swing.JLabel jLabel28;
     private javax.swing.JLabel jLabel29;

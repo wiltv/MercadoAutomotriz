@@ -39,6 +39,8 @@ public class GerenteMase extends Thread{
                     System.out.println("El gerente notifica que ya se pueden entregar los carros al director");
                 }
                 
+                Leetxt.graficoMase();
+                
                 
                 MercadoAutomotriz.NominaMase = MercadoAutomotriz.NominaMase + 480;
                 MercadoAutomotriz.GananciaBruto = MercadoAutomotriz.GananciaBruto - 480;
