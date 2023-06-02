@@ -8,6 +8,8 @@ import Interfaces.InterfazMain;
 import java.awt.BorderLayout;
 import java.awt.Dimension;
 import java.io.*;
+import javax.swing.JFileChooser;
+import javax.swing.JOptionPane;
 import org.jfree.chart.ChartFactory;
 import org.jfree.chart.ChartPanel;
 import org.jfree.chart.JFreeChart;
@@ -73,18 +75,39 @@ public class Leetxt {
     
     
     public static int leertxt(){
+        
+        
+        
+        
       System.out.println("ENTRAAA");
-      File archivo = null;
+      
       FileReader fr = null;
       BufferedReader br = null;
+      
+      
+      
+      
       Integer cont = 0;
       try {
          // Apertura del fichero y creacion de BufferedReader para poder
          // hacer una lectura comoda (disponer del metodo readLine()).
-         archivo = new File ("C:\\algo.txt");
-         fr = new FileReader (archivo);
-         br = new BufferedReader(fr);
+         
+         JFileChooser fc = new JFileChooser();
+         fc.showOpenDialog(null);
+          System.out.println("ACA SIIIII");
+         File archivo = fc.getSelectedFile();
+          System.out.println("ACA TABIEEEEEN");
+         if (archivo.getAbsolutePath().endsWith(".txt")) {
+         
+            
+            fr = new FileReader (archivo);
+            br = new BufferedReader(fr);
 
+         
+         
+         
+         
+         
          // Lectura del fichero
          String linea;
          while((linea=br.readLine())!=null){
@@ -139,7 +162,9 @@ public class Leetxt {
             }
       
            
-      }}
+      }}else{
+            JOptionPane.showMessageDialog(null, "Solo se aceptan archivos tipo (.txt), por favor intentar de nuevo");
+        }}
       catch(Exception e){
          e.printStackTrace();
       }finally{

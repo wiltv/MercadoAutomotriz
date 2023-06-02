@@ -13,6 +13,10 @@ import automotriz.Gerente;
 import automotriz.MercadoAutomotriz;
 import java.awt.BorderLayout;
 import java.awt.Dimension;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import javax.swing.JFileChooser;
 import org.jfree.chart.ChartFactory;
 import org.jfree.chart.ChartPanel;
 import org.jfree.chart.JFreeChart;
@@ -43,7 +47,6 @@ public class InterfazMain extends javax.swing.JFrame {
 
         jTabbedPane1 = new javax.swing.JTabbedPane();
         jTabbedPane2 = new javax.swing.JTabbedPane();
-        jTabbedPane5 = new javax.swing.JTabbedPane();
         jPanel1 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
@@ -176,11 +179,13 @@ public class InterfazMain extends javax.swing.JFrame {
         jLabel55 = new javax.swing.JLabel();
         GananciasMaserati1 = new javax.swing.JLabel();
         graficoMase = new javax.swing.JPanel();
+        jPanel3 = new javax.swing.JPanel();
+        x = new javax.swing.JPanel();
+        jScrollPane1 = new javax.swing.JScrollPane();
+        archivotxt = new javax.swing.JTextArea();
+        jLabel15 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-
-        jTabbedPane5.setBackground(new java.awt.Color(204, 204, 204));
-        jTabbedPane2.addTab("Lector de Archivos", jTabbedPane5);
 
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -772,6 +777,32 @@ public class InterfazMain extends javax.swing.JFrame {
 
         jTabbedPane2.addTab("Maserati", jPanel2);
 
+        jPanel3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        archivotxt.setColumns(20);
+        archivotxt.setRows(5);
+        jScrollPane1.setViewportView(archivotxt);
+
+        javax.swing.GroupLayout xLayout = new javax.swing.GroupLayout(x);
+        x.setLayout(xLayout);
+        xLayout.setHorizontalGroup(
+            xLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 350, Short.MAX_VALUE)
+        );
+        xLayout.setVerticalGroup(
+            xLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 180, Short.MAX_VALUE)
+        );
+
+        jPanel3.add(x, new org.netbeans.lib.awtextra.AbsoluteConstraints(141, 115, 350, 180));
+
+        jLabel15.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        jLabel15.setText("Colocar su archivo txt");
+        jLabel15.setMaximumSize(new java.awt.Dimension(80, 16));
+        jPanel3.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 60, 370, 67));
+
+        jTabbedPane2.addTab("Lector de Archivos Txt", jPanel3);
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -1132,6 +1163,7 @@ public class InterfazMain extends javax.swing.JFrame {
     public static volatile javax.swing.JLabel SalarioPerdidoMaserati;
     public static volatile javax.swing.JLabel SalariosLamborghini;
     public static volatile javax.swing.JLabel SalariosMaserati;
+    private javax.swing.JTextArea archivotxt;
     public static volatile javax.swing.JLabel eAccesoriosLamborghini;
     public static volatile javax.swing.JLabel eAccesoriosMaserati;
     public static volatile javax.swing.JLabel eCarroceriaLamborghini;
@@ -1164,6 +1196,7 @@ public class InterfazMain extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel13;
     private javax.swing.JLabel jLabel14;
+    private javax.swing.JLabel jLabel15;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel27;
     private javax.swing.JLabel jLabel28;
@@ -1202,8 +1235,10 @@ public class InterfazMain extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
+    private javax.swing.JPanel jPanel3;
+    private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTabbedPane jTabbedPane1;
     private javax.swing.JTabbedPane jTabbedPane2;
-    private javax.swing.JTabbedPane jTabbedPane5;
+    private javax.swing.JPanel x;
     // End of variables declaration//GEN-END:variables
 }
