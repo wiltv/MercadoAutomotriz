@@ -61,6 +61,7 @@ public class MercadoAutomotriz {
     public static volatile Integer EstandarLam = 0;
     public static volatile Integer EstandarMase = 0;
     
+    
         
     public static void main(String[] args) {
         

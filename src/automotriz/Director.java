@@ -73,9 +73,9 @@ public class Director extends Thread{
                 
                 mutex.release(); //signal
                 if (MercadoAutomotriz.DuracionDiatxt>0){
-                    sleep(MercadoAutomotriz.DuracionDiatxt);
+                   sleep(MercadoAutomotriz.DuracionDiatxt); 
                 }else{
-                   sleep(5000);
+                    sleep(5000);
                 }
                 
                         

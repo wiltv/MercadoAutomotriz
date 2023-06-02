@@ -61,7 +61,11 @@ public class Gerente extends Thread{
                 sleep(500);
                 
                 mutex.release(); //signal
-                sleep(5000);
+                if (MercadoAutomotriz.DuracionDiatxt>0){
+                   sleep(MercadoAutomotriz.DuracionDiatxt); 
+                }else{
+                    sleep(5000);
+                }
                         
             }catch(InterruptedException ex){
                 Logger.getLogger(Creador.class.getName()).log(Level.SEVERE, null, ex);

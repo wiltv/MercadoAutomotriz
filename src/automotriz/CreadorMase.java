@@ -148,7 +148,11 @@ public class CreadorMase extends Thread {
                 sleep(500);
                 
                 mutex.release(); //signal
-                sleep(5000);
+                if (MercadoAutomotriz.DuracionDiatxt>0){
+                   sleep(MercadoAutomotriz.DuracionDiatxt); 
+                }else{
+                    sleep(5000);
+                }
                         
             }catch(InterruptedException ex){
                 Logger.getLogger(CreadorMase.class.getName()).log(Level.SEVERE, null, ex);
