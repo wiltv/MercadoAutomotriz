@@ -38,6 +38,7 @@ public class CreadorMase extends Thread {
                 mutex.acquire(); //error
                 if ("chasis".equals(parte)){
                     MercadoAutomotriz.NominaMase = MercadoAutomotriz.NominaMase + salario*24*EmpleadosMaserati.eChasisMase; 
+                    MercadoAutomotriz.GananciaBrutoMase = MercadoAutomotriz.GananciaBrutoMase - salario*24*EmpleadosMaserati.eChasisMase;
                     MercadoAutomotriz.diasChasisMase = MercadoAutomotriz.diasChasisMase + dias*EmpleadosMaserati.eChasisMase;
                     if (MercadoAutomotriz.diasChasisMase >= 1){
                         if (AlmacenMase.ContChasisMase < almacen){
@@ -48,6 +49,7 @@ public class CreadorMase extends Thread {
                             }
                             System.out.println("Hay mase " + AlmacenMase.ContChasisMase + " unidades de " + parte);
                             InterfazMain.CantidadChasisMaserati.setText(String.valueOf(AlmacenMase.ContChasisMase));
+                            
                             MercadoAutomotriz.diasChasisMase = 0f;}
                         else{
                             System.out.println("El almacen de " + parte + " de capacidad " + almacen + " esta lleno" );
@@ -60,6 +62,7 @@ public class CreadorMase extends Thread {
                     
                 } else if ("carroceria".equals(parte)){
                     MercadoAutomotriz.NominaMase = MercadoAutomotriz.NominaMase + salario*24*EmpleadosMaserati.eCarroceriaMase; 
+                    MercadoAutomotriz.GananciaBrutoMase = MercadoAutomotriz.GananciaBrutoMase - salario*24*EmpleadosMaserati.eCarroceriaMase;
                     MercadoAutomotriz.diasCarroceriaMase = MercadoAutomotriz.diasCarroceriaMase + dias*EmpleadosMaserati.eCarroceriaMase;
                     if (MercadoAutomotriz.diasCarroceriaMase >= 1){
                         if (AlmacenMase.ContCarroceriaMase < almacen){
@@ -83,6 +86,7 @@ public class CreadorMase extends Thread {
                 } else if ("motor".equals(parte)){
                     MercadoAutomotriz.NominaMase = MercadoAutomotriz.NominaMase + salario*24*EmpleadosMaserati.eMotorMase; 
                     MercadoAutomotriz.diasMotorMase = MercadoAutomotriz.diasMotorMase + dias*EmpleadosMaserati.eMotorMase;
+                    MercadoAutomotriz.GananciaBrutoMase = MercadoAutomotriz.GananciaBrutoMase - salario*24*EmpleadosMaserati.eMotorMase;
                     if (MercadoAutomotriz.diasMotorMase >= 1){
                         if (AlmacenMase.ContMotorMase < almacen){
                             if (AlmacenMase.ContMotorMase + Math.round(MercadoAutomotriz.diasMotorMase) < AlmacenMase.AlmacenMotorMase){
@@ -104,6 +108,7 @@ public class CreadorMase extends Thread {
                 } else if ("ruedas".equals(parte)){
                     MercadoAutomotriz.NominaMase = MercadoAutomotriz.NominaMase + salario*24*EmpleadosMaserati.eRuedasMase; 
                     MercadoAutomotriz.diasRuedaMase = MercadoAutomotriz.diasMotorMase + dias*EmpleadosMaserati.eRuedasMase;
+                    MercadoAutomotriz.GananciaBrutoMase = MercadoAutomotriz.GananciaBrutoMase - salario*24*EmpleadosMaserati.eRuedasMase;
                     if (MercadoAutomotriz.diasRuedaMase >= 1){
                         if (AlmacenMase.ContRuedasMase < almacen){
                             if (AlmacenMase.ContRuedasMase + Math.round(MercadoAutomotriz.diasRuedaMase) < AlmacenMase.AlmacenRuedasMase){
@@ -125,6 +130,7 @@ public class CreadorMase extends Thread {
                 } else if ("accesorio".equals(parte)){
                     MercadoAutomotriz.NominaMase = MercadoAutomotriz.NominaMase + salario*24*EmpleadosMaserati.eAccesoriosMase; 
                     MercadoAutomotriz.diasAccesorioMase = MercadoAutomotriz.diasAccesorioMase + dias*EmpleadosMaserati.eAccesoriosMase;
+                    MercadoAutomotriz.GananciaBrutoMase = MercadoAutomotriz.GananciaBrutoMase - salario*24*EmpleadosMaserati.eAccesoriosMase;
                     if (MercadoAutomotriz.diasAccesorioMase >= 1){
                         if (AlmacenMase.ContAccesorioMase < almacen){
                             if (AlmacenMase.ContAccesorioMase + Math.round(MercadoAutomotriz.diasAccesorioMase) < AlmacenMase.AlmacenAccesorioMase){
@@ -144,7 +150,6 @@ public class CreadorMase extends Thread {
                     }
                 
                 }
-                
                 sleep(500);
                 
                 mutex.release(); //signal

@@ -37,7 +37,8 @@ public class Creador extends Thread {
             try{
                 mutex.acquire(); //wait
                 if ("chasis".equals(parte)){
-                    MercadoAutomotriz.Nomina = MercadoAutomotriz.Nomina + salario*24*EmpleadosLamborghini.eChasis; 
+                    MercadoAutomotriz.Nomina = MercadoAutomotriz.Nomina + salario*24*EmpleadosLamborghini.eChasis;
+                    MercadoAutomotriz.GananciaBruto = MercadoAutomotriz.GananciaBruto - salario*24*EmpleadosLamborghini.eChasis;
                     MercadoAutomotriz.diasChasis = MercadoAutomotriz.diasChasis + dias*EmpleadosLamborghini.eChasis;
                     if (MercadoAutomotriz.diasChasis >= 1){
                         if (Almacen.ContChasis < almacen){
@@ -48,6 +49,7 @@ public class Creador extends Thread {
                             }
                             System.out.println("Hay " + Almacen.ContChasis + " unidades de " + parte);
                             InterfazMain.CantidadChasisLamborghini.setText(String.valueOf(Almacen.ContChasis));
+                            
                             MercadoAutomotriz.diasChasis = 0f;}
                         else{
                             System.out.println("El almacen de " + parte + " de capacidad " + almacen + " esta lleno" );
@@ -60,6 +62,7 @@ public class Creador extends Thread {
                     
                 } else if ("carroceria".equals(parte)){
                     MercadoAutomotriz.Nomina = MercadoAutomotriz.Nomina + salario*24*EmpleadosLamborghini.eCarroceria; 
+                    MercadoAutomotriz.GananciaBruto = MercadoAutomotriz.GananciaBruto - salario*24*EmpleadosLamborghini.eCarroceria;
                     MercadoAutomotriz.diasCarroceria = MercadoAutomotriz.diasCarroceria + dias*EmpleadosLamborghini.eCarroceria;
                     if (MercadoAutomotriz.diasCarroceria >= 1){
                        if (Almacen.ContCarroceria < almacen){
@@ -82,6 +85,7 @@ public class Creador extends Thread {
                 
                 } else if ("motor".equals(parte)){
                     MercadoAutomotriz.Nomina = MercadoAutomotriz.Nomina + salario*24*EmpleadosLamborghini.eMotor; 
+                    MercadoAutomotriz.GananciaBruto = MercadoAutomotriz.GananciaBruto - salario*24*EmpleadosLamborghini.eMotor;
                     MercadoAutomotriz.diasMotor = MercadoAutomotriz.diasMotor + dias*EmpleadosLamborghini.eMotor;
                     if (MercadoAutomotriz.diasMotor >= 1){
                         if (Almacen.ContMotor < almacen){
@@ -103,6 +107,7 @@ public class Creador extends Thread {
                 
                 } else if ("ruedas".equals(parte)){
                     MercadoAutomotriz.Nomina = MercadoAutomotriz.Nomina + salario*24*EmpleadosLamborghini.eRuedas; 
+                    MercadoAutomotriz.GananciaBruto = MercadoAutomotriz.GananciaBruto - salario*24*EmpleadosLamborghini.eRuedas;
                     MercadoAutomotriz.diasRueda = MercadoAutomotriz.diasMotor + dias*EmpleadosLamborghini.eRuedas;
                     if (MercadoAutomotriz.diasRueda >= 1){
                         if (Almacen.ContRuedas < almacen){
@@ -124,6 +129,7 @@ public class Creador extends Thread {
                 
                 } else if ("accesorio".equals(parte)){
                     MercadoAutomotriz.Nomina = MercadoAutomotriz.Nomina + salario*24*EmpleadosLamborghini.eAccesorios; 
+                    MercadoAutomotriz.GananciaBruto = MercadoAutomotriz.GananciaBruto - salario*24*EmpleadosLamborghini.eAccesorios;
                     MercadoAutomotriz.diasAccesorio = MercadoAutomotriz.diasAccesorio + dias*EmpleadosLamborghini.eAccesorios;
                     if (MercadoAutomotriz.diasAccesorio >= 1){
                         if (Almacen.ContAccesorio < almacen){

@@ -30,6 +30,7 @@ public class EnsambladorMase extends Thread{
             try{
                 mutex.acquire(); //wait
                 MercadoAutomotriz.NominaMase = MercadoAutomotriz.NominaMase + 600*EmpleadosMaserati.eEnsambladorMase;
+                MercadoAutomotriz.GananciaBrutoMase = MercadoAutomotriz.GananciaBrutoMase - 600*EmpleadosMaserati.eEnsambladorMase;
                 diasEnsambladorMase = diasEnsambladorMase + dias*EmpleadosMaserati.eEnsambladorMase;
                 if(diasEnsambladorMase>=1){
                     if (AlmacenMase.ContChasisMase >=1 && AlmacenMase.ContMotorMase >= 2

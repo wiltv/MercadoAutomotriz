@@ -41,8 +41,11 @@ public class GerenteMase extends Thread{
                 
                 
                 MercadoAutomotriz.NominaMase = MercadoAutomotriz.NominaMase + 480;
+                MercadoAutomotriz.GananciaBruto = MercadoAutomotriz.GananciaBruto - 480;
+                InterfazMain.BrutoMaserati.setText(String.valueOf(MercadoAutomotriz.GananciaBrutoMase));
                 System.out.println("El gerente ha registrado " + MercadoAutomotriz.NominaMase + " pagos en nomina");
                 InterfazMain.SalariosMaserati.setText(String.valueOf(MercadoAutomotriz.NominaMase));
+                InterfazMain.BrutoMaserati.setText(String.valueOf(MercadoAutomotriz.GananciaBrutoMase));
                 
                 if (DirectorMase.momentoMase < 36 && DirectorMase.momentoMase%2==1){
                     System.out.println("Pillado");

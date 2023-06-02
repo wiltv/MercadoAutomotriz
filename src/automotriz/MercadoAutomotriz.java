@@ -20,6 +20,8 @@ public class MercadoAutomotriz {
     
     public static volatile Integer Nomina = 0;
     public static volatile Integer Ganancia = 0;
+    public static volatile Integer GananciaBruto = 0;
+    public static volatile Integer GananciaBrutoMase = 0;
     
     public static volatile float diasChasis = 0f;
     public static volatile float diasCarroceria = 0f;
@@ -123,5 +125,3 @@ public class MercadoAutomotriz {
 }
 
 
-//ERRORES: 
-//  1.Cuando ensamblador toma piezas, el limite de la capacidad aumenta (ver porque no disminuye)

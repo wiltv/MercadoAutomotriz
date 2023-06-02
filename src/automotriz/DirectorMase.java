@@ -40,15 +40,20 @@ public class DirectorMase extends Thread{
                 
                 if (GerenteMase.contadorEntregaMase == 0){
                     MercadoAutomotriz.GananciaMase = MercadoAutomotriz.GananciaMase + MercadoAutomotriz.Carros*350;
+                    MercadoAutomotriz.GananciaBrutoMase = MercadoAutomotriz.GananciaBrutoMase - 720;
                     
                     if(MercadoAutomotriz.CarrosMase%3 == 2){
                         double SumaAccesorio = (MercadoAutomotriz.CarrosMase/3) - 0.5;
                         SumaAccesorio = Math.round(MercadoAutomotriz.CarrosMase);
                         MercadoAutomotriz.GananciaMase = MercadoAutomotriz.GananciaMase + (int)(SumaAccesorio*350);
+                        MercadoAutomotriz.GananciaBrutoMase = MercadoAutomotriz.GananciaBrutoMase + (int)(SumaAccesorio*350);
+                        InterfazMain.GananciasMaserati1.setText(String.valueOf((int)(SumaAccesorio*350)));
                         
                     }else{
                         double SumaAccesorio = Math.round(MercadoAutomotriz.CarrosMase);
                         MercadoAutomotriz.GananciaMase = MercadoAutomotriz.GananciaMase + (int)(SumaAccesorio*350);
+                        MercadoAutomotriz.GananciaBrutoMase = MercadoAutomotriz.GananciaBrutoMase + (int)(SumaAccesorio*350);
+                        InterfazMain.GananciasMaserati1.setText(String.valueOf((int)(SumaAccesorio*350)));
                     }
                     
                     System.out.println("El jefe entrega todos los carros y recibe ganancia de: " + MercadoAutomotriz.CarrosMase*350);
@@ -61,9 +66,12 @@ public class DirectorMase extends Thread{
                     }
                     InterfazMain.estadoDirMaserati.setText("Entregando");
                     MercadoAutomotriz.CarrosMase = 0;
+                    MercadoAutomotriz.CarrosAccsMase = 0;
                     InterfazMain.CantidadCarrosMaserati.setText(String.valueOf(MercadoAutomotriz.CarrosMase));
                     InterfazMain.EntregaMaserati.setText(String.valueOf(GerenteMase.contadorEntregaMase));
-                    InterfazMain.GananciasMaserati.setText(String.valueOf(MercadoAutomotriz.GananciaMase));
+                    InterfazMain.BrutoMaserati.setText(String.valueOf(MercadoAutomotriz.GananciaMase));
+                    
+                    InterfazMain.BrutoMaserati.setText(String.valueOf(MercadoAutomotriz.GananciaBrutoMase));
                 }else{
                     System.out.println("El director esta atento de entregar los carros");
                     InterfazMain.estadoDirMaserati.setText("Vigilando");

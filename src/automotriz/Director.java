@@ -41,14 +41,20 @@ public class Director extends Thread{
                     
                     MercadoAutomotriz.Ganancia = MercadoAutomotriz.Ganancia + MercadoAutomotriz.Carros*400;
                     
+                    MercadoAutomotriz.GananciaBruto = MercadoAutomotriz.GananciaBruto - 720;
+                    
                     if(MercadoAutomotriz.Carros%4 >= 2){
                         double SumaAccesorio = (MercadoAutomotriz.Carros/4) - 0.5;
                         SumaAccesorio = Math.round(MercadoAutomotriz.Carros);
                         MercadoAutomotriz.Ganancia = MercadoAutomotriz.Ganancia + (int)(SumaAccesorio*350);
+                        MercadoAutomotriz.GananciaBruto = MercadoAutomotriz.GananciaBruto + (int)(SumaAccesorio*350);
+                        InterfazMain.GananciasLamborghini1.setText(String.valueOf((int)(SumaAccesorio*350)));
                         
                     }else{
                         double SumaAccesorio = Math.round(MercadoAutomotriz.Carros);
                         MercadoAutomotriz.Ganancia = MercadoAutomotriz.Ganancia + (int)(SumaAccesorio*350);
+                        MercadoAutomotriz.GananciaBruto = MercadoAutomotriz.GananciaBruto + (int)(SumaAccesorio*350);
+                        InterfazMain.GananciasLamborghini1.setText(String.valueOf((int)(SumaAccesorio*350)));
                     }
                     
                     System.out.println("El jefe entrega todos los carros y recibe ganancia de: " + MercadoAutomotriz.Carros*400);
@@ -61,9 +67,8 @@ public class Director extends Thread{
                     }
                     InterfazMain.estadoDirLamborghini.setText("Entregando");
                     MercadoAutomotriz.Carros = 0;
-                    InterfazMain.CantidadCarrosLamborghini.setText(String.valueOf(MercadoAutomotriz.Carros));
+                    MercadoAutomotriz.CarrosAccs = 0;
                     InterfazMain.EntregaLamborghini.setText(String.valueOf(Gerente.contadorEntrega));
-                    InterfazMain.GananciasLamborghini.setText(String.valueOf(MercadoAutomotriz.Ganancia));
                 }else{
                     InterfazMain.estadoDirLamborghini.setText("Vigilando");
                     System.out.println("El director esta atento de entregar los carros");

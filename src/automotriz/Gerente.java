@@ -39,15 +39,16 @@ public class Gerente extends Thread{
                 }
                 
                 MercadoAutomotriz.Nomina = MercadoAutomotriz.Nomina + 480;
+                MercadoAutomotriz.GananciaBruto = MercadoAutomotriz.GananciaBruto- 480;
                 System.out.println("El gerente ha registrado " + MercadoAutomotriz.Nomina + " pagos en nomina");
-                InterfazMain.GananciasLamborghini.setText(String.valueOf(MercadoAutomotriz.Nomina));
-                
+                InterfazMain.SalariosLamborghini.setText(String.valueOf(MercadoAutomotriz.Nomina));
+                InterfazMain.BrutoLam.setText(String.valueOf(MercadoAutomotriz.GananciaBruto));
                 if (Director.momento < 36 && Director.momento%2==1){
                     System.out.println("Pillado");
                     MercadoAutomotriz.Nomina = MercadoAutomotriz.Nomina - 50;
                     MercadoAutomotriz.Pillado = MercadoAutomotriz.Pillado +1;
                     InterfazMain.FaltasGerenteLamborghini1.setText(String.valueOf(MercadoAutomotriz.Pillado));
-                    InterfazMain.GananciasLamborghini.setText(String.valueOf(MercadoAutomotriz.Nomina));
+                    
                     estado = "Procrastinando";
                     InterfazMain.estadoGerLamborghini.setText(String.valueOf(estado));
                     MercadoAutomotriz.Descontado = MercadoAutomotriz.Descontado +50;
