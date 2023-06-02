@@ -49,13 +49,15 @@ public class EnsambladorMase extends Thread{
                             System.out.println("Hay " + MercadoAutomotriz.CarrosMase + " carros, este viene con accesorio");
                             InterfazMain.CantidadAccesoriosMaserati.setText(String.valueOf(AlmacenMase.ContAccesorioMase));
                             //MercadoAutomotriz.CarrosAccsMase = MercadoAutomotriz.CarrosAccsMase +1;
-                            InterfazMain.AccsMaserati.setText(String.valueOf(MercadoAutomotriz.CarrosAccsMase));
                             InterfazMain.AccsMaserati.setText(String.valueOf(MercadoAutomotriz.CarrosMase/3));
                         }else{
                             System.out.println("Hay " + MercadoAutomotriz.CarrosMase + " carros"); 
                             
                             InterfazMain.CantidadCarrosMaserati.setText(String.valueOf(MercadoAutomotriz.CarrosMase));
                         }
+                        Integer estandar = MercadoAutomotriz.CarrosMase - Math.round(MercadoAutomotriz.CarrosMase/4);
+                        InterfazMain.AccsMaserati1.setText(String.valueOf(estandar));
+                        InterfazMain.CantidadCarrosMaserati.setText(String.valueOf(MercadoAutomotriz.CarrosMase));
                         InterfazMain.CantidadChasisMaserati.setText(String.valueOf(AlmacenMase.ContChasisMase));
                         InterfazMain.CantidadCarroceriaMaserati.setText(String.valueOf(AlmacenMase.ContCarroceriaMase));
                         InterfazMain.CantidadMotorMaserati.setText(String.valueOf(AlmacenMase.ContMotorMase));

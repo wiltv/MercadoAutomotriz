@@ -48,13 +48,17 @@ public class Ensamblador extends Thread{
                             System.out.println("Hay " + MercadoAutomotriz.Carros + " carros, este viene con accesorio");
                             
                             InterfazMain.CantidadAccesoriosLamborghini.setText(String.valueOf(Almacen.ContAccesorio));
-                            InterfazMain.EstandarLamborghini.setText(String.valueOf(MercadoAutomotriz.Carros/4));       
+                            System.out.println(Math.round(MercadoAutomotriz.Carros/4));
+                            InterfazMain.AccsLamborghini.setText(String.valueOf(Math.round(MercadoAutomotriz.Carros/4)));       
                         }else{
                            
                            System.out.println("Hay " + MercadoAutomotriz.Carros + " carros"); 
-                           
                            InterfazMain.CantidadCarrosLamborghini.setText(String.valueOf(MercadoAutomotriz.Carros));
                         }
+                        
+                        Integer estandar = MercadoAutomotriz.Carros - Math.round(MercadoAutomotriz.Carros/4);
+                        InterfazMain.EstandarLamborghini.setText(String.valueOf(estandar));
+                        InterfazMain.CantidadCarrosLamborghini.setText(String.valueOf(MercadoAutomotriz.Carros));
                         InterfazMain.CantidadChasisLamborghini.setText(String.valueOf(Almacen.ContChasis));
                         InterfazMain.CantidadCarroceriaLamborghini.setText(String.valueOf(Almacen.ContCarroceria));
                         InterfazMain.CantidadMotorLamborghini.setText(String.valueOf(Almacen.ContMotor));
