@@ -30,7 +30,6 @@ public class Ensamblador extends Thread{
             try{
                 mutex.acquire(); //wait
                 MercadoAutomotriz.Nomina = MercadoAutomotriz.Nomina + 600*EmpleadosLamborghini.eEnsamblador;
-                MercadoAutomotriz.Ganancia = MercadoAutomotriz.Ganancia - 600*EmpleadosLamborghini.eEnsamblador;
                 MercadoAutomotriz.GananciaBruto = MercadoAutomotriz.GananciaBruto - 600*EmpleadosLamborghini.eEnsamblador;
                 diasEnsamblador = diasEnsamblador + dias*EmpleadosLamborghini.eEnsamblador;
                 if(diasEnsamblador>=1){
